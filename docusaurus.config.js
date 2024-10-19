@@ -61,7 +61,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -139,8 +138,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
     }),
-
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
