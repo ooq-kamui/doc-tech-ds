@@ -30,4 +30,11 @@ git log -p xxx/xxx/xxx.txt
 ```
 
 
+---
+
+## 関連
+
+- [ある commit の file list を表示する ](git.show.md )
+
+
 

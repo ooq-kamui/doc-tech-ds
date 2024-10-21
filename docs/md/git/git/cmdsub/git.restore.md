@@ -4,11 +4,12 @@
 
 ## 基本
 
-worktree, staged の file を HEAD, 指定 commit の内容に戻す
+worktree や staged の file を HEAD や 指定 commit の内容に戻す
 
 
 2019 git 2.23 で `git switch`, `git restore` として 追加された
 
+前は `git checkout` を駆使してやっていたことを 分かりやすい指定で できるようになった
 
 
 ## option なし の場合
@@ -18,6 +19,7 @@ git restore file_name
 ```
 
 おそらく, worktree の file を HEAD の内容に戻す,
+下記と同じ
 
 ```
 git restore --source HEAD --worktree file_name

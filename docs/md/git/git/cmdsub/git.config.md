@@ -43,7 +43,7 @@ git config --list
 ## user.name を設定する
 
 ```
-git config user.name "ooq.kamui"
+git config user.name "ooq-kamui"
 ```
 
 確認
@@ -56,7 +56,7 @@ git config user.name
 ## user.email を設定する
 
 ```
-git config user.email "kamui@kamui.com"
+git config user.email "ooq.kamui@gmail.jp"
 ```
 
 確認
