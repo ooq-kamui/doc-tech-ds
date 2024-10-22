@@ -4,8 +4,7 @@
 
 ## write
 
-git config, name, email
-- ref github
+git remote
 
 
 ## setting
