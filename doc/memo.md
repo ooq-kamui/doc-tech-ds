@@ -2,11 +2,6 @@
 # doc-tech
 
 
-## write
-
-git remote
-
-
 ## setting
 
 skr-vps

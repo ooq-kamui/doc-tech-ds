@@ -1,8 +1,9 @@
 
-# pull-req
+# git  -  pull-req
 
 
 ## 基本
+
 pull req とは
 
 remote 上で,
@@ -29,8 +30,6 @@ branch01 から branch02 に merge する
 
 - https://qiita.com/kuuuuumiiiii/items/42d2d9ed11e3b29c22cf
 - https://zenn.dev/gachigachi/articles/dcd833c56bd0ed
-
-
 
 
 

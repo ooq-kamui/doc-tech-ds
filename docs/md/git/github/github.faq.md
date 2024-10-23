@@ -1,8 +1,8 @@
 
-# github
+# github  -  faq
 
 
-## git push で access token を用いる
+## git push  -  err
 
 git push 時に, password は使えない err が出たとき
 
@@ -47,13 +47,6 @@ git config --local credential.helper store
 https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 https://dev.classmethod.jp/articles/github-personal-access-tokens/
-
-
-
-## remote の branch 名 を master > main に変更
-
-github の gui 上から変更する
-
 
 
 
