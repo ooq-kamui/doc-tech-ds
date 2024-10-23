@@ -17,29 +17,32 @@ fatal: Authentication failed for 'https://github.com/ooq-kamui/cnf.git/'
 
 ### slove
 
-slove 1
+#### slove 1
 
 - github で access token を取得
-- git push の password の画面で access token を入力する
-
-
-slove 2
-
-- github で access token を取得 ( slove 1 と同 )
-- git remote で access token 
+- git remote で access token を設定
 
 ```
 git remote set-url origin https://access-token@github.com/ooq-kamui/doc-tech
 ```
 
 
-slove 3
+#### slove 2
 
+- github で access token を取得
 - access token を config に 設定 する
 
 ```
 git config --local credential.helper store
 ```
+
+
+#### slove 3
+
+- github で access token を取得
+- git push の password の画面で access token を入力する
+
+この方法の場合, 毎回 実施する必要がある
 
 
 ### ref
