@@ -17,13 +17,28 @@ red
 ```
 
 
-## git status
+## color setting
+
+`~/.gitcofnig` に設定する
+
+
+### git status
 
 ```
 [color "status"]
   added = green
   changed = yellow
   untracked = yellow
+```
+
+### git diff
+
+```
+[color "diff"]
+  old = xx
+  new = xx
+  context = xx
+  commit = xx
 ```
 
 
