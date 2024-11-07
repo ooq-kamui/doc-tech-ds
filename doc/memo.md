@@ -5,7 +5,7 @@
 ## write
 
 git
-- git checkout HEAD で, staged file は どうなる?
+- git checkout HEAD で, staged file は ?
   - try
 
 
