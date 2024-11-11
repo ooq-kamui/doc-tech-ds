@@ -1,5 +1,5 @@
 
-# object  -  javascript
+# object
 
 
 ## プロパティがあるか

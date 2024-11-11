@@ -1,5 +1,5 @@
 
-# array  -  javascript
+# list ( array )
 
 
 ## 変数が配列かどうか
@@ -7,7 +7,6 @@
 ```
 Array.isArray(ar1)
 ```
-
 
 
 ## 要素の追加
