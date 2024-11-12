@@ -13,15 +13,15 @@
 
 - branch を指定した場合
   - branch 切り替え
-    - 指定 branch の commit HEAD の 全 file が worktree に取り出される
+    - 指定 branch の commit HEAD の 全 file が worktree ( , staged ? ) に取り出される
     - 現在の branch も 指定 branch になる
 
 
 - commit を指定した場合
-  - ある commit の file を worktree  へ取り出す
+  - ある commit の file を worktree ( , staged ? ) へ取り出す
 
   - 指定 commit が HEAD の場合
-    - worktree の file の 変更 を 破棄
+    - worktree, staged の file の 変更 を 破棄
 
 
 
@@ -60,21 +60,21 @@ git checkout -f branch_name
 
 ### HEAD から取り出す
 
-#### worktree の file の変更を 取り消して, HEAD の file にする
+#### worktree, staged の file の変更を 取り消して, HEAD の file にする
 
 ```
 git checkout HEAD -- file_path
 ```
 
 
-#### worktree の dir 配下の変更を 取り消して, HEAD の file 群にする
+#### worktree ( , staged ? ) の dir 配下の変更を 取り消して, HEAD の file 群にする
 
 ```
 git checkout HEAD -- dir_path
 ```
 
 
-#### worktree の すべての変更を取り消して, HEAD の file 群にする
+#### worktree ( , staged ? ) の すべての変更を取り消して, HEAD の file 群にする
 
 ```
 git checkout HEAD -- .
@@ -94,7 +94,7 @@ git checkout -- file_path
 
 ### 特定 commit から取り出す
 
-cmt_id01 の file01 を worktree へ取り出す
+cmt_id01 の file01 を worktree ( , staged ? ) へ取り出す
 
 現在の worktree の file01 は破棄される
 

@@ -4,10 +4,8 @@
 
 ## git
 
-git checkout HEAD で, staged file は ?
-- confirm, try
-  - diff all ( 3 file )
-- write
+git checkout
+- write tidy all
 
 
 feat branch
