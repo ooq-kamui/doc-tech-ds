@@ -2,6 +2,16 @@
 # doc-tech
 
 
+## vim
+
+escape
+- ditect, detail
+  - shellescape
+  - escape
+  - q-arg
+  - f-arg
+
+
 ## git
 
 git checkout
