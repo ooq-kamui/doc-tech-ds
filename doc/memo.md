@@ -5,7 +5,8 @@
 ## git
 
 git checkout
-- write tidy all
+- write re
+  - tidy all
 
 
 feat branch

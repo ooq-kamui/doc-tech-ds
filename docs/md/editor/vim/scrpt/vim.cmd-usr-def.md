@@ -4,6 +4,8 @@
 
 ## args
 
+### official doc explain
+
 ```
 <args>   : 与えられた通りのコマンド引数
 
@@ -19,11 +21,29 @@
            引数がない場合は空文字列になります
 ```
 
+### i think ..
+
+```
+<q-args> : cmd で 複数 arg でも, 関数には 1 つ の arg になる .. ?
+```
+
+
 ## escape
+
+### `shellescape()`
+
+wip:
 
 ```
 shellescape()
+```
 
+
+### `escape()`
+
+wip:
+
+```
 escape()
 ```
 
