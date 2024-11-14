@@ -9,9 +9,9 @@ https://vim-jp.org/vimdoc-ja/builtin.html#builtin-function-list
 
 ## fnc ( built in )
 
-```
-match
+### match
 
+```
 match({expr}, {pat} [, {start} [, {count}]])
 数値:  {expr}内で{pat}がマッチする位置
 
@@ -23,9 +23,9 @@ matchstr({expr}, {pat} [, {start} [, {count}]])
 ```
 
 
-```
-string
+### string
 
+```
 nr2char()         数値から文字を得る
 list2str()        数値のリストから文字列を得る
 
@@ -35,10 +35,6 @@ str2nr()          文字列を数値に変換する
 str2float()       文字列を浮動小数点数に変換する
 
 printf()          書式付き文字列を整形する
-
-escape()          文字列の特定の文字を '\' でエスケープ
-shellescape()     シェルコマンドで使えるように文字列をエスケープ
-fnameescape()     Vim コマンド用にファイル名をエスケープ
 
 tr()              ある文字の集合から別の文字の集合へ置換する
 
@@ -113,6 +109,15 @@ strdisplaywidth() 表示された文字列のサイズ, タブを扱う
 setcellwidths()   文字の幅の上書き設定
 getcellwidths()   文字の幅の上書き設定値を取得する
 
+```
+
+escape 関連
+
+```
+escape(str, chars)  文字列 {str} 内の {chars} を `\` で escape
+shellescape(str)    文字列 {str} をシェルコマンド引数として使うためにエスケープする
+
+fnameescape()       Vim コマンド用にファイル名をエスケープ
 ```
 
 

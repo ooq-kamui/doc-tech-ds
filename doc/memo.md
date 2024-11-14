@@ -2,22 +2,7 @@
 # doc-tech
 
 
-## vim
-
-escape
-- ditect, detail
-  - shellescape
-  - escape
-  - q-arg
-  - f-arg
-
-
-## git
-
-git checkout
-- write re
-  - tidy all
-
+## git / github
 
 feat branch
 - remote で pull req から suquash merge された場合

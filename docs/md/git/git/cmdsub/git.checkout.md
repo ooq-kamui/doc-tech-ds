@@ -4,105 +4,76 @@
 
 ## 基本
 
-基本は
+worktree へ file を取り出す
 
-- ある commit の file を worktree  へ取り出す
+このとき, 実行前の worktree file は破棄される
 
-なのだが, 実質の用途としては,
+このとき, staged の file が 破棄されるか, 維持されるか は 引数の指定 による
 
-
-- branch を指定した場合
-  - branch 切り替え
-    - 指定 branch の commit HEAD の 全 file が worktree ( , staged ? ) に取り出される
-    - 現在の branch も 指定 branch になる
+( staged から 取り出す, 以外は, staged は 破棄される, かも ? ( 考えてみれば 当然 .. ? ) )
 
 
-- commit を指定した場合
-  - ある commit の file を worktree ( , staged ? ) へ取り出す
+## HEAD から取り出す
 
-  - 指定 commit が HEAD の場合
-    - worktree, staged の file の 変更 を 破棄
-
-
-
-## branch 切り換え 用途
-
-### branch を指定した場合は branch を切り替える
-
-```
-git checkout branch_name
-```
-
-自分としては,
-branch の切り替え は頻繁にやらないのが無難 ( 慣れるまで )
-
-dir ごとに, この dir は この branch と用途を決め, 動かさない
-
-それよりも, 修正を破棄する用途に使用する
-
-
-### branch 切り替え 強制
-
-```
-git checkout -f branch_name
-```
-
-
-### option
-
-```
--b  新しい branch を作成, つまり, branch 作成もできる
-```
-
-
-
-## worktree 破棄 用途
-
-### HEAD から取り出す
-
-#### worktree, staged の file の変更を 取り消して, HEAD の file にする
+### file 指定 の場合
 
 ```
 git checkout HEAD -- file_path
 ```
 
+- worktree の 変更は破棄される
+- staged   の 変更も破棄される
 
-#### worktree ( , staged ? ) の dir 配下の変更を 取り消して, HEAD の file 群にする
+### dir 指定 の場合
 
 ```
 git checkout HEAD -- dir_path
 ```
 
+- worktree の 変更は破棄される
+- staged   の 変更も破棄される ? todo confirm
 
-#### worktree ( , staged ? ) の すべての変更を取り消して, HEAD の file 群にする
+ex
 
 ```
 git checkout HEAD -- .
 ```
 
 
-### staged から取り出す
+## staged から取り出す
 
-#### worktree の file の変更を 取り消して, staged の file にする
+commit_id を指定しない
 
 ```
 git checkout -- file_path
 ```
 
-つまり, commit 指定の省略は staged から取出し
+- worktree の file の変更は 破棄される
+- staged   の file は維持される  
+  ( staged からの取り出しなので, 当然ではある )
 
 
-### 特定 commit から取り出す
 
-cmt_id01 の file01 を worktree ( , staged ? ) へ取り出す
+## 指定 commit から取り出す
 
-現在の worktree の file01 は破棄される
+cmt_id_01 の file_01 を worktree ( , staged ? ) へ取り出す
 
 ```
-git checkout cmt_id01 -- file01
+git checkout cmt_id_01 -- file_01
 ```
 
-commit_id は 同 branch history になくても, 同 repository のものであれば可
+- worktree の file は破棄される
+- staged   の file は破棄される ? todo confirm
+- commit_id は 同 branch history になくても, 同 repository の commit_id であれば可
+
+
+
+## 補足
+
+下記の用途でも, かつては `git checkout` を使用していましたが, ..
+
+- branch 切り換えは, 現状は, `git switch` を使うのが無難です
+- branch 新規作成は, 実運用上は, remote で作成するのが 無難です
 
 
 
