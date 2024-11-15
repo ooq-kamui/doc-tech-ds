@@ -1,5 +1,5 @@
 
-# rg  ( ripgrep )
+# 逆引き
 
 
 ## dir 指定
@@ -25,13 +25,6 @@ rg -w ptn
 ```
 
 
-## file type を指定
-
-```
-rg ptn -g "*.lua" -g "*.md"
-```
-
-
 ## file name のみ 出力
 
 ```
@@ -48,7 +41,8 @@ rg -N
 
 ## tag jmp 形式 で出力
 
-file path 表示を 先頭の 1行にまとめない
+file path 表示を 先頭の 1行にまとめない  
+の意味
 
 ```
 --no-heading
@@ -85,6 +79,8 @@ rg 'key1.+key2'
 --invert-match
 ```
 
+or
+
 ```
 -v
 ```
@@ -103,52 +99,6 @@ fish
 
 ```
 rg ptn -l | count
-```
-
-
-## cnf file
-
-### cnf file name
-
-`.ripgreprc`
-
-
-### cnf file path setting
-
-fish
-
-```
-set RIPGREP_CONFIG_PATH "$HOME/.ripgreprc"
-```
-
-bash
-
-```
-export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
-```
-
-confirm
-
-```
-echo $RIPGREP_CONFIG_PATH
-```
-
-
-## ignore ( exclude ) 除外 関連 ( option )
-
-### 基本
-
-default で 隠しファイル ( .xxx ) は search 対象外
-
-よって, `.gitignore` の内容も 対象外
-
-
-### option
-
-隠しファイル ( .xxx ) も search 対象とする
-
-```
---hidden
 ```
 
 
@@ -183,11 +133,6 @@ if executable('rg')
     set grepformat=%f:%l:%c:%m
 endif
 ```
-
-
-## ref
-
-https://zenn.dev/megeton/articles/56b8a6a74e6394
 
 
 
