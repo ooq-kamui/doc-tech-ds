@@ -6,11 +6,14 @@ ref
 https://vim-jp.org/vimdoc-ja/usr_40.html
 
 
-## arg
+## args
 
-上記のページには, `<f-args>` `<q-args>` が cmdline 上でどう展開されるかの説明のされている
+`<f-args>` `<q-args>` などについて
 
-しかし, そこは cmd 定義者 がもあまり気にしても意味のないところで,
+上記の `vim-jp` のページには, `<f-args>` `<q-args>` が cmdline 上でどう展開されるかの説明がされている
+
+が, 実はそれは, cmd 定義者 が あまり気にしても意味のない箇所だったりする
+
 要は, 次のように func に arg が渡される
 
 
@@ -85,6 +88,51 @@ aa "bbb ccc" '().\a bbb""' "().\a bbb''"
 #### ex
 
 wip:
+
+
+
+## <bang>
+
+<bang> とは コマンドを `!` 付きで実行したときのこと
+
+### desc
+
+- コマンドが `!` 修飾子付きで実行された場合, `!` に置換される
+- 指定なしの場合は, 空文字列 に置換される
+
+### ex
+
+```
+nnoremap T :TstBang
+
+command! -bang -nargs=* TstBang call Tst_bang(<bang>1)
+
+func! Tst_bang(bang)
+
+  echo a:bang
+endfunc
+```
+
+case
+
+```
+:TstBang
+```
+
+```
+1
+```
+
+case
+
+
+```
+:TstBang!
+```
+
+```
+0
+```
 
 
 

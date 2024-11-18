@@ -5,7 +5,7 @@
 ## dir 指定
 
 ```
-rg key dir
+rg ptn dir
 ```
 
 
