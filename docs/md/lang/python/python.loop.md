@@ -2,24 +2,32 @@
 # loop
 
 
-## for
+## list
 
-
-```
-wip:
-```
-
-
-## while
+### for
 
 ```
-wip:
+for itm in list:
+  print(itm)
 ```
 
 
-## `enumerate()`
+### for idx
+
+```
+for idx, val in enumerate():
+  print(idx, val)
+```
 
 lua でいう `pairs()` のこと
+
+
+
+### while
+
+```
+wip:
+```
 
 
 
