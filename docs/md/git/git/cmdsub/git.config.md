@@ -13,27 +13,26 @@ system  /etc/gitconfig ( os によって dir は異なる )
 
 ## 基本
 
-global の 確認, 設定
+### global の 確認, 設定
 
 ```
 git config --global xxx xxx
 ```
 
-local  の 確認, 設定
+### local  の 確認, 設定
 
 ```
 git config --local  xxx xxx
 ```
 
-local の場合は 省略してもよい
+省略した場合は local の 確認, 設定
 
 ```
 git config xxx xxx
 ```
 
 
-
-## 現在の設定を表示
+## 現在の設定を 一覧 表示
 
 ```
 git config --list
@@ -43,7 +42,7 @@ git config --list
 ## user.name を設定する
 
 ```
-git config user.name "ooq-kamui"
+git config user.name "ooq-tiki"
 ```
 
 確認
@@ -56,7 +55,7 @@ git config user.name
 ## user.email を設定する
 
 ```
-git config user.email "ooq.kamui@gmail.jp"
+git config user.email "ooq.tiki@gmail.jp"
 ```
 
 確認
