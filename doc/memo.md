@@ -4,6 +4,9 @@
 
 ## git / github
 
+nano editor
+
+
 feat branch
 - remote で pull req から suquash merge された場合
   local で 継続して 利用できる ?
