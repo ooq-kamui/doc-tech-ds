@@ -15,6 +15,43 @@ nodebrew で install が無難
 brew install nodebrew
 ```
 
+msg の最後に表示される cmd を実行して,
+path を通すなど すること,
+bash で install するのが 無難,
+fish だと err になる
+
+確認
+
+```
+nodebrew -v
+```
+
+バージョンが表示されればOK
+
+環境変数を追加
+
+```
+vi ~/.bash_profile
+```
+
+で, 以下を追加する
+
+```
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+```
+
+bash_profileを更新して設定を反映させる
+
+```
+source ~/.bash_profile
+```
+
+セットアップ
+
+```
+nodebrew setup
+```
+
 
 ### nodebrew で nodejs を install
 
@@ -22,7 +59,22 @@ brew install nodebrew
 nodebrew install latest
 ```
 
-上記で, nodejs, npm が install される
+
+### バージョン指定してnodeをインストールする
+
+#### インストール可能なバージョンを確認
+
+```
+nodebrew ls-remote
+```
+
+#### nodeのインストール
+
+```
+nodebrew install-binary <version>
+```
+
+nodejs, npm が install される
 
 
 ### nodebrew で nodejs の ver list 確認
@@ -30,8 +82,6 @@ nodebrew install latest
 ```
 nodebrew ls
 ```
-
-output
 
 ```
 v.16.6.0

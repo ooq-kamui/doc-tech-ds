@@ -2,7 +2,20 @@
 # doc-tech
 
 
+## unix cmd
+
+sleep
+
+rvrs
+- wait > sleep
+  - wait cmd not
+
+
 ## git / github
+
+git log origin/main..main
+- ji diff_remote
+
 
 nano editor
 
