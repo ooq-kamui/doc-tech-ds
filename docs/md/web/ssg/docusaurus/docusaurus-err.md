@@ -12,7 +12,11 @@ markdown file すべてに対して 空行 1行追加
 詳細不明
 
 
-## docusaurus の dir を cp 後, `npm run build` で err になる場合
+## `npm run build` で err
+
+docusaurus の dir を cp 後, や,  
+docusaurus の git を clone 後  
+に err になる場合
 
 これは node.js の話
 
@@ -27,6 +31,8 @@ rm -rf node_modules
 ```
 npm install
 ```
+
+で必要な module が re install される
 
 err 解消されたか 確認
 
