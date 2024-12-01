@@ -23,7 +23,7 @@ fatal: Authentication failed for 'https://github.com/ooq-kamui/cnf.git/'
 - git remote で access token を設定
 
 ```
-git remote set-url origin https://access-token@github.com/ooq-kamui/doc-tech
+git remote set-url origin https://access-token@github.com/ooq-kamui/doc-tech-ds
 ```
 
 

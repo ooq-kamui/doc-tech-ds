@@ -13,6 +13,13 @@ git remote add origin https://github.com/ooq-kamui/cnf
 origin はいったん決め打ちのようなものとしておく
 
 
+token 付き
+
+```
+git remote add origin https://access-token@github.com/ooq-kamui/doc-tech-ds
+```
+
+
 ### 変更
 
 ```
