@@ -2,7 +2,15 @@
 # doc-tech
 
 
-## unix cmd
+## vim
+
+autocmd
+- evnt lst
+
+
+# unix-cmd
+
+cp -r ( & name ch )
 
 sleep
 
