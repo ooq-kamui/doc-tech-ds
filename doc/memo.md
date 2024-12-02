@@ -5,7 +5,7 @@
 ## vim
 
 autocmd
-- evnt lst
+- evnt lst by ref ofc
 
 
 # unix-cmd
