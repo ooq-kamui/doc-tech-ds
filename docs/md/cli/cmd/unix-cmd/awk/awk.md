@@ -1,16 +1,11 @@
 
 # awk
 
-wip:
 
-
-## format
-
-
-arg
+## 基本
 
 ```
-print ..
+awk '{print $2, $4}'
 ```
 
 

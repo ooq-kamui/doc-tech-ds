@@ -8,15 +8,18 @@ autocmd
 - evnt lst by ref ofc
 
 
-# unix-cmd
-
-cp -r ( & name ch )
+## unix-cmd
 
 sleep
 
 rvrs
 - wait > sleep
   - wait cmd not
+
+
+## python
+
+class
 
 
 ## git / github

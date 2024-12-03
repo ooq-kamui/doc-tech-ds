@@ -13,11 +13,15 @@ normal-min
 shift-left
 - 16 x 12 mm
 
+-fn
+- 12 x 07 mm
+
 tab
 - 18 x 12 mm
 
--fn
-- 12 x 07 mm
+
+ctrl
+- 18 x 12 mm
 
 
 ## mac book
