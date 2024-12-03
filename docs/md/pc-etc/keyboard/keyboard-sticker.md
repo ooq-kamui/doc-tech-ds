@@ -19,7 +19,6 @@ shift-left
 tab
 - 18 x 12 mm
 
-
 ctrl
 - 18 x 12 mm
 
