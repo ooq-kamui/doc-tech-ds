@@ -19,8 +19,11 @@ shift-left
 tab
 - 18 x 12 mm
 
-ctrl
+caps
 - 18 x 12 mm
+
+back-space
+- ?? x 12 mm
 
 
 ## mac book
