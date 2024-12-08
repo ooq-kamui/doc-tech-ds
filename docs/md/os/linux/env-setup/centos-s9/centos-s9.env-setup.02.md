@@ -49,7 +49,7 @@ alias vi='vi -p'
 ```
 
 
-よくみると , nvim も何かのタイミングで, brew で入っている
+よく見ると , nvim も最初に, brew で install したのだった
 
 nvim を使うことにする
 
@@ -134,25 +134,6 @@ cnf fish fnc の既存のを削除して, try re, で, success
 ```
 ln -s ~/wrk/cnf/git/.gitconfig ~/
 ```
-
-
-
-## fd
-
-
-
-## rg
-
-
-
-## fzf
-
-
-
-
-## fzf.vim
-
-
 
 
 ## nginx
