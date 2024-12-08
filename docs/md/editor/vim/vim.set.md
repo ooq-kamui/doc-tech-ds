@@ -18,4 +18,20 @@ map <LeftMouse> <Nop>
 ```
 
 
+## vim を閉じても undo 継続
+
+```
+mkdir ~/.vim-undo
+```
+
+`.vimrc`
+
+```
+if has('persistent_undo')
+  set undodir=~/.vim-undo
+  set undofile                                                                                                                                   
+endif
+```
+
+
 
