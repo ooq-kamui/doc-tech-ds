@@ -48,6 +48,10 @@ eval `dircolors ~/.colorrc`
 # alias ls='ls --color=auto'
 ```
 
+bash で login してから fish に切り替えている場合,
+上記で fish にも反映される
+
+
 ### color code
 
 ```
