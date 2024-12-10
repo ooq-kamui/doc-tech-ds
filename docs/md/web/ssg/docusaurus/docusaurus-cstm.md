@@ -1,5 +1,5 @@
 
-# docusaurus  -  カスタマイズ
+# customize
 
 
 ## search ( 検索 ) の設置

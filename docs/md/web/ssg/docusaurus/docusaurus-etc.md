@@ -1,5 +1,5 @@
 
-# docusaurus  -  etc
+# etc
 
 
 ## `memo` dir, file name

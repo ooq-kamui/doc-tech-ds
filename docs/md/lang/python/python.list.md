@@ -30,4 +30,14 @@ a.extends(b)
 ```
 
 
+## 値があるか ( in array )
+
+```
+a = 'a'
+
+if a in ['a', 'b']:
+  print('true')
+```
+
+
 
