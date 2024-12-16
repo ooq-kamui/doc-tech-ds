@@ -101,6 +101,21 @@ option による and 検索はできない
 ```
 
 
+## マッチする部分のみを出力
+
+```
+--only-matching
+-o
+```
+
+
+## color
+
+```
+--color=[never,auto,always]
+```
+
+
 ## 実行時の option
 
 ```
