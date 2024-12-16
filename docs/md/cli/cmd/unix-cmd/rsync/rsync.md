@@ -44,4 +44,17 @@ rsync -av --delete \
 ```
 
 
+## faq
+
+```
+bash: line 1: rsync: command not found
+```
+
+相手側に rsync が install されていない
+
+```
+dnf install rsync
+```
+
+
 
