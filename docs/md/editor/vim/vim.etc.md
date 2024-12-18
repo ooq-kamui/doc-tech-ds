@@ -13,4 +13,13 @@ rg glob ignore escape ??
 ```
 
 
+## visual mode から起動の cmd で range を無効化
+
+ex
+
+```
+vnoremap xx :<c-u>SlctdEdgeIns `
+```
+
+
 
