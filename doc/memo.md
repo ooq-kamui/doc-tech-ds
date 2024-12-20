@@ -2,6 +2,14 @@
 # doc-tech
 
 
+## git
+
+`git checkout HEAD -- .`
+- write
+
+faq write
+
+
 ## vim
 
 autocmd

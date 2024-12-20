@@ -25,6 +25,14 @@ git log --date=format:'%Y-%m-%d %H:%M:%S'
 
 ## file 指定
 
+commit id のみ 表示
+
+```
+git log xxx/xxx/xxx.txt
+```
+
+diff も表示
+
 ```
 git log -p xxx/xxx/xxx.txt
 ```
