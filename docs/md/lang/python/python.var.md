@@ -54,4 +54,17 @@ print(type(a))
 ```
 
 
+## exists
+
+```
+if 'num' in locals():
+    print('exists')
+
+```
+
+
+
+
+
+
 
