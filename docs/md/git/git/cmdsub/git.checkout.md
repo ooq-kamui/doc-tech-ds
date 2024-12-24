@@ -24,6 +24,7 @@ git checkout HEAD -- file_path
 - worktree の 変更は破棄される
 - staged   の 変更も破棄される
 
+
 ### dir 指定 の場合
 
 ```
@@ -31,13 +32,16 @@ git checkout HEAD -- dir_path
 ```
 
 - worktree の 変更は破棄される
-- staged   の 変更も破棄される ? todo confirm
+- staged   の 変更も破棄される
 
 ex
+
+カレント dir 配下 すべて
 
 ```
 git checkout HEAD -- .
 ```
+
 
 
 ## staged から取り出す

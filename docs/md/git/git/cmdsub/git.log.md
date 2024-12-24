@@ -46,3 +46,11 @@ git log -p xxx/xxx/xxx.txt
 
 
 
+## 最後にプッシュされた以降の変更履歴
+
+```
+git log origin/main..main
+```
+
+
+
