@@ -345,21 +345,6 @@ tab で開く
 :tabnew [filename]
 ```
 
-
-tag jump  -  cursor 上の file path を新しい tab で開く
-
-行番号なし
-
-```
-ctl-w gf
-```
-
-行番号あり
-
-```
-ctl-w gF
-```
-
 次の tab
 
 ```
@@ -400,7 +385,22 @@ gT
 ```
 
 
-## split - 画面分割
+## tag jump  -  cursor 上の file path を新しい tab で開く
+
+行番号なし
+
+```
+ctl-w gf
+```
+
+行番号あり
+
+```
+ctl-w gF
+```
+
+
+## split  -  画面分割
 
 split - 水平
 
@@ -425,66 +425,66 @@ ctl-w c
 ```
 
 
-## window mv
+## window cursor mv
 
-window move l - 左
+window mv l - 左
 
 ```
 ctl-w h
 ```
 
-window move r - 右
+window mv r - 右
 
 ```
 ctl-w l
 ```
 
-window move u - 上
+window mv u - 上
 
 ```
 ctl-w k
 ```
 
-window move d - 下
+window mv d - 下
 
 ```
 ctl-w j
 ```
 
-window move 次
+window mv 次
 
 ```
 ctl-w w
 ```
 
 
-## window pos move
+## window pos mv
 
-window pos move 左
+window pos mv 左
 
 ```
 ctl-w H
 ```
 
-window pos move 下
+window pos mv 下
 
 ```
 ctl-w J
 ```
 
-window pos move 上
+window pos mv 上
 
 ```
 ctl-w K
 ```
 
-window pos move 右
+window pos mv 右
 
 ```
 ctl-w L
 ```
 
-window pos move 回転
+window pos mv 回転
 
 ```
 ctl-w r
@@ -503,99 +503,6 @@ window width 減
 
 ```
 ctl-w <
-```
-
-window height 増
-
-```
-ctl-w +
-```
-
-window height 減
-
-```
-ctl-w -
-```
-
-
-## window move
-
-window move left
-
-```
-ctl-w h
-```
-
-window move right
-
-```
-ctl-w l
-```
-
-window move up
-
-```
-ctl-w k
-```
-
-window move down
-
-```
-ctl-w j
-```
-
-window move next
-
-```
-ctl-w w
-```
-
-
-## window pos move
-
-window pos move 左
-
-```
-ctl-w H
-```
-
-window pos move 下
-
-```
-ctl-w J
-```
-
-window pos move 上
-
-```
-ctl-w K
-```
-
-window pos move 右
-
-```
-ctl-w L
-```
-
-window pos move 回転
-
-```
-ctl-w r
-```
-
-
-## window size
-
-window width 増
-
-```
-ctl-w >                      ... 
-```
-
-window width 減
-
-```
-ctl-w <                      ... 
 ```
 
 window height 増
