@@ -8,6 +8,7 @@ color-tbl.html
 - lnk to static
   - cre 
 - ref write
+  - confirm
 
 
 autocmd
