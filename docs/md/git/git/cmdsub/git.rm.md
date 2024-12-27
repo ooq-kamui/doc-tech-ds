@@ -4,6 +4,9 @@
 
 ## 基本
 
+wip:
+
+
 file or dir を worktree と staged から 削除 ( del ) する
 
 git での追跡をやめる
