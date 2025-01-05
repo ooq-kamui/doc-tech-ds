@@ -2,22 +2,20 @@
 # option  -  rg
 
 
-## option の 引数 の書きかた
+## option の format
 
-### 省略 opt
-
-```
-rg -g "*.lua"
-```
-
-### 省略しない opt
+### 省略 形
 
 ```
-rg ptn --glob="*.lua"
+rg -g "*.lua" ptn
 ```
 
+### 省略しない 形
 
----
+```
+rg --glob="*.lua" ptn
+```
+
 
 ## 大文字小文字の区別
 
