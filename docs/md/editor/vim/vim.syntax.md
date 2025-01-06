@@ -1,12 +1,10 @@
 
-# syntax
+# syntax highlight
 
 
-## syntax highlight
+## group name の確認
 
-group name の確認
-
-調べたい場所に cursor 移動してから
+調べたい場所に cursor 移動して
 
 ```
 :echo synIDattr(synID(line("."), col("."), 1), "name")
@@ -19,32 +17,23 @@ group name の color の確認
 ```
 
 
-## syntax highlight setting
+## setting
 
 syntax file を所定の dir に置く
 
-ex
+### vim
 
 ```
 ~/.vim/syntax/lua.vim
 ```
 
-
-## syntax dir
-
-vim
-
-```
-~/.vim/syntax/lua.vim
-```
-
-neovim
+### neovim
 
 ```
 ~/.config/nvim/syntax/lua.vim
 ```
 
-neovim win
+### neovim win
 
 ```
 ~/AppData/Local/nvim/syntax/lua.vim
@@ -60,7 +49,7 @@ neovim win
 
 ## color ref
 
-[color tbl](/vim/color-tbl.html )
+[color tbl](https://www.ooq.jp/tech/ds/vim/color-tbl.html )
 
 
 
