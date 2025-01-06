@@ -13,7 +13,7 @@ https://www.atlassian.com/ja/git/tutorials/undoing-changes
 
 
 - git restore
-  - worktree / staged の file を HEAD の内容に戻す
+  - worktree / staged の file 内容 を HEAD の内容に戻す
   - 実行された commit を修正したりするわけではない
   - 対象 commit を 現在の HEAD とした git checkout, のようなもの
   - file 個別指定 できる
@@ -22,11 +22,17 @@ https://www.atlassian.com/ja/git/tutorials/undoing-changes
 
 - git reset
   - 指定した commit の状態へ, HEAD, worktree, staged を戻す
+    - wip: ここを詳しく記述すること, どういう意味か  
+           file 内容を戻す意味なら, そのように明記する
   - 実行された commit を修正したりするわけではない
 
 
 - git commit --amend
   - 直前の commit を破棄して, 再 commit
+
+
+- git rm
+  - git add の操作を取り消す
 
 
 使用度 低

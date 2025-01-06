@@ -5,9 +5,7 @@
 ## git
 
 git rm 
-- research, write
-  - 今回の add のみを取り消すのか, commit 管理自体をやめるのか ?
-  - tst, confirm
+- write
 
 
 ## vim

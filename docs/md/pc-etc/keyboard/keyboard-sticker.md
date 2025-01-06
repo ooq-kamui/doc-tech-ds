@@ -2,7 +2,24 @@
 # keyboard sticker
 
 
-## win elecom
+## win
+
+### logicool
+
+normal
+- 13 x 12 mm
+
+fn
+- 13 x  9 mm
+
+lang cnvrt
+- 13 x 12 mm
+
+tab
+- 13 x 12 mm
+
+
+### elecom
 
 normal
 - 13 x 12 mm
@@ -25,6 +42,8 @@ caps
 back-space
 - ?? x 12 mm
 
+
+## mac
 
 ## mac book
 
