@@ -1,5 +1,5 @@
 
-# mac setting init, install
+# mac m1, setting init, install
 
 
 ## brew

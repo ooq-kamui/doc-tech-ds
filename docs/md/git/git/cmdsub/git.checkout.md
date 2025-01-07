@@ -74,10 +74,10 @@ git checkout cmt_id_01 -- file_01
 
 ## 補足
 
-下記の用途でも, かつては `git checkout` を使用していましたが, ..
+下記の用途でも, かつては `git checkout` を使用していましたが..
 
-- branch 切り換えは, 現状は, `git switch` を使うのが無難です
-- branch 新規作成は, 実運用上は, remote で作成するのが 無難です
+- branch 切り換えは, 現状は, `git switch` を使うのが 無難です
+- branch 新規作成は, 実運用上は, remote ( github など ) で作成するのが 無難です
 
 
 

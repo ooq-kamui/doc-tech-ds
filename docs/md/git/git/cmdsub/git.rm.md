@@ -4,7 +4,14 @@
 
 ## 基本
 
-git での管理 ( 追跡 ) から file を削除する
+file を git の管理 ( 追跡 ) から 外す
+( ための staged の操作 )
+
+
+`git add` / `git rm` とは staged に対して, `add` / `rm` の意味
+
+
+## file 指定
 
 ```
 git rm file_name
@@ -16,7 +23,7 @@ worktree から file は消える
 
 staged の表示は `deleted` となる
 
-これは, file を ふつうに削除して, そのあと `git add` して `deleted` となるのと同じ
+file を ふつうに削除して, そのあと `git add` で `deleted` となるのと同じ
 
 
 ## dir 指定
@@ -28,39 +35,27 @@ git rm -r dir_name/
 ```
 
 
-## notice
+## `--cached`
 
-worktree だけから削除し, staged には残す option はない
+- `staged: new file`
+- `staged: modified`
 
-これは, file をふつうに削除した状態と, 同じこと
+の file を `git rm` しようとすると, `--cached` option を促される
 
-`git add` / `git rm` とは staged に対して, add / rm の意味 ( たぶん )
+`--cached` option を指定すると, worktree に file が残る
 
-
-
-## worktree に file を残したい場合
-
-wip: このあたり, 整理して書き直す
-
-
-staged new file を取り消す
-
-1度も commit されていない file,
-つまり staged で new file の file の場合,
-
-`--cached` option が必要 ( ないと err )
+ex
 
 ```
 git rm --cached file_name
 ```
 
-`--cached` option の意味としては ?
 
-変更されている file の場合, worktree に残る
+## notice
 
+worktree だけから削除し, staged には残す option はない
 
-`--cached` は常に付けておくほうが無難
-
+これは, file をふつうに削除した状態と, 同じ
 
 
 ## ref
