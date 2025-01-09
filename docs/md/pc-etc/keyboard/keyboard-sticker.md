@@ -9,6 +9,9 @@
 normal
 - 13 x 12 mm
 
+normal home pos ( f j )
+- 13 x  9 mm
+
 fn
 - 13 x  9 mm
 
