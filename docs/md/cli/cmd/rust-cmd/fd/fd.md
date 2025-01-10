@@ -22,11 +22,11 @@ fd ptn dir
 
 -t               ファイルタイプ指定
 
--E               除外パターン
+-I               .gitignore, .ignore, .fdignore を含める
 
 -H  --hidden     隠しファイル ( . から始まるファイル名 ) を対象にする
 
--I               .gitignore, .ignore, .fdignore を含める
+-E               除外パターン
 
 -L  --follow     symbolic link を対象にする
 
