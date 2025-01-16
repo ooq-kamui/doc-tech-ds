@@ -2,13 +2,25 @@
 # pwsh script
 
 
+## lang spc
+
+https://learn.microsoft.com/ja-jp/powershell/scripting/lang-spec/chapter-01?view=powershell-7.5
+
+
+## comment
+
+```
+# comment
+```
+
+
 ## fnc
 
 ```
 ```
 
 
-## fnc args
+### fnc args
 
 可変長引数は `param()` を使わないで, `$args` を使う
 
@@ -19,27 +31,6 @@ function fnc(){
 
   echo $args
 }
-```
-
-
-## scope
-
-### local var
-
-```
-$local:val = 1
-```
-
-### global var
-
-```
-$global:val = 1
-```
-
-### env var
-
-```
-$env:val = 1
 ```
 
 

@@ -4,9 +4,8 @@
 
 ## vim
 
-hl search bg
-- ref
-  - https://thinca.hatenablog.com/entry/I_expect_to_colorscheme
+color html
+- cell large
 
 
 autocmd

@@ -1,5 +1,7 @@
 
-# syntax highlight
+# syntax color
+
+syntax highlight
 
 
 ## group name の確認
@@ -47,9 +49,15 @@ syntax file を所定の dir に置く
 ```
 
 
-## color ref
+## ref
 
-[color tbl](https://www.ooq.jp/tech/ds/vim/color-tbl.html )
+### color code
+
+[color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl.html )
+
+### hl key
+
+[hl key](https://thinca.hatenablog.com/entry/I_expect_to_colorscheme )
 
 
 
