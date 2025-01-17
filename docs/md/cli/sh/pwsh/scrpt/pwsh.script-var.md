@@ -17,6 +17,18 @@ https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/ab
 
 ## scope
 
+### 明示しない場合
+
+```
+wip:
+
+function fnc01 {
+
+  $val1 = 1
+}
+```
+
+
 ### local var
 
 ```
