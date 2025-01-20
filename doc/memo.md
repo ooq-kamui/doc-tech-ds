@@ -6,7 +6,8 @@
 
 excel import
 
-obj convert to json
+json
+- obj to json
 
 posh-git
 - install
@@ -14,12 +15,6 @@ posh-git
 
 
 ## vim
-
-color tbl html
-- cell large
-  - lnk ch
-  - build, rsync
-
 
 autocmd
 - evnt lst
