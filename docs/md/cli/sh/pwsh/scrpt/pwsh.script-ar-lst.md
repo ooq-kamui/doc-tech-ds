@@ -6,8 +6,6 @@
 
 ```
 $arlst = New-Object System.Collections.ArrayList
-[void] $arlst.Add("aaa")
-[void] $arlst.AddRange( ("bbb","ccc") )
 ```
 
 or
@@ -21,6 +19,13 @@ $ar = [System.Collections.ArrayList]::new()
 
 ```
 [void]$ar.Add('val')
+```
+
+
+## etc
+
+```
+[void] $arlst.AddRange( ("bbb","ccc") )
 ```
 
 

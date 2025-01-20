@@ -53,7 +53,7 @@ syntax file を所定の dir に置く
 
 ### color code
 
-[color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl.html )
+[color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl-l.html )
 
 ### hl key
 
