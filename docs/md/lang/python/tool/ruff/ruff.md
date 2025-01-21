@@ -21,9 +21,7 @@ wip: できないかも?
 ## lint
 
 ```
-wip:
-
-ruff check ? file_path
+ruff check file_path
 ```
 
 
