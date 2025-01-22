@@ -90,6 +90,12 @@ git restore --source commit1 --worktree file_name
 ```
 
 
+## faq
+
+- target が worktree のとき, staged の file に影響はない
+
+
+
 ## ref
 
 https://tracpath.com/docs/git-restore/

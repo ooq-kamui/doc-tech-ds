@@ -2,6 +2,13 @@
 # git  -  ref rvrs
 
 
+## staged file list
+
+```
+git diff --cached --name-only
+```
+
+
 ## staged ( add ) を取り消す
 
 staged を取り消す, とは  
