@@ -22,7 +22,7 @@ $ar = [System.Collections.ArrayList]::new()
 ```
 
 
-## etc
+## `??`
 
 ```
 [void] $arlst.AddRange( ("bbb","ccc") )
@@ -31,7 +31,7 @@ $ar = [System.Collections.ArrayList]::new()
 
 ## ref
 
-wip:
+https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.4
 
 
 

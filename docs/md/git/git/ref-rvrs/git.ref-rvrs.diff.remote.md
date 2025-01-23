@@ -2,12 +2,14 @@
 # git  -  ref-rvrs
 
 
-## git pull するものがあるかを とりあえず確認する
+## git pull するものがあるかを 確認
 
 
 ```
 git fetch origin
+```
 
+```
 git diff origin/main
 ```
 
