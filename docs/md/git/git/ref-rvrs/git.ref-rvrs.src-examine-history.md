@@ -9,11 +9,22 @@ git show commit_id --name-only
 ```
 
 
-## ある file の commit history を表示する
+## ある file の ( から ) commit history を表示する
 
 ```
-wip:
+git log file_path
 ```
 
+diff あり
+
+```
+git log -p file_path
+```
+
+diff あり, 左右表示
+
+```
+git log --word-diff -p file_path
+```
 
 

@@ -2,11 +2,28 @@
 # python
 
 
-基本
+## cnd  exp
+
+### and
+
+```
+if a and b:
+```
+
+```
+if a & b:
+```
 
 
-## if
+### or
 
+```
+if a or b:
+```
+
+```
+if a | b:
+```
 
 
 

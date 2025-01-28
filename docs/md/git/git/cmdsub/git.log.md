@@ -22,6 +22,16 @@ git log branch1
 git log --date=format:'%Y-%m-%d %H:%M:%S'
 ```
 
+```
+git log --date=iso-local
+```
+
+config
+
+```
+git config --global log.date iso-local
+```
+
 
 ## file 指定
 
