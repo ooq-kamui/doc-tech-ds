@@ -22,28 +22,9 @@ tab
 - 13 x 12 mm
 
 
-### elecom
+### dell
 
-normal
-- 13 x 12 mm
-
-normal-min
--  9 x 12 mm
-
-shift-left
-- 16 x 12 mm
-
--fn
-- 12 x 07 mm
-
-tab
-- 18 x 12 mm
-
-caps
-- 18 x 12 mm
-
-back-space
-- ?? x 12 mm
+wip:
 
 
 ## mac
