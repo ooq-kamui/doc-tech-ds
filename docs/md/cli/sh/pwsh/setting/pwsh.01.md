@@ -30,6 +30,15 @@ $ENV:Path += ";$home\wrk\app\gcal\bin"
 ```
 
 
+## ls ( ll )
+
+隠しフォルダも表示
+
+```
+Get-ChildItem -force
+```
+
+
 ## cp
 
 https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.4

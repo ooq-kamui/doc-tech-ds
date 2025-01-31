@@ -14,6 +14,14 @@ or
 $ar = [System.Collections.ArrayList]::new()
 ```
 
+or
+
+```
+[System.Collections.ArrayList] $ar = @( 0, 1, 2 )
+
+# ^ confirm
+```
+
 
 ## add
 
