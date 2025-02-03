@@ -2,25 +2,37 @@
 # zoxide
 
 
+## ref
+
+https://formulae.brew.sh/formula/zoxide
+
+
+
 ## install
 
 ### mac
-
-ref
-
-https://formulae.brew.sh/formula/zoxide
 
 ```
 brew install zoxide
 ```
 
+#### fish
+
 ```
-wip:
+zoxide init fish | source
 ```
 
 
 ### win
 
+```
+wip:
+```
 
+#### pwsh
+
+```
+wip:
+```
 
 
