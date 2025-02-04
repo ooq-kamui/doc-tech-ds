@@ -21,6 +21,33 @@ if ($true){
 
 ## cnd
 
+### or
+
+```
+if ($val01 -or $val02){
+
+}
+```
+
+
+### and
+
+```
+if ($val01 -and $val02){
+
+}
+```
+
+
+### not
+
+```
+if (-not $val01){
+
+}
+```
+
+
 ### test
 
 ```
@@ -59,7 +86,8 @@ if ($val -eq $null){
 }
 ```
 
-test path
+
+### test path
 
 https://learn.microsoft.com/ja-jp/powershell/scripting/lang-spec/chapter-05?view=powershell-7.4
 

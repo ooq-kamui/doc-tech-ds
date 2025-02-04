@@ -1,5 +1,5 @@
 
-# ar list
+# ar-list
 
 
 ## def
@@ -11,13 +11,13 @@ $arlst = New-Object System.Collections.ArrayList
 or
 
 ```
-$ar = [System.Collections.ArrayList]::new()
+$arlst = [System.Collections.ArrayList]::new()
 ```
 
 or
 
 ```
-[System.Collections.ArrayList] $ar = @( 0, 1, 2 )
+[System.Collections.ArrayList] $arlst = @( 0, 1, 2 )
 
 # ^ confirm
 ```
@@ -26,14 +26,21 @@ or
 ## add
 
 ```
-[void]$ar.Add('val')
+[void] $arlst.Add('val')
 ```
 
 
-## `??`
+## `range`
 
 ```
 [void] $arlst.AddRange( ("bbb","ccc") )
+```
+
+
+## len
+
+```
+$arlst.Count
 ```
 
 

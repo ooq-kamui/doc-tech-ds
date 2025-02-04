@@ -38,10 +38,6 @@ amplify push して反映
 amplify push function function01
 ```
 
-
 console で確認
-
-
-
 
 
