@@ -4,6 +4,8 @@
 
 ## foreach
 
+### list
+
 ```
 foreach ($item in $list){
 
@@ -11,6 +13,17 @@ foreach ($item in $list){
 }
 ```
 
+### obj
+
+```
+foreach($key in $ageList.keys){
+  $message = '{0} is {1} years old' -f $key, $ageList[$key]
+  Write-Output $message
+}
+```
+
+ref
+https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.5#iterating-hashtables
 
 
 ## continue

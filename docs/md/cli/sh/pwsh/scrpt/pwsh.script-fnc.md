@@ -14,8 +14,6 @@ function fnc01 {
 ## return
 
 ```
-wip:
-
 function fnc01 {
   param( $subcmd, $opt, $prm01 )
 
