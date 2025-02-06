@@ -24,6 +24,26 @@ function fnc01 {
 ```
 
 
+### array, array-list の return
+
+要素数 1 の array, array-list を return すると,
+勝手に 配列でなくなる
+
+これの回避
+
+`,` を return につける
+
+```
+function fnc01 {
+  param()
+
+  $arlst = @( 1 )
+
+  return ,$arlst
+}
+```
+
+
 ## call
 
 ```
@@ -64,6 +84,5 @@ function fnc02(){
   echo $prm01
 }
 ```
-
 
 

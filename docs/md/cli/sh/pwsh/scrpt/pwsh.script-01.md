@@ -16,13 +16,11 @@ https://learn.microsoft.com/ja-jp/powershell/scripting/lang-spec/chapter-01?view
 
 ## 改行を無視
 
-バックゥォート を 行末に書く
-
-ex
+行末 に `` ` ``
 
 ```
-echo "aa   `
-bb   "
+echo "aa `
+bb "
 ```
 
 
