@@ -15,6 +15,11 @@ string replace "srch" "rpl" "target"
 string split ' '  $lst
 ```
 
+notice : tab を分割することはできないかも ?
+
+事前に tab を space に変換しておいて, space の 分割にするのが better
+( たぶん )
+
 
 ## join  連結
 
@@ -72,6 +77,5 @@ string trim '    apple    '
 ```
 string trim -c '#' '###aaabbbccc###'
 ```
-
 
 

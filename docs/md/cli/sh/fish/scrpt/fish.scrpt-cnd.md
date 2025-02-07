@@ -1,8 +1,18 @@
 
-# fish script condition
-
-
 # condition
+
+
+## if
+
+```
+if test "$str1" = "$str2"
+
+  echo $str1
+
+end
+```
+
+
 
 ## test
 

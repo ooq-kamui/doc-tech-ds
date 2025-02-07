@@ -2,23 +2,6 @@
 # fish script
 
 
-## loop
-
-### for
-
-```
-for item in $list
-
-  echo $item
-end
-```
-
-
-### continue
-
-continue は ありません ( たぶん )
-
-
 ## 真偽値
 
 ```

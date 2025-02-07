@@ -19,8 +19,8 @@ set lst \
   b     \
   c     \
 
-for $i in $lst
-  echo $i
+for itm in $lst
+  echo $itm
 end
 ```
 
@@ -61,6 +61,5 @@ if contains $argv[1] $lst
     echo "true"
 end
 ```
-
 
 
