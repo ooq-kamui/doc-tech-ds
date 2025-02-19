@@ -2,11 +2,8 @@
 # lib
 
 
-## trim
+## xxx
 
-```
-$str.Trim()
-```
-
+wip:
 
 

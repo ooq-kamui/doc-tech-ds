@@ -17,13 +17,21 @@ https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.core/ab
 @{index=0; name="aiueo"; age=30}
 ```
 
-改行ありの場合 `;` はいらない
+改行ありの場合 `;` や `,` はいらない
 
 ```
 $obj = @{
   index = 0
   name  = "aiueo"
   age   = 30
+}
+```
+
+key に 日本語も ok
+
+```
+$obj = @{
+  '日本語' = '日本語でok'
 }
 ```
 
@@ -45,5 +53,13 @@ $obj['key01']
 $obj.Add('key02', $val)
 ```
 
+
+## obj に 特定の key があるか
+
+```
+if ($obj.ContainsKey('key01')){
+  echo "true"
+}
+```
 
 

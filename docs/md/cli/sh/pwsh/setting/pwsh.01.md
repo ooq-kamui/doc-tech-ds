@@ -30,46 +30,6 @@ $ENV:Path += ";$home\wrk\app\gcal\bin"
 ```
 
 
-## ls ( ll )
-
-隠しフォルダも表示
-
-```
-Get-ChildItem -force
-```
-
-
-## cp
-
-https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.management/copy-item?view=powershell-7.4
-
-
-cp $file1 $dir2/
-
-```
-Copy-Item -Path $file1 -Destination $dir2/
-```
-
-cp -r $dir1 $dir2/
-
-```
-Copy-Item -Recurse -Path $dir1 -Destination $dir2/
-```
-
-cp -f
-
-```
-Copy-Item -Force -Path $dir1 -Destination $dir2/
-```
-
-
-## rm
-
-```
-Remove-Item $path
-```
-
-
 ## 既存の cmd を overwrite する
 
 dmy の function 名 を作り, alias `-Option AllScope` で上書きする

@@ -13,6 +13,7 @@ foreach ($item in $list){
 }
 ```
 
+
 ### obj
 
 ```
@@ -24,6 +25,15 @@ foreach($key in $ageList.keys){
 
 ref
 https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.5#iterating-hashtables
+
+
+## for
+
+```
+for ($idx = 0; $idx -lt 10; $idx++){
+  echo "$idx"
+}
+```
 
 
 ## continue
