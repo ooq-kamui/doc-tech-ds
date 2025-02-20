@@ -37,3 +37,22 @@ $str.Trim()
 ```
 
 
+## 文字列の中で改行
+
+```
+$str  = 'aaa' + "`r`n"
+$str += 'bbb' + "`r`n"
+
+echo $str
+```
+
+
+## 文字列の末尾の文字の判定
+
+```
+if ($str.EndWith('.json')){
+  echo 'true'
+}
+```
+
+
