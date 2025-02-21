@@ -42,3 +42,18 @@ Remove-Item $path
 ```
 
 
+## zip
+
+### zip
+
+```
+Compress-Archive -Path <zip_dir> -DestinationPath <zip_file_path> -Force
+```
+
+### zip un
+
+```
+Expand-Archive -Path <zip_file_path>
+```
+
+
