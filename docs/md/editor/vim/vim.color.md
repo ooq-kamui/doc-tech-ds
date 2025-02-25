@@ -49,15 +49,22 @@ syntax file を所定の dir に置く
 ```
 
 
+## highlight key
+
+highlight key list
+
+```
+:hi
+```
+
+[ref](https://thinca.hatenablog.com/entry/I_expect_to_colorscheme )
+
+
+
 ## ref
 
 ### color code
 
 [color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl-l.html )
-
-### hl key
-
-[hl key](https://thinca.hatenablog.com/entry/I_expect_to_colorscheme )
-
 
 
