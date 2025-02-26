@@ -148,18 +148,10 @@ brew install fzf
 ```
 
 
-## app
-
-### warp
+## tmux
 
 ```
-wip:
-```
-
-### ??
-
-```
-wip:
+brew install tmux
 ```
 
 
