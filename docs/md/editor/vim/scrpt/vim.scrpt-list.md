@@ -1,5 +1,5 @@
 
-# ar, dict  -  vim script
+# ar , dict  -  vim script
 
 
 ## ar
@@ -7,6 +7,7 @@
 ```
 let ar = ['one', 'two', 'three']
 ```
+
 
 
 ## dict ( key : val )
@@ -26,6 +27,5 @@ dct['two']
 ```
 len(ar)
 ```
-
 
 
