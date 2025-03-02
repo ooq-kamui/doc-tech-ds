@@ -155,3 +155,11 @@ brew install tmux
 ```
 
 
+## trans
+
+```
+wip:
+```
+
+
+
