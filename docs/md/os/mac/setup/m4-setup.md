@@ -158,8 +158,14 @@ brew install tmux
 ## trans
 
 ```
-wip:
+brew install translate-shell
 ```
 
+
+## node-js
+
+```
+wip:
+```
 
 

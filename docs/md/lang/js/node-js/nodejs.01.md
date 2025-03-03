@@ -6,6 +6,9 @@ server で実行される javascript
 
 ## install
 
+wip: article mod ..
+
+
 nodebrew で install が無難
 
 
