@@ -1,15 +1,10 @@
 
-# nodejs
+# nodebrew
 
-server で実行される javascript
+nodejs の version manager
 
 
 ## install
-
-wip: article mod ..
-
-
-nodebrew で install が無難
 
 
 ### brew で nodebrew を install
