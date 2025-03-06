@@ -26,7 +26,8 @@ ref-rvrs
 
 faq
 - case: return の前後で 不明な値が追加されている
-- ???
+- return の前後で 要素 1 の list が list でなくなる
+  - `return ,$list`
 
 
 ## vim
