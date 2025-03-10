@@ -60,11 +60,12 @@ docusaurus.config.js の修正
         },
 ```
 
-とりあえず 仮 の top page を設置
+とりあえず
+仮 の top page を設置
 
 `docs/index.md`
 
-とりあえず 仮 なので, 内容は下記
+仮 なので, 内容は下記
 
 ```
 # home
@@ -209,6 +210,5 @@ https://zenn.dev/koushikagawa/articles/74392990d399ed
 https://note.com/scg_tech/n/n2a93df1a69e2
 
 http://ducaneko.starfree.jp/start-on-docusaurus/
-
 
 

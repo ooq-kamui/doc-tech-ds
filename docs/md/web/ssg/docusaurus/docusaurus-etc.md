@@ -11,4 +11,3 @@ dir name, file name を `memo` にすると, 挙動が特殊なよう
 ひとまず, `memo` は使用しない ことにする
 
 
-

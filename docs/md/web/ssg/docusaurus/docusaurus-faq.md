@@ -14,7 +14,8 @@ markdown file すべてに対して 空行 1行追加
 
 ## `npm run build` で err
 
-docusaurus の dir を cp 後, や,  
+docusaurus の dir を cp 後,  
+や,  
 docusaurus の git を clone 後  
 に err になる場合
 
