@@ -20,6 +20,10 @@ for val in [1, 2, 3]
 endfor
 ```
 
+```
+for idx (cnt) は ありません ( たぶん )
+```
+
 
 ## while
 
@@ -37,6 +41,8 @@ endwhile
 
 continue も使える
 
+
+## do while
 
 do while はありません ( たぶん )
 
