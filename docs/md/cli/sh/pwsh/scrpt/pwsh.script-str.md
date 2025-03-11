@@ -9,10 +9,27 @@ $str03 = $str01 + $str02
 ```
 
 
+## 配列の str を連結
+
+```
+$str = $str_lsit -join ','
+```
+
+
 ## 文字列の数字 を 数値 に 変換
 
 ```
 [int] $num_str
+```
+
+
+## 文字列の数字 を 数値 に 変換 可能かどうか
+
+```
+if ( [int]::TryParse("123", $rslt) ){
+
+  echo 'true'
+}
 ```
 
 
