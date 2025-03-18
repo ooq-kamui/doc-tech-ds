@@ -22,6 +22,10 @@ ref-rvrs
 - src-mod-back, git restore
 
 
+git stash drop の復活
+- `git cherry-pick -n -m1 <hash>`
+
+
 ## pwsh
 
 faq
