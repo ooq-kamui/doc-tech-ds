@@ -1,6 +1,7 @@
 
 # if
 
+
 ## ref
 
 https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-if?view=powershell-7.4
@@ -9,9 +10,9 @@ https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everythi
 ## structure
 
 ```
-if ($true){
+if      ($flg01){
 
-}elseif (){
+}elseif ($flg02){
 
 }else{
 

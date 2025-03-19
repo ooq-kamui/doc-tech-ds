@@ -56,4 +56,3 @@ $arlst[-1]
 https://learn.microsoft.com/ja-jp/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.4
 
 
-

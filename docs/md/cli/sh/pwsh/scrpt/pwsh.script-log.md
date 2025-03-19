@@ -1,6 +1,8 @@
 
 # log
 
+wip:
+
 
 ## debug log
 
@@ -17,7 +19,5 @@ $DebugPreference = "Continue"
 ```
 
 ののち, script 実行
-
-
 
 
