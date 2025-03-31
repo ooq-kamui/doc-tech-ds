@@ -27,11 +27,36 @@ git remote set-url origin https://github.com/ooq-kamui/cnf
 ```
 
 
-## 確認
+
+## 確認 表示
+
+### 基本
 
 ```
 git remote -v
 ```
 
+
+### remote branch を表示
+
+```
+git remote show origin
+```
+
+
+
+## remote branch に合わせて local branch del
+
+### 対象 branch を表示
+
+```
+git remote prune --dry-run origin
+```
+
+### 削除 実行
+
+```
+git remote prune origin
+```
 
 

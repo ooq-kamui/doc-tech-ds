@@ -2,12 +2,21 @@
 # doc-tech
 
 
+## brew
+
+`cask` ?
+
+
 ## trns
 
 doc write
 
 
 ## git
+
+git fetch
+- branch del
+
 
 git pull --rebase=preserve
 - merge でなく rebase で変更が統合されます

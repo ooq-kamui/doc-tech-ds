@@ -2,14 +2,14 @@
 # git branch
 
 
-## branch list, 現在の branch を表示
+## branch の list を表示
 
 ```
 git branch
 ```
 
 
-## remote の branch list を表示
+## remote の branch の list も表示
 
 ```
 git fetch
@@ -29,7 +29,7 @@ git branch -v
 ```
 
 
-## branch を作る
+## branch を作成
 
 ```
 git branch branch_name
@@ -51,7 +51,7 @@ git branch -m master main
 
 ## branch を切り替える
 
-branch の切り替えは `git branch` ではなく checkout, または switch
+branch の切り替えは `git branch` ではなく `checkout`, または `switch`
 
 ```
 git checkout branch_name
@@ -64,8 +64,15 @@ git checkout branch_name
 git branch -d branch_name
 ```
 
+- branch_name が push 済 の場合 削除する
+
+
+## branch 強制削除
+
+branch_name が push 済 でないが, 強制削除したいとき
+
 ```
--d  branch_name が push 済 の場合のみ削除する
+git branch -D branch_name
 ```
 
 
@@ -74,6 +81,5 @@ git branch -d branch_name
 ```
 git push origin --delete branch_name
 ```
-
 
 
