@@ -2,9 +2,15 @@
 # doc-tech
 
 
+## nvim
+
+
+
+
 ## brew
 
 `cask` ?
+- ggl
 
 
 ## trns
