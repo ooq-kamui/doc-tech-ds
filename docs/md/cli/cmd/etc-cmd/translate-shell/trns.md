@@ -31,4 +31,3 @@ https://github.com/soimort/translate-shell
 https://formulae.brew.sh/formula/translate-shell
 
 
-

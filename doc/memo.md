@@ -2,20 +2,9 @@
 # doc-tech
 
 
-## nvim
+## amplify-cli
 
-
-
-
-## brew
-
-`cask` ?
-- ggl
-
-
-## trns
-
-doc write
+`amplify-cli` > `amplify-gen1`
 
 
 ## git
@@ -41,12 +30,9 @@ git stash drop の復活
 - `git cherry-pick -n -m1 <hash>`
 
 
-## pwsh
+## trns
 
-faq
-- case: return の前後で 不明な値が追加されている
-- return の前後で 要素 1 の list が list でなくなる
-  - `return ,$list`
+doc write
 
 
 ## vim

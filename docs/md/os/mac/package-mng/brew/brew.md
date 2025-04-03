@@ -28,7 +28,7 @@ wip:
 
 ## cask とは
 
-wip:
+gui の app を install など するもの
 
 
 ## package ( app ) list
