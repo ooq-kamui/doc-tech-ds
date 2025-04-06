@@ -9,6 +9,8 @@
 
 ## git
 
+name re `git.*` > `git-*`
+
 git fetch
 - branch del
 

@@ -193,3 +193,10 @@ nvm alias default 'lts/*'
 ```
 
 
+## mmv
+
+```
+brew install itchyny/tap/mmv
+```
+
+

@@ -2,24 +2,38 @@
 # zsh
 
 
-## basic
+## `.zshrc`
 
 ```
-wip:
+~/.zshrc
 ```
 
 
 ## prompt
 
 ```
-wip:
+export PS1="_ "
 ```
+
+bash と同
 
 
 ## alias
 
 ```
-wip:
+alias c='clear'
+```
+
+
+## fnc
+
+bash と同
+
+```
+function fnc01(){
+
+  echo 'my fnc'
+}
 ```
 
 
