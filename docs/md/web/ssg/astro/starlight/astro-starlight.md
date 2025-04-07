@@ -30,3 +30,46 @@ src/content/docs/
 ```
 
 
+## site title
+
+astro.config.mjs
+
+```
+export default defineConfig({
+  integrations: [
+    starlight({
+      title: 'vmw-mgn',
+      // :
+```
+
+
+## frontmatter
+
+### require
+
+```
+---
+title: page 001
+---
+
+```
+
+
+## side menu
+
+astro.config.mjs
+
+```
+export default defineConfig({
+  integrations: [
+    starlight({
+      // :
+      sidebar: [
+        {
+          label: 'tst',
+          autogenerate: { directory: 'tst' },
+        },
+        // :
+```
+
+
