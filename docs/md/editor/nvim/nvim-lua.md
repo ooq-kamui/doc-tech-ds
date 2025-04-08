@@ -4,43 +4,38 @@
 
 ## ref
 
-```
-wip:
-```
+https://github.com/willelz/nvim-lua-guide-ja/blob/master/README.ja.md
+
+https://lab.mo-t.com/blog/neovim-v05-introduction-new-features-part-1
+
 
 
 ## init.lua
 
 - init.vim と同じ dir に置く
 - init.vim と init.lua を両方読み込むことはできない
-  - どちらか 1つ を使うよう, 決める必要がある
+  - どちらか 1つ に 決める必要がある
 
-
-## vim script から lua を run
-
-```
-lua require('lua_module_my')
-```
-
-
-## lua から vim script を run
+### linux
 
 ```
-wip:
+~/.config/nvim/init.lua
 ```
 
 
-## set
+## lua file dir
+
+### linux
 
 ```
-wip:
+~/.config/nvim/lua
 ```
 
 
-## noremap
+## plugin
 
-```
-wip:
-```
+https://zenn.dev/vim_jp/articles/20231113vim_ekiden
+
+
 
 

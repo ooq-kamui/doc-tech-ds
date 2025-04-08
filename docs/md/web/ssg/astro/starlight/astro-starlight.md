@@ -55,7 +55,9 @@ title: page 001
 ```
 
 
-## side menu
+## side bar ( menu )
+
+### cnf
 
 astro.config.mjs
 
@@ -70,6 +72,23 @@ export default defineConfig({
           autogenerate: { directory: 'tst' },
         },
         // :
+```
+
+### order
+
+```
+---
+sidebar:
+  order: 1
+---
+```
+
+### close
+
+```
+できない かも ?
+
+wip:
 ```
 
 
