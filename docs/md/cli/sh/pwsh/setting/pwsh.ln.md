@@ -12,4 +12,10 @@ https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.managem
 New-Item -ItemType SymbolicLink -Path $path -Value $target
 ```
 
+ex
+
+```
+New-Item -ItemType SymbolicLink -Path init.lua -Value C:\Users\kamui\wrk\prj-pri\dotfiles\vim\vimrc\dflt\init.lua
+```
+
 

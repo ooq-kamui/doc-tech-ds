@@ -55,7 +55,7 @@ title: page 001
 ```
 
 
-## side bar ( menu )
+## side nav ( menu )
 
 ### cnf
 
@@ -74,7 +74,28 @@ export default defineConfig({
         // :
 ```
 
+### dir view string
+
+saide navi での dir の表示名を dir name とは別に変えたい場合
+
+astro.config.mjs
+
+```
+export default defineConfig({
+  integrations: [
+    starlight({
+      // :
+      sidebar: [
+        {
+          label: 'Guides',
+          autogenerate: { directory: 'guides' }, // guidesディレクトリのリンクグループを自動生成します。
+        },
+        // :
+```
+
 ### order
+
+#### file
 
 ```
 ---
@@ -82,6 +103,14 @@ sidebar:
   order: 1
 ---
 ```
+
+#### dir
+
+```
+sidebar の label 定義順 で 指定するのが無難
+( いまのところ )
+```
+
 
 ### close
 
