@@ -1,7 +1,7 @@
 
 # translate-shell
 
-翻訳する cli command
+translate cli
 
 
 ## install
@@ -19,8 +19,16 @@ win
 
 ## command
 
+### ja > en
+
 ```
-trans xxx
+trans {ja=en} word_ja
+```
+
+### en > ja
+
+```
+trans {en=ja} word_en
 ```
 
 

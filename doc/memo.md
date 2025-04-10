@@ -2,11 +2,6 @@
 # doc-tech
 
 
-## amplify-cli
-
-`amplify-cli` > `amplify-gen1`
-
-
 ## git
 
 name re `git.*` > `git-*`
@@ -30,11 +25,6 @@ ref-rvrs
 
 git stash drop の復活
 - `git cherry-pick -n -m1 <hash>`
-
-
-## trns
-
-doc write
 
 
 ## vim
