@@ -38,3 +38,17 @@ wip:
 ```
 
 
+## vim fnc call
+
+```
+vim.fn.fnc_name()
+```
+
+ex
+
+```
+vim.fn.has('mac')
+```
+
+
+

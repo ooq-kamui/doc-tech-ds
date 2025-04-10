@@ -1,0 +1,12 @@
+
+# lazy.nvim
+
+
+## basic
+
+```
+wip:
+```
+
+
+

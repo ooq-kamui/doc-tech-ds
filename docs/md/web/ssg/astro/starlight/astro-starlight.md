@@ -42,6 +42,21 @@ export default defineConfig({
       // :
 ```
 
+## site logo
+
+astro.config.mjs
+
+```
+export default defineConfig({
+  integrations: [
+    starlight({
+      // :
+      logo: {
+        src: './src/assets/starlight.svg',
+      },
+      // :
+```
+
 
 ## frontmatter
 

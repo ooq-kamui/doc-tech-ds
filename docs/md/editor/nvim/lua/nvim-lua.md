@@ -9,7 +9,6 @@ https://github.com/willelz/nvim-lua-guide-ja/blob/master/README.ja.md
 https://lab.mo-t.com/blog/neovim-v05-introduction-new-features-part-1
 
 
-
 ## init.lua
 
 - init.vim と同じ dir に置く
