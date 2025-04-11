@@ -21,6 +21,12 @@ https://lab.mo-t.com/blog/neovim-v05-introduction-new-features-part-1
 ~/.config/nvim/init.lua
 ```
 
+### win
+
+```
+wip:
+```
+
 
 ## lua file dir
 
@@ -29,6 +35,32 @@ https://lab.mo-t.com/blog/neovim-v05-introduction-new-features-part-1
 ```
 ~/.config/nvim/lua
 ```
+
+### win
+
+```
+wip:
+```
+
+
+## require
+
+```
+require('tst')
+```
+
+target
+
+```
+~/.config/nvim/lua/tst.lua
+```
+
+## xxx ?
+
+```
+wip:
+```
+
 
 
 ## plugin
