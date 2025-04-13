@@ -71,4 +71,3 @@ fish_color_cancel          killシグナル ^C
 ```
 
 
-
