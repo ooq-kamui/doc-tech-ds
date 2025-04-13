@@ -32,4 +32,3 @@ git checkout -- file_path
 ```
 
 
-

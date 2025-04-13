@@ -57,4 +57,3 @@ push 前, で, 2つ以上前の commit の修正は, さらなる commit で修�
 push 後, の場合は, さらなる commit で修正するほうが無難です
 
 
-

@@ -18,6 +18,8 @@ brew install zoxide
 
 #### fish
 
+config.fish
+
 ```
 zoxide init fish | source
 ```

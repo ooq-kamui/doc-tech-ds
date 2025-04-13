@@ -1,5 +1,5 @@
 
-# git src examine history
+# git commit history
 
 
 ## ある commit の file list を表示する

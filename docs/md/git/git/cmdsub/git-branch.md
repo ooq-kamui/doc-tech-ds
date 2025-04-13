@@ -64,7 +64,7 @@ git checkout branch_name
 git branch -d branch_name
 ```
 
-- branch_name が push 済 の場合 削除する
+- branch_name が push 済 の場合 local を削除する
 
 
 ## branch 強制削除
