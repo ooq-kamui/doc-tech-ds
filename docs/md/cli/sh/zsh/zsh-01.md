@@ -2,6 +2,13 @@
 # zsh
 
 
+## install
+
+```
+brew install zsh
+```
+
+
 ## `.zshrc`
 
 ```

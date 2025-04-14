@@ -24,7 +24,7 @@ https://lab.mo-t.com/blog/neovim-v05-introduction-new-features-part-1
 ### win
 
 ```
-wip:
+$HOME/AppData/local/nvim/init.lua
 ```
 
 
@@ -39,7 +39,7 @@ wip:
 ### win
 
 ```
-wip:
+$HOME/AppData/local/nvim/lua
 ```
 
 
@@ -49,24 +49,30 @@ wip:
 require('tst')
 ```
 
-target
+target file
 
 ```
 ~/.config/nvim/lua/tst.lua
 ```
 
-## xxx ?
+- require() では 再読み込みできない
+- 上記はあるものの, ひとまず, require() で読み込んでおくのが無難
+
+
+## `_G`
 
 ```
-wip:
+_G :  lua がわ vim script 側 共通の global 名前空間
+      function を 呼べる
+        vim script 側
+          call _G.My_fnc()
 ```
-
 
 
 ## plugin
 
+ref
+
 https://zenn.dev/vim_jp/articles/20231113vim_ekiden
-
-
 
 

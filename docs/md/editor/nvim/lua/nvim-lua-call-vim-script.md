@@ -45,13 +45,6 @@ wip:
 ```
 
 
-## command
-
-```
-wip:
-```
-
-
 ## vim fnc call
 
 ```
@@ -68,6 +61,29 @@ user def fnc も 呼べます
 
 ```
 vim.fn.My_fnc()
+```
+
+
+## boolean
+
+```
+vim script    lua
+v:true        true
+v:false       false
+```
+
+### if 文
+
+```
+// false と nil は false, それ以外は true
+if val
+```
+
+
+## command
+
+```
+wip:
 ```
 
 
