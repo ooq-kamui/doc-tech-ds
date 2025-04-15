@@ -9,7 +9,7 @@ sed でやるほうが やりよい ( while read line よりも )
 
 reg exp は, 一見, 複雑だが, 一回 作ってしまえば, それ以上, 考えなくてよい
 
-fish function を作るなどしておけば なおよい
+fish fnc を作るなどしておけば なおよい
 
 
 ### file path から 拡張子 ext 取得
@@ -73,6 +73,5 @@ sed -e '/^[ \t]*$/ d'
 ## カラム 抽出
 
 awk でやるほうが無難
-
 
 
