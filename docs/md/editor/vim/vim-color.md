@@ -60,11 +60,10 @@ highlight key list
 [ref](https://thinca.hatenablog.com/entry/I_expect_to_colorscheme )
 
 
-
 ## ref
 
 ### color code
 
-[color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl-l.html )
+[color tbl](https://www.ooq.jp/tech/ds/vim/vim-color-tbl.html )
 
 
