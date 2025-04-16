@@ -25,6 +25,24 @@ export PS1="_ "
 bash と同
 
 
+## key-bind
+
+```
+function my_fnc() {
+
+  # write logic
+  # :
+  # prmpt str : $BUFFER
+
+  zle reset-prompt  # prmpt draw re
+}
+
+zle -N my_fnc       # fnc   : widget reg
+
+bindkey '^A' my_fnc # <c-a> : call my_fnc
+```
+
+
 ## alias
 
 ```
@@ -34,14 +52,14 @@ alias c='clear'
 
 ## fnc
 
-bash と同
-
 ```
 function fnc01(){
 
   echo 'my fnc'
 }
 ```
+
+bash と同
 
 
 ## ref

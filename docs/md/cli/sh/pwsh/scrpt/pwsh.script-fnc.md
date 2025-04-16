@@ -1,6 +1,7 @@
 
 # fnc
 
+
 ## def
 
 ```
@@ -71,7 +72,6 @@ function fnc02(){
 ```
 
 
-
 ### 可変長引数
 
 可変長引数 は `param()` を使わないで, `$args` を使う
@@ -81,8 +81,21 @@ function fnc02(){
 
   # param($prm01, $prm02)
 
-  echo $prm01
+  echo $args
 }
 ```
+
+
+### wildcard
+
+```
+function fnc03(){
+
+  nvim -p ( Get-ChildItem $args )
+}
+```
+
+`Get-ChildItem -Nmae` としなくてよい,
+すると逆に err
 
 
