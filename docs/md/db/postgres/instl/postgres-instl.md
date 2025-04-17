@@ -1,0 +1,10 @@
+
+# postgres  -  install
+
+
+## general
+
+
+
+
+
