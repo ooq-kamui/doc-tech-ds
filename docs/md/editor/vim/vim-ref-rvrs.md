@@ -29,4 +29,3 @@ $home\AppData\Local\nvim-data\shada
 ```
 
 
-
