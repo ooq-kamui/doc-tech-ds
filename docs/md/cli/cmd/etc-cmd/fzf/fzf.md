@@ -2,6 +2,13 @@
 # fzf
 
 
+## install
+
+```
+brew install fzf
+```
+
+
 ## コマンドラインから
 
 ファイル検索
@@ -69,6 +76,5 @@ $tmp=[System.Console]::OutputEncoding
 ```
 [System.Console]::OutputEncoding=$tmp
 ```
-
 
 
