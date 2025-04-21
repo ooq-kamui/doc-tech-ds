@@ -10,7 +10,7 @@ https://formulae.brew.sh/formula/zoxide
 
 ## install
 
-### mac
+### mac / linux
 
 ```
 brew install zoxide

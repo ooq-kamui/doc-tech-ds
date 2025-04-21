@@ -7,6 +7,13 @@
 https://zenn.dev/megeton/articles/c408511c66f45d
 
 
+## install
+
+```
+brew install fd
+```
+
+
 ## arg
 
 ```
@@ -49,6 +56,5 @@ or 指定
 ```
 fd 'aaa|bbb'
 ```
-
 
 

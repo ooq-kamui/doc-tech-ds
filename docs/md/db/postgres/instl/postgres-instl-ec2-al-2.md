@@ -108,7 +108,7 @@ unix user postgres に切り替える
 su - postgres
 ```
 
-pw 入力して, 上記 user に切り替える
+pw を入力
 
 db の user postgres の pw setting
 
