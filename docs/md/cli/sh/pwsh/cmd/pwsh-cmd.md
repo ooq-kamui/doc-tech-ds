@@ -38,7 +38,7 @@ Copy-Item -Force -Path $dir1 -Destination $dir2/
 ## rm
 
 ```
-Remove-Item $path
+Remove-Item $path -Confirm
 ```
 
 

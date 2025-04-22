@@ -44,10 +44,24 @@ postgres ALL = (ALL) ALL
 ```
 
 
-## サービス起動
+## 起動
 
 ```
 sudo systemctl start postgresql
+```
+
+
+## 停止
+
+```
+sudo systemctl stop postgresql
+```
+
+
+## 確認
+
+```
+sudo systemctl status postgresql
 ```
 
 

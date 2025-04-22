@@ -85,6 +85,22 @@ function fnc02(){
 }
 ```
 
+$args を さらに function に渡すとき, 渡された先で split しないと 一つの文字列になってしまう
+
+```
+function fnc01(){
+
+  fnc02 $args
+}
+
+function fnc02(){
+
+  $args = $args.Split(' ')
+
+  echo $args
+}
+```
+
 
 ### wildcard
 

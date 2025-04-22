@@ -74,13 +74,16 @@ git config --global init.defaultBranch main
 
 ## 直接編集
 
-comment
-
-wip :
+### file
 
 ```
-#?? comment
+~/.gitconfig
 ```
 
+### comment
+
+```
+# comment
+```
 
 
