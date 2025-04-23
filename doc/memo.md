@@ -2,12 +2,6 @@
 # doc-tech
 
 
-## vim
-
-autocmd
-- evnt lst
-
-
 ## git
 
 git stash drop の復活
@@ -25,5 +19,11 @@ git pull --rebase=preserve
     - `--rebase preserve`
     - `--rebase interactive`
 - tst confirm
+
+
+## vim
+
+autocmd
+- evnt lst
 
 
