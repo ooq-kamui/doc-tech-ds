@@ -12,7 +12,7 @@ $str03 = $str01 + $str02
 ## 配列の str を連結
 
 ```
-$str = $str_lsit -join ','
+$str = $str_list -join ','
 ```
 
 

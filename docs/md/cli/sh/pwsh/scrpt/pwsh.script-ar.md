@@ -77,3 +77,10 @@ if ($ar.Contains($val)){
 ```
 
 
+## 配列の str を連結
+
+```
+$str = $str_list -join ','
+```
+
+
