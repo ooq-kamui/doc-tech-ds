@@ -48,19 +48,17 @@ git log -p xxx/xxx/xxx.txt
 ```
 
 
----
-
-## 関連
-
-- [ある commit の file list を表示する ](git.show.md )
-
-
-
-## 最後にプッシュされた以降の変更履歴
+## 最後に push した以降 の log
 
 ```
 git log origin/main..main
 ```
 
+
+## 関連
+
+### ある commit の file list を表示する
+
+[git show ](git.show.md )
 
 

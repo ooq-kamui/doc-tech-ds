@@ -76,3 +76,10 @@ ref
 https://zenn.dev/vim_jp/articles/20231113vim_ekiden
 
 
+## print / echo
+
+```
+print(val)
+```
+
+

@@ -200,3 +200,10 @@ brew install itchyny/tap/mmv
 ```
 
 
+## lua
+
+```
+brew install lua
+```
+
+

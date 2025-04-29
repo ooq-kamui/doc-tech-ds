@@ -9,7 +9,6 @@ vim.cmd('echo aaa')
 ```
 
 
-
 ## set
 
 ```
@@ -32,16 +31,19 @@ vim.keymap.set('n', 'T', '<cmd>call Tst_fnc()<cr>')
 ### key map & expr
 
 ```
-wip:
-
-nnoremap <expr> <c-y>
+-- vim.keymap.set('n', '<c-y>', 'xx')
+vim.keymap.set('n', '<c-y>', function()
+  return vim.fn.Is_cursor_col__line_end() == 1 and
+    ':call Cursor__ins_markdown_cr()<cr>' or
+    ':call Cursor__mv_line_end()<cr>'
+end, {expr = true})
 ```
 
 
 ## hi
 
 ```
-wip:
+vim.api.nvim_set_hl(0, 'IncSearch', {fg = 'lightyellow', bg = '34'})
 ```
 
 
@@ -77,6 +79,17 @@ v:false       false
 ```
 // false と nil は false, それ以外は true
 if val
+```
+
+### vim script で定義している function の return boolean を lua で見るとき
+
+```
+-- val == 1 で見る必要がある ?
+-- ないかも ?
+-- wip:
+
+if Is_xxx() == 1
+
 ```
 
 
