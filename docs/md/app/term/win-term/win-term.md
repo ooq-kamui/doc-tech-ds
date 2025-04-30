@@ -14,4 +14,3 @@ winget upgrade Microsoft.PowerShell
 タブを右クリックからできる
 
 
-
