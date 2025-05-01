@@ -32,3 +32,20 @@ or
 ```
 
 
+## 三項演算
+
+```
+x = ( cnd ) and val1 or val2
+```
+
+
+## not の解釈で注意
+
+```
+if not val1 == val2 then
+-- と書くと
+-- if (not val1) == (val2) then -- と評価される
+-- if not (val1 == val2) then   -- ではないので注意
+```
+
+
