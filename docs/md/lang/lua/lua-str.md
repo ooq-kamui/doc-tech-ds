@@ -2,9 +2,16 @@
 # lua str
 
 
+## 連結
+
+```
+str03 = str01 .. str02
+```
+
+
 ## escape
 
-escape 文字は `/`
+escape 文字は `\`
 
 ```
 -- '' の文字列でも, "" の文字列でも 共通
@@ -34,8 +41,5 @@ Lua
 ```
 string.format("%03d", i)
 ```
-
-
-
 
 

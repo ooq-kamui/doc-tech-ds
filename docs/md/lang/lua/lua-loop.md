@@ -10,6 +10,17 @@ end
 ```
 
 
+## while 文
+
+```
+while #a > 0 do
+
+  print(#a) 
+  table.remove(a) 
+end
+```
+
+
 ## continue
 
 lua に continue はありません

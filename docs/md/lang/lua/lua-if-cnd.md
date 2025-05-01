@@ -1,8 +1,8 @@
 
-# lua if
+# lua if cnd
 
 
-## basic
+## if
 
 ```
 if     a == 0 then
@@ -16,6 +16,19 @@ elseif a == 1 then
 else
   print('else')
 end
+```
+
+
+## operator
+
+```
+==    等しい
+~=    等しくない
+
+not   
+
+and   
+or    
 ```
 
 

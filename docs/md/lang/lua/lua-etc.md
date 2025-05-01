@@ -40,34 +40,6 @@ method2
 ```
 
 
-## 可変長引数の個数
-
-```
-$ cat tst001.lua
-function a001(...)
-  local prm = {...}
-  print (#prm)
-end
-
-a001("aaa", "bbb", "ccc")
-a001("aaa", "bbb", "ccc", "ddd")
-a001("aaa", "bbb", "ccc",   nil, "eee") -- 間に nil があってもよさそう
-a001("aaa",   nil, "ccc",   nil, "eee", "fff")
-a001("aaa",   nil, "ccc",   nil, "eee", "fff", nil) -- 最後が nil だとカウントされない
-$ lua tst002.lua 
-3
-4
-5
-6
-6
-```
-
-うまくすれば method overload ぽいこともできそうだけど,
-いまどきはあんまり method overload やらないのかも .. ???
-
-前は 段階的リファクタリングの過程で method overload 使ったりていました
-
-
 ## return 変数列挙 の function を return 文で call して, 変数列挙ごと受継ぐことは可
 
 ```
@@ -89,7 +61,7 @@ $ lua tst.lua
 ```
 
 
-## 「local 変数 の 列挙定義」 かつ 「関数戻り値 で 代入」 は 可
+## local 変数 の 列挙定義 かつ 関数戻り値 で 代入 は 可
 
 ```
 $ cat test001.lua 
@@ -299,17 +271,6 @@ $ lua test.lua
 ```
 
 
-## 可変長引数 を table に変換
-
-```
-val = {...}
-```
-
-```
-val = table.pack(...)
-```
-
-
 ## テーブルコンストラクタの最後の要素が変数列挙のとき 連結される
 
 ```
@@ -352,24 +313,6 @@ print(table.unpack({1,2,3}))
 ```
 
 
-## 可変長引数
-
-```
-function log(...)
-  print(...)
-end
-```
-
-2個目以降でも可
-
-```
-> function a(arg1, ...) print(arg1) print(...) end
-> a(1, 2, 3)
-1
-2	3
-```
-
-
 ## 配列の値に nil があると要素数が保証されない
 
 "" , 0 などで初期化が無難
@@ -384,35 +327,6 @@ end
 > ar = {0, 0, 0}
 > print(#ar)
 3
-```
-
-
-## 真偽値 ( condition )
-
-nil と false 以外はすべて true
-
-```
-> if nil then print("true") else print("false") end
-false
-> if false then print("true") else print("false") end
-false
-> if 0 then print("true") else print("false") end
-true
-> if "" then print("true") else print("false") end
-true
-```
-
-
-## nil と false を区別したい場合は type() を見る
-
-```
-> a = nil
-> if not a and type(a) == "nil" then print("a = nil") end
-a = nil
-
-> a = false
-> if not a and type(a) == "boolean" then print("a = false") end
-a = false
 ```
 
 
