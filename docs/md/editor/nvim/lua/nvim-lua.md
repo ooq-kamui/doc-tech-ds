@@ -49,14 +49,14 @@ $HOME/AppData/local/nvim/lua
 require('tst')
 ```
 
-target file
+file location
 
 ```
 ~/.config/nvim/lua/tst.lua
 ```
 
 - require() では 再読み込みできない
-- 上記はあるものの, ひとまず, require() で読み込んでおくのが無難
+- とはいえ, ひとまず, require() で読み込んでおくのが無難
 
 
 ## `_G`
