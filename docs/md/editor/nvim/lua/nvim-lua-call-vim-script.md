@@ -25,7 +25,7 @@ vim.keymap.set('n', 'T', 'k')
 ### key map & fnc call
 
 ```
-vim.keymap.set('n', 'T', '<cmd>call Tst_fnc()<cr>')
+vim.keymap.set('n', 'T', ':call Tst_fnc()<cr>')
 ```
 
 ### key map & expr
@@ -59,7 +59,7 @@ ex
 vim.fn.has('mac')
 ```
 
-user def fnc も 呼べます
+user fnc も 同様
 
 ```
 vim.fn.My_fnc()
