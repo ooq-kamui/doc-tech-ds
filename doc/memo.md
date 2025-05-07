@@ -4,8 +4,6 @@
 
 ## git
 
-git reset tidy
-
 git stash drop の復活
 - `git cherry-pick -n -m1 <hash>`
 
