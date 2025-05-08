@@ -1,5 +1,5 @@
 
-# win11 env setup
+# win11 setup pri
 
 
 ## ctrl2cap install
@@ -21,11 +21,16 @@ app installer
 
 ```
 set-executionpolicy remotesigned -scope currentuser
+```
 
+次のどちらかを実行
+
+```
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
 or
+
 ```
 iwr -useb get.scoop.sh | i
 ```
@@ -118,6 +123,5 @@ wsl --install
   - `jq-windows-amd64.exe` が download される
 - 好きな dir ( ~/wrk/app/bin/pwsh/ など ) に置く
 - 置いた dir に path を通す
-
 
 
