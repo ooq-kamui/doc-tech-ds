@@ -22,17 +22,11 @@ tab
 - 13 x 12 mm
 
 
-### dell
-
-wip:
-
-
 ## mac
 
 ## mac book
 
 key-normal
 - ?? x ?? mm
-
 
 

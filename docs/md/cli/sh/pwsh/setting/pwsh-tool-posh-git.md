@@ -14,7 +14,7 @@ profile に下記を追加
 Import-Module posh-git
 ```
 
-pwsh 再起動
+pwsh restart
 
 
 ## prompt
@@ -33,6 +33,5 @@ function prompt {
   }
 }
 ```
-
 
 

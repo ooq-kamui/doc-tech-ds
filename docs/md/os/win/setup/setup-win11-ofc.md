@@ -15,6 +15,9 @@ ctrl2cap.exe /install
 
 git for windows installer
 
+`.gitconfig`
+- cp fr old
+
 
 ## power toys
 
@@ -24,6 +27,11 @@ installer
 ## power shell ( v7 )
 
 installer
+
+
+## windows terminal
+
+installed pre
 
 
 ## scoop
@@ -71,8 +79,32 @@ scoop install fzf
 scoop install neovim
 ```
 
+init.vim  
+- cp fr old
 
 
+ln
+
+```
+wip: lua
+```
+
+```
+wip: syntax
+```
+
+osc52
+
+```
+wip:
+```
+
+
+## neovim-qt
+
+```
+wip:
+```
 
 
 
