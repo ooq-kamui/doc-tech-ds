@@ -44,21 +44,6 @@ Set-Alias dir "dir_dmy" -Option AllScope # cannot be removed
 ```
 
 
-## fzf
-
-PSFzf をinstall する必要がある
-
-```
-Install-Module -Name PSFzf -scope currentUser
-```
-
-確認
-
-```
-Get-InstalledModule | ? Name -eq PSFzf
-```
-
-
 ## color setting
 
 ### 設定できる箇所, 現在の setting の確認
@@ -115,6 +100,5 @@ Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -Colors @{ InLinePrediction = [ConsoleColor]::Cyan }
 ```
-
 
 

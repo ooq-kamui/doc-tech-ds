@@ -138,6 +138,12 @@ directory `blog` を削除
 npm start
 ```
 
+or
+
+```
+npm run start
+```
+
 自動で `localhost:3000` が起動する
 
 err だった場合は 適宜 見直す

@@ -74,12 +74,15 @@ scoop install fzf
 
 ## psfzf install
 
-win-get
+```
+Install-Module -Name PSFzf -scope CurrentUser
+```
 
 profile.ps1
 
 ```
 Import-Module PSFzf
+
 Enable-PsFzfAliases
 Set-PsFzfOption -PSReadlineChordProvider       'Ctrl+y'
 Set-PsFzfOption -PSReadlineChordReverseHistory 'Ctrl+r'

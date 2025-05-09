@@ -2,7 +2,9 @@
 # gcal
 
 
-## for windows
+## windows
+
+### install
 
 https://gnuwin32.sourceforge.net/packages/gcal.htm
 
@@ -25,6 +27,5 @@ pwsh_profile.ps1
 ```
 $ENV:Path += ";C:\Program Files (x86)\GnuWin32\bin"
 ```
-
 
 
