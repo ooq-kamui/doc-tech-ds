@@ -8,10 +8,4 @@
 lua require('lua_module_my')
 ```
 
-other
-
-```
-wip:
-```
-
 

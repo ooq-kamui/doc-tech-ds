@@ -207,7 +207,7 @@ function の引数でも同じ
 ```
 
 
-## table を変数列挙に変換
+## table を 列挙 に変換
 
 ```
 print(unpack({1, 2, 3}))

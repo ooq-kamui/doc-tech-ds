@@ -2,6 +2,11 @@
 # lua use vim script
 
 
+## ref
+
+https://riq0h.jp/2023/01/20/210601/
+
+
 ## lua から vim script を run
 
 ```
