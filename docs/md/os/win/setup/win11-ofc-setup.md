@@ -126,7 +126,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 ## neovim-qt
 
 ```
-wip:
+scoop install neovim-qt
 ```
 
 
