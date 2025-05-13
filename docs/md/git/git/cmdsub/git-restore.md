@@ -4,20 +4,25 @@
 
 ## 基本
 
-[ worktree / staged ] の file を [ HEAD / 指定 commit ] の内容にする ( 戻す )
+- worktree または staged に行った修正を, 元の内容に 戻す
+- file を個別に指定できる
+- 何に戻すかを指定できる
+  - worktree を戻す場合
+    - HEAD ( 最新の commit 済 ) に戻す
+    - staged に戻す
+    - 特定 commit に戻す
+  - staged を戻す場合
+    - HEAD ( 最新の commit 済 ) に戻す
+    - 特定 commit に戻す
+- staged を HEAD に戻した場合, add が取り消される
 
-file を個別に指定できる
+捕捉
 
-HEAD の内容に戻すのが 主の使いかた ( と思われる )
-
-
-worktree に file を取り出すのは git checkout のほうが馴染みがあるかもしれない,
-という意味では,
-staged の file を HEAD の file に戻すのが main 用途 ( かも )
-
-
-2019 git 2.23 で `git switch`, `git restore` が追加された
-
+- worktree に関しては,  
+  git checkout で,  
+  HEAD から worktree への file 取り出し を行うことで,  
+  同等のことを行える
+- git restore は 2019 git 2.23 にて `git switch` とともに追加された
 
 
 ## worktree の file を HEAD の内容に戻す
@@ -45,7 +50,6 @@ git restore --source commit1 --worktree file_name
 
 worktree の file を HEAD の内容に戻す
 
-ただし,
 慣れるまでは option と 引数 を 明示指定する ほうが無難
 
 ```
@@ -63,11 +67,12 @@ git restore --source HEAD --worktree file_name
 
 target が worktree の場合は, source が staged の file になるので注意
 
+上記が本当か 確認したほうがよい
+
 
 ### target が staged の場合
 
-staged の file を HEAD の内容に戻す  
-( add を取り消す )
+staged の file を HEAD の内容に戻す
 
 ```
 git restore --staged file_name
@@ -87,6 +92,8 @@ worktree の file を stage の内容に戻す
 ```
 git restore --worktree file_name
 ```
+
+上記で, source を staged に明示指定は可能か ?
 
 
 ## faq
