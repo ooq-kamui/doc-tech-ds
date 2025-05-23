@@ -21,7 +21,7 @@ wip:
 dircolors -p > ~/.colorrc
 ```
 
-`.colorrc` の, color setting を変更
+`.colorrc` の color setting を変更
 
 `.colorrc`
 
