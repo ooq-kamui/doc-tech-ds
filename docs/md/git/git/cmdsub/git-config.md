@@ -7,7 +7,6 @@
 ```
 local   repo/.git/config
 global  ~/.gitconfig
-system  /etc/gitconfig ( os によって dir は異なる )
 ```
 
 
@@ -70,6 +69,22 @@ git config user.email
 ```
 git config --global init.defaultBranch main
 ```
+
+
+## editor
+
+### vim
+
+```
+git config --global core.editor vim
+```
+
+### nvim
+
+```
+git config --global core.editor "nvim -f"
+```
+
 
 
 ## 直接編集

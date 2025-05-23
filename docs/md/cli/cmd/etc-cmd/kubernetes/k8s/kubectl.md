@@ -1,0 +1,10 @@
+
+# kubectl
+
+
+## install
+
+
+
+
+
