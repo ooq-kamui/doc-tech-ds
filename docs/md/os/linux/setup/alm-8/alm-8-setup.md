@@ -175,5 +175,30 @@ ln -sin ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.colorrc ~/.colorrc
 ```
 
 
+### git
+
+```
+cp ~/wrk/prj-pri/dotfiles/git/global/.gitconfig ~/.gitconfig
+```
+
+user, email は del
+
+```
+vi ~/.gitconfig
+```
+
+at repository
+
+```
+git config --local user.name ooq-tiki
+```
+
+```
+git config --local user.email ooq.tiki@gmail.com
+```
+
+```
+git remote set-url origin xxxxxxxx
+```
 
 

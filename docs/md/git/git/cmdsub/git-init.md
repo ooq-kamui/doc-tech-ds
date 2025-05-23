@@ -198,6 +198,9 @@ git checkout filename
 
 ```
 git config --global user.name  "kamui"
+```
+
+```
 git config --global user.email "ooq-kamui@gmail.com"
 ```
 
