@@ -14,7 +14,7 @@ wip:
 ### arg の default val
 
 ```
-val = val or default_val
+val = val or val_dflt
 ```
 
 
