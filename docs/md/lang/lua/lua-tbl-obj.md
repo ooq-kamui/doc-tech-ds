@@ -11,13 +11,38 @@ obj = {
 }
 ```
 
+`.` つなぎから 新規代入 可
 
-- key の str を quote すると err
-- key の str に使える 文字は ??
-  - symbol 使えるか ??
-    - confirm ??
-      - wip:
+```
+obj = {}
 
+obj.c = 1
+```
+
+table constructor では key の str を quote すると err
+
+```
+-- err
+
+obj = {
+  'a' = 1
+}
+```
+
+key に使える 文字
+
+添字記法 なら, 記号も わりといけます
+
+```
+a = {}
+
+a['a+a'] = 1
+a['a-a'] = 1
+a['a=a'] = 1
+a['a#a'] = 1
+```
+
+すべては未確認
 
 
 ## 連想配列の要素数は保証されない

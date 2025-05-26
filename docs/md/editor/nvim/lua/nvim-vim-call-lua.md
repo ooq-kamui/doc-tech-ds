@@ -8,4 +8,8 @@
 lua require('lua_module_my')
 ```
 
+```
+lua print('aaa')
+```
+
 

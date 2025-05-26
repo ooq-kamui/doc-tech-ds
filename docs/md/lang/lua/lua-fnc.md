@@ -23,9 +23,16 @@ val = val or val_dflt
 ```
 function fnc01(...)
 
-  val01 = {...}
+  args = {...}
 
-  val02 = table.pack(...)
+end
+```
+
+```
+function fnc01(...)
+
+  args = table.pack(...)
+
 end
 ```
 
@@ -36,6 +43,7 @@ function fnc02(arg1, ...)
 
   print(arg1)
   print(...)
+
 end
 
 fnc02(1, 2, 3)
@@ -50,7 +58,6 @@ fnc02(1, 2, 3)
 ### 可変長引数の個数
 
 ```
-$ cat tst001.lua
 function a001(...)
   local prm = {...}
   print (#prm)
@@ -61,13 +68,14 @@ a001("aaa", "bbb", "ccc", "ddd")
 a001("aaa", "bbb", "ccc",   nil, "eee") -- 間に nil があってもよさそう
 a001("aaa",   nil, "ccc",   nil, "eee", "fff")
 a001("aaa",   nil, "ccc",   nil, "eee", "fff", nil) -- 最後が nil だとカウントされない
+```
 
-$ lua tst001.lua 
-3
-4
-5
-6
-6
+```
+3   -- a001("aaa", "bbb", "ccc")                                                             
+4   -- a001("aaa", "bbb", "ccc", "ddd")                                                      
+5   -- a001("aaa", "bbb", "ccc",   nil, "eee") -- 間に nil があってもよさそう                
+6   -- a001("aaa",   nil, "ccc",   nil, "eee", "fff")                                        
+6   -- a001("aaa",   nil, "ccc",   nil, "eee", "fff", nil) -- 最後が nil だとカウントされない
 ```
 
 
