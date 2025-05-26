@@ -19,8 +19,3 @@ pacakge manager に合わせて, install 方法もそれに従う
   - https://zenn.dev/kshida/articles/compared-and-reviewed-nvm-tools-for-mac
 
 
-
-
-
-
-

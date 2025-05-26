@@ -27,6 +27,3 @@ alm ALL=(ALL) NOPASSWD: /usr/bin/podman
 ```
 
 
-
-
-

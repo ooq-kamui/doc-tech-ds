@@ -26,6 +26,13 @@ sudo yum update
 ```
 
 
+## git
+
+```
+sudo yum install git
+```
+
+
 ## brew
 
 ```
@@ -42,19 +49,6 @@ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/alm/.bash
 
 ```
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-```
-
-
-## git
-
-```
-brew install git
-```
-
-or
-
-```
-sudo yum install git
 ```
 
 
@@ -167,6 +161,10 @@ vi
 ### bash
 
 ```
+vi ~/.bashrc
+```
+
+```
 # my add
 test -f ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/dflt/.bashrc && source ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/dflt/.bashrc
 test -f ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.bashrc   && source ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.bashrc
@@ -204,7 +202,40 @@ git config --local user.email ooq.tiki@gmail.com
 ```
 
 ```
-git remote set-url origin xxxxxxxx
+git remote set-url origin https://xxxxxxxxxxxxxxxx@github.com/ooq-kamui/xxx
+```
+
+
+## mmv
+
+```
+brew install itchyny/tap/mmv
+
+err.. ?
+  gcc err ?
+    https://loochs.org/blog/programming/how-to-install-gcc-for-supabase/
+      wip:
+```
+
+
+## trns
+
+```
+brew install translate-shell
+```
+
+
+## node-js
+
+```
+brew install node
+```
+
+
+## lua
+
+```
+brew install lua
 ```
 
 

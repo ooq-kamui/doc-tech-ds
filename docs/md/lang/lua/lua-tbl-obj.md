@@ -11,11 +11,13 @@ obj = {
 }
 ```
 
-key str use char
 
-case key quote, err ??
+- key の str を quote すると err
+- key の str に使える 文字は ??
+  - symbol 使えるか ??
+    - confirm ??
+      - wip:
 
-wip:
 
 
 ## 連想配列の要素数は保証されない
