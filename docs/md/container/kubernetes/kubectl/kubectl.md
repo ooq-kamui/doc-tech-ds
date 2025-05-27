@@ -4,6 +4,9 @@
 
 ## install
 
+```
+brew install kubectl
+```
 
 
 

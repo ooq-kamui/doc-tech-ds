@@ -239,3 +239,24 @@ brew install lua
 ```
 
 
+## podman
+
+```
+brew install podman
+```
+
+
+## docker
+
+```
+brew install docker
+```
+
+
+## kubectl
+
+```
+brew install kubectl
+```
+
+
