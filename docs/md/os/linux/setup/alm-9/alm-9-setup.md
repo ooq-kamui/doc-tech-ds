@@ -115,6 +115,12 @@ if status is-interactive
 end
 ```
 
+functions
+
+```
+mv ~/.config/fish/functions{,bk}
+```
+
 ```
 ln -sin ~/wrk/prj-pri/dotfiles/sh/fish/fnc ~/.config/fish/functions
 ```
@@ -257,6 +263,13 @@ brew install docker
 
 ```
 brew install kubectl
+```
+
+
+## minikube
+
+```
+wip:
 ```
 
 

@@ -9,12 +9,3 @@ brew install podman
 ```
 
 
-## basic
-
-```
-wip:
-```
-
-
-
-
