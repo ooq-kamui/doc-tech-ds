@@ -12,7 +12,7 @@ podman images
 ## image を 削除
 
 ```
-wip:
+podman rmi <image-name>
 ```
 
 

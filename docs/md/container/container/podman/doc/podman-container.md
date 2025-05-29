@@ -55,7 +55,7 @@ podman exec -it <container-name> /bin/bash
 ```
 
 
-## cp
+## container 内 file cp
 
 ```
 podman cp [op] container_name:file_path_01 container_name:file_path_02

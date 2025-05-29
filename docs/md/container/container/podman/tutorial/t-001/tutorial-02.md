@@ -88,15 +88,15 @@ ls -la /opt/rh/httpd24/root/var/www/html/
 
 ## step : image の作成 ( build )
 
-ContainerFile
+Containerfile
 
 ```
-vi ContainerFile
+vi Containerfile
 ```
 
 ```
 FROM docker.io/centos/httpd-24-centos7
-RUN echo "new file with ContainerFile" > /opt/rh/httpd24/root/var/www/html/test.html
+RUN echo "new file with Containerfile" > /opt/rh/httpd24/root/var/www/html/test.html
 COPY ./test_containerfile.html /opt/rh/httpd24/root/var/www/html/COPY.html
 ```
 
