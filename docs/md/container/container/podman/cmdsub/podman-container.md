@@ -15,13 +15,6 @@ podman ps -a
 ```
 
 
-## container を 起動する, image から
-
-```
-podman run xxxx
-```
-
-
 ## container を stop する
 
 ```
@@ -48,19 +41,10 @@ podman rm -a
 ```
 
 
-## container 内 の bash に入る
-
-```
-podman exec -it <container-name> /bin/bash
-```
-
-
 ## container 内 file cp
 
 ```
 podman cp [op] container_name:file_path_01 container_name:file_path_02
 ```
-
-
 
 

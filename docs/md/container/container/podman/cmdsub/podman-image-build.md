@@ -2,7 +2,7 @@
 # build
 
 
-既存 image + 命令 ( Containerfile ) で image を作成する
+既存 image + Containerfile ( 命令 ) で image を作成する
 
 
 ## build
