@@ -37,6 +37,8 @@ podman run <image-name>
             ex
             ./pod-vol-02:/vol-02
 
+-e          環境変数 の 設定
+
 
 ```
 

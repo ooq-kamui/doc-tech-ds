@@ -12,13 +12,13 @@ image を作成する
 `Containerfile` のある dir で
 
 ```
-podman build -t <image-name> .
+podman image build -t <image-name> .
 ```
 
 確認
 
 ```
-podman images
+podman image ls
 ```
 
 

@@ -5,7 +5,8 @@
 ## basic
 
 - pod は container を 複数 入れられる 入れもの と考えるのがイメージしやすい
-
+- 1つ の pod の中にある 複数の container は localhost で つながっている
+  - https://docs.redhat.com/ja/documentation/red_hat_enterprise_linux/9/html/building_running_and_managing_containers/proc_communicating-between-two-containers-in-a-pod_assembly_communicating-among-containers
 
 
 ## pod list

@@ -1,19 +1,5 @@
 
-# container  -  podman
-
-
-## container list
-
-```
-podman container list
-```
-
-
-### stop している container も含めた list
-
-```
-podman container list -a
-```
+# podman container
 
 
 ## container を stop する
