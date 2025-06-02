@@ -22,4 +22,14 @@ podman images
 ```
 
 
+## option
+
+```
+-t    作成する image name を指定
+```
+
+
+
+
+
 

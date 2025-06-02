@@ -14,6 +14,8 @@ podman run <image-name>
 ```
 -d          detached mode
 
+-i          ???
+
 -t  --tty   tty 端末 を用意する
 
     --name  container-name を付ける

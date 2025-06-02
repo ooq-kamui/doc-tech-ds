@@ -5,13 +5,14 @@
 ## container list
 
 ```
-podman ps
+podman container list
 ```
+
 
 ### stop している container も含めた list
 
 ```
-podman ps -a
+podman container list -a
 ```
 
 

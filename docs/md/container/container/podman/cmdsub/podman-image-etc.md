@@ -8,6 +8,12 @@
 podman images
 ```
 
+or
+
+```
+podman image list
+```
+
 
 ## image を 削除
 
