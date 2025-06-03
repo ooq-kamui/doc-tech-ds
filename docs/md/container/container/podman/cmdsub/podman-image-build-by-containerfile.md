@@ -31,8 +31,6 @@ RUN     command を実行
 ENV     環境変数を設定
 
 
-
 ```
-
 
 

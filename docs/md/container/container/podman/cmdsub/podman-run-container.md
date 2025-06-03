@@ -49,6 +49,3 @@ podman run -dt --name container_001 img_001
 ```
 
 
-
-
-

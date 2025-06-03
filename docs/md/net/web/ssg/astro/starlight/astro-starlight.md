@@ -30,6 +30,12 @@ src/content/docs/
 ```
 
 
+## もとの top page を消す
+
+- もとの index.mdx を cp で buckup
+- index.mdx の中身を消す
+
+
 ## site title
 
 astro.config.mjs
