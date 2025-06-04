@@ -2,6 +2,18 @@
 # doc-tech
 
 
+## unix cmd
+
+unix usr add grp
+
+
+## vim
+
+autocmd
+- evnt lst
+  - ggl
+
+
 ## git
 
 git stash drop の復活
@@ -19,11 +31,5 @@ git pull --rebase=preserve
     - `--rebase preserve`
     - `--rebase interactive`
 - tst confirm
-
-
-## vim
-
-autocmd
-- evnt lst
 
 
