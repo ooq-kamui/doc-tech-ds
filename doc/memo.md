@@ -6,6 +6,7 @@
 
 setting
 - initial pos
+  - at json
 
 
 ## unix cmd
