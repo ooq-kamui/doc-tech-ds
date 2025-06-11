@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## windows terminal
+
+setting
+- initial pos
+
+
 ## unix cmd
 
 unix usr add grp
