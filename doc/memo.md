@@ -23,6 +23,8 @@ autocmd
 
 ## git
 
+git restore は rm ( del ) でできるのか?
+
 git stash drop の復活
 - `git cherry-pick -n -m1 <hash>`
 
