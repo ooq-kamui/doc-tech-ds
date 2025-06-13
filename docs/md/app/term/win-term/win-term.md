@@ -14,3 +14,14 @@ winget upgrade Microsoft.PowerShell
 タブを右クリックからできる
 
 
+## ウィンドウの起動位置
+
+setting.json
+
+```
+{
+    "initialPosition": "78,10"
+}
+```
+
+

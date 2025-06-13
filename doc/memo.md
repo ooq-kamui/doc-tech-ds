@@ -2,13 +2,6 @@
 # doc-tech
 
 
-## windows terminal
-
-setting
-- initial pos
-  - at json
-
-
 ## unix cmd
 
 unix usr add grp
@@ -24,6 +17,11 @@ autocmd
 ## git
 
 git restore は rm ( del ) でできるのか?
+- try
+
+
+merge way 3 off
+
 
 git stash drop の復活
 - `git cherry-pick -n -m1 <hash>`
