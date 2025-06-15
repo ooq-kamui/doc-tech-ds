@@ -2,18 +2,6 @@
 # doc-tech
 
 
-## unix cmd
-
-unix usr add grp
-
-
-## vim
-
-autocmd
-- evnt lst
-  - ggl
-
-
 ## git
 
 git restore は rm ( del ) でできるのか?
@@ -38,5 +26,17 @@ git pull --rebase=preserve
     - `--rebase preserve`
     - `--rebase interactive`
 - tst confirm
+
+
+## unix cmd
+
+unix usr add grp
+
+
+## vim
+
+autocmd
+- evnt lst
+  - ggl
 
 

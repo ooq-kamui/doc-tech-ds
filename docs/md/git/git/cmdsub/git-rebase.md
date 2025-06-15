@@ -2,12 +2,18 @@
 # git rebase
 
 
-## 基本
+## basic
 
-派生 branch の 分岐点の commmit を 元 branch の 先端 に付け替える
+派生 branch の 分岐点の commit を 元 branch の 先端 に付け替える
+
+wip:
+
+```
+git rebase ???
+```
 
 
-## 注意
+## notice
 
 `git rebase` は 自分だけが扱う branch でしか行わない こと
 
@@ -17,7 +23,6 @@
 ```
 -i  --interactive
 ```
-
 
 
 ## 補足
