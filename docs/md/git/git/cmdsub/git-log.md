@@ -57,8 +57,10 @@ git log origin/main..main
 
 ## 関連
 
-### ある commit の file list を表示する
+### ある commit の file list
 
-[git show ](git.show.md )
+```
+git show --name-only <commit-id>
+```
 
 
