@@ -18,7 +18,7 @@ New-Item -ItemType SymbolicLink -Path $path -Value $target
 ex
 
 ```
-New-Item -ItemType SymbolicLink -Path lua -Value C:\Users\xxx\wrk\prj-pri\dotfiles\nvim\scrpt\dflt\lua
+New-Item -ItemType SymbolicLink -Path lua -Value C:\Users\xxx\wrk\prj-pri\dotfiles\nvim\scrpt\lua
 ```
 
 ```

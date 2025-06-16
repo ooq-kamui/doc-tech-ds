@@ -29,7 +29,8 @@ fd ptn dir
 
 -t               ファイルタイプ指定
 
--I               .gitignore, .ignore, .fdignore を含める
+-I  -no-ignore   .gitignore, .ignore, .fdignore に書かれている 除外設定を fd の実行に 適用しない
+                 ( default では .gitignore, .ignore, .fdignore に書かれている除外設定が fd の実行にも適用される )
 
 -H  --hidden     隠しファイル ( . から始まるファイル名 ) を対象にする
 
