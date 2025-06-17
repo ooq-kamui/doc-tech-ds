@@ -79,13 +79,12 @@ git fetch -p
 ```
 
 
-## fetch とpull の違いについて
+## fetch と pull の違いについて
 
 pull は 内部で
 
 - fetch
 - merge
-- branch の移動
 
 を順次実行するコマンドです
 

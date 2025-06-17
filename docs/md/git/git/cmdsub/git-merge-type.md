@@ -1,72 +1,166 @@
 
 # git merge type
 
+ref
 
-## merge には 3種類 ある
-
-- first foward
-- 3 way
-- squash
+https://it-infomation.com/git-merge-ff-no-ff-squash/
 
 
-## default setting
+## pull request 時の merge 3種
+
+### first forward ( only )
 
 ```
-wip:
+git merge --ff-only <branch-name>
+```
+
+- `--ff` の場合,  
+  first forward できない場合は, 3 way になる,  
+  が, この option のことは いったん考えない
+
+
+### squash
+
+```
+git merge --squash <branch-name>
+```
+
+
+### 3 way
+
+```
+git merge --no-ff <branch-name>
+```
+
+
+---
+
+以下にそれぞれを記載する
+
+
+## first forward ( only )
+
+```
+git merge --ff-only <branch-name>
+```
+
+- commit 順のとおりにそのまま merge する
+- merge 先 に merge 元 にない commit がある場合,  
+  何もしない
+
+### image
+
+merge 先に merge 元にない commit が ない
+
+```
+dev  : c1 - c2
+              \
+feat :         - c3 - c4
+
+       git merge --ff-only feat
+
+dev  : c1 - c2 - c3 - c4
+```
+
+merge 先に merge 元にない commit が ある
+
+```
+dev  : c1 - c2 - c5
+              \
+feat :         - c3 - c4
+
+       git merge --ff-only feat
+
+       何もしない
+
+dev  : c1 - c2 - c5
+              \
+feat :         - c3 - c4
 ```
 
 
 ## squash
 
-複数 commit を 1 commit にまとめて merge する
-
-ex
-
-branch02 に branch01 に まだ merge されていない, 複数 commit があるとする
-
-branch01 に移動
-
 ```
-git checkout branch01
+git merge --squash <branch-name>
 ```
 
-branch02 の 複数 commit を 1つ にまとめて merge
+- merge 元 の merge するべき 複数 commit を 1つ にまとめた 別の 1つの commit が作成される
+- その commit を merge 先に merge する
+- merge 元 には何もしない
+
+### image
+
+merge 先に merge 元にない commit が ない
 
 ```
-git merge --squash branch02
+dev  : c1 - c2
+              \
+feat :         - c3 - c4
+
+       git merge --squash feat
+
+dev  : c1 - c2 - s1
+                 ( c3 + c4 )
+              \
+feat :         - c3 - c4
+```
+
+merge 先に merge 元にない commit が ある
+
+```
+dev  : c1 - c2 - c5
+              \
+feat :         - c3 - c4
+
+       git merge --squash feat
+
+dev  : c1 - c2 - c5 - s1
+                      ( c3 + c4 )
+              \
+feat :         - c3 - c4
 ```
 
 
-## rebase merge ( 3 way ? )
-
-wip:
-
-
-`merge --squash` の対比として rebase merge というものについて 言及されることが ある
-
-
-おさらい,
-`git rebase` とは
-
-派生 branch の 分岐点の commmit を 元 branch の 先端 に付け替える
-こと
-
-その上で,
-
-rebase merge とは
+## 3 way ( --no-ff )
 
 ```
-git rebase --rebase-merge
+git merge --no-ff <branch-name>
 ```
 
-か
+- merge としての 新しい 1つ の commit を 作成する
+- それを merge 先に merge する
+- merge 元 としても それが HEAD になる ??  
+  ( これが謎 なので いずれ確認する )
+
+### image
+
+merge 先に merge 元にない commit が ない
 
 ```
-git pull --rebase
+dev  : c1 - c2
+              \
+feat :         - c3 - c4
+
+       git merge --no-ff feat
+
+dev  : c1 - c2 ----------- t1
+              \           /
+feat :         - c3 - c4 -
 ```
 
-のこと を指している
+merge 先に merge 元にない commit が ある
 
-wip:
+```
+dev  : c1 - c2 - c5
+              \
+feat :         - c3 - c4
+
+       git merge --no-ff feat
+
+dev  : c1 - c2 - c5 ------ t1
+              \           /
+feat :         - c3 - c4 -
+```
 
 

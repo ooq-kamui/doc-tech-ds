@@ -1,6 +1,10 @@
 
 # git rebase
 
+ref
+
+https://qiita.com/C_HERO/items/06669621a1eb12d8799e
+
 
 ## basic
 
@@ -11,6 +15,28 @@ wip:
 ```
 git rebase ???
 ```
+
+
+### image
+
+```
+dev  : c1 - c2 - c5 - c6
+              \
+feat :         - c3 - c4
+
+       git rebase
+
+dev  : c1 - c2 - c5 - c6
+                        \
+feat :                   - c3' - c4'
+
+       c3 c4 はなくなる
+```
+
+### q
+
+- conflict してたらどうなるのか
+- stash するのと何が違うのか
 
 
 ## notice

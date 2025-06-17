@@ -1,8 +1,18 @@
 
 # git pull
 
+ref
 
-## 基本
+https://tracpath.com/docs/git-pull/
+
+
+## basic
+
+ex
+
+```
+git pull origin main
+```
 
 git pull は, 次の コマンドを一度にやることです
 
@@ -16,6 +26,49 @@ git merge FETCH_HEAD
 
 ```
 FETCH_HEAD : fetch した remote の 同 branch の 最新 commit
+```
+
+
+### `--rebase` option
+
+merge の替わりに rebase を行う
+
+```
+--rebase[=false|true|merges|preserve|interactive]
+
+false        現在のブランチをアップストリームブランチにマージします
+
+true         フェッチ後に現在のブランチをアップストリームブランチの上にリベースします
+             アップストリームブランチに対応するリモート追跡ブランチがあり
+             アップストリームブランチが最後にフェッチされてからリベースされた場合
+             リベースはその情報を使用して、非ローカル変更のリベースを回避します
+
+merges       git rebase --rebase-merges を使用してリベースし
+             ローカルマー ジコミットがリベースに含まれるようにします
+
+preserve     非推奨
+             ローカルで作成されたマージコミットがフラット化されないように
+             --preserve-mergesオプションをgit rebase にパスしてリベースします
+
+interactive  リベースのインタラクティブモードを有効にします
+```
+
+これの default を config で設定しておける
+
+ex
+
+```
+[pull]
+  rebase = false
+```
+
+
+## option
+
+その他の option
+
+```
+wip:
 ```
 
 
@@ -41,9 +94,8 @@ git reset --hard origin/main
 別の local で上記を行う ことになる
 
 
-## q
+## faq
 
 ### local の現在の branch と pull で指定した branch が違うとどうなる?
-
 
 
