@@ -20,4 +20,3 @@ Get-Content -Path <file_path> -Wait -Tail <line_num> -Encoding UTF8
 ```
 
 
-
