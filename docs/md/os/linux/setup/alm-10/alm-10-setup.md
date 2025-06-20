@@ -202,5 +202,3 @@ brew install podman
 ```
 
 
-
-
