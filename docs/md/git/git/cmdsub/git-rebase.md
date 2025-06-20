@@ -9,14 +9,14 @@ https://qiita.com/C_HERO/items/06669621a1eb12d8799e
 ## desc
 
 - rebase は merge の 一種です
-  - ここで merge とは remote にある まだ取り込んでいない commit を取り込む のこと
-- 自 branch の 未 push commit を remote 取り込み後 の 先端 に付け替える
+  - ここで merge とは remote branch にある まだ取り込んでいない commit を local branch に取り込む のこと
+- local branch の 未 push commit を remote branch 取り込み後 の 先端 に付け替える
 
 
 ## 基本
 
 ```
-git rebase <branch-name>
+git rebase origin/<branch-name>
 ```
 
 ```
