@@ -4,13 +4,14 @@
 
 ## git
 
-git restore は rm ( del ) でできるのか?
-- try ( confirm )
-
-
 git push
 - case commit conflict
   - err msg
+
+faq
+
+git restore は rm ( del ) でできるのか?
+- try ( confirm )
 
 
 ## unix cmd

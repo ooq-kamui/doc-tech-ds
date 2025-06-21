@@ -11,4 +11,3 @@ git difftool file_path
 ```
 
 
-
