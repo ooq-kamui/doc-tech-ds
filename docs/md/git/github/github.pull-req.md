@@ -11,6 +11,15 @@ branch01 から branch02 に merge する
 , その提案
 
 
+## github の pull req でできる merge の種類
+
+- 3 way ( no ff )
+- squash
+- rebase
+
+githug の pull req で `first forward` はできません
+
+
 ## 一般的な 開発の流れ
 
 - mainブランチから作業ブランチを切る

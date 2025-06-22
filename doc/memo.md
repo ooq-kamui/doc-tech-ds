@@ -2,15 +2,43 @@
 # doc-tech
 
 
+## github
+
+chk rewrite re
+
+github には pull req の first forward はない, を踏まえた 一般的な flow
+
+
 ## git
+
+初級者が 誤解しがちなこと
+- branch 枝 ( 木の枝 ) > 撚り糸 のイメージ
+- 分岐点 >  
+  - 現在 ( HEAD ) から過去を見たときの,  
+    ( upstream branch への ) 合流ポイント
+  - 自分 ( local ) の commit history の中で,  
+    そこ以降が upstream branch にまだ取り込まれていない ポイント
+  - pull req が merge されれば, 位置は 変動する, 現在に近い方へ
+
+- 初級者は 開発者として 読んでいるとして,  
+  何 flow の 開発者なのか を明示した上で,  
+  現実的に一般的な状況に則って, 説明してほしい
+
+
+undo 的に write
+- add ( staged )
+- commit
+- push
 
 git push
 - case commit conflict
   - err msg
+- push の前提
+
 
 faq
 
-git restore は rm ( del ) でできるのか?
+git restore は rm ( del ) でできるのか? ( 同等か? )
 - try ( confirm )
 
 

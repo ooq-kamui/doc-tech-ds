@@ -2,19 +2,9 @@
 # git  -  基本
 
 
-## ref
-
-学びたての場合,
-
-- https://training.github.com/downloads/ja/github-git-cheat-sheet/
-- https://www.atlassian.com/ja/git/tutorials/setting-up-a-repository/git-init
-
-などが分かりやすい
-
-
 ## 基本概念
 
-### 保存 領域 ( ? )
+### 保存 領域
 
 local だけで
 
@@ -25,17 +15,21 @@ local だけで
 の 3つがある
 
 
-### HEAD とは
-
-`HEAD` はその repository/branch の最新の commit のこと
-
-
-
 ## question
 
 ### origin とは
 
 remote name とのことだが,  
 origin 以外に見たことがないので, いったん深く考えない
+
+
+## ref
+
+学びたての場合,
+
+- https://training.github.com/downloads/ja/github-git-cheat-sheet/
+- https://www.atlassian.com/ja/git/tutorials/setting-up-a-repository/git-init
+
+などが分かりやすい
 
 
