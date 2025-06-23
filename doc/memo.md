@@ -6,7 +6,8 @@
 
 chk rewrite re
 
-github には pull req の first forward はない, を踏まえた 一般的な flow
+github には pull req の first forward はない
+- これを踏まえた 一般的な flow
 
 
 ## git
