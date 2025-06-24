@@ -6,8 +6,10 @@
 
 chk rewrite re
 
-github には pull req の first forward はない
+github には pull req の merge で first forward はない
 - これを踏まえた 一般的な flow
+  - および pull req 時の merge type ごとの
+    - 考察
 
 
 ## git

@@ -12,7 +12,13 @@ git log
 ## branch 指定
 
 ```
-git log branch1
+git log branch01
+```
+
+remote tracking branch を指定すれば remote の log を見ることもできる
+
+```
+git log origin/branch01
 ```
 
 

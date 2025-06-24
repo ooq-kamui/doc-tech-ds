@@ -10,7 +10,7 @@
   自分以外からの変更内容もすべて取り込むことを  
   前提としている remote branch
 - git pull の実行で,  
-  branch-name を省略したとき, default で pull 対象としている branch
+  branch-name を省略したとき, default で pull 対象となる branch
 - 確認方法
   - `git config --local --list` で  
     `branch.<branch-name>.remote=xxxx`
