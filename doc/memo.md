@@ -48,6 +48,10 @@ git push
 - push の前提
 
 
+git rebase しなくても
+- local の場合は, reset して, stash するほうが 手軽なのでは ??
+
+
 faq
 - 3way merge
   - parent が 2つ ある とはどういうことか
