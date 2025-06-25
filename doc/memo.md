@@ -11,6 +11,9 @@ github には pull req の merge で first forward はない
   - および pull req 時の merge type ごとの
     - 考察
 
+github actions
+- learn
+
 
 ## git
 
@@ -46,9 +49,16 @@ git push
 
 
 faq
+- 3way merge
+  - parent が 2つ ある とはどういうことか
+
 
 git restore は rm ( del ) でできるのか? ( 同等か? )
 - try ( confirm )
+
+
+fork
+- install
 
 
 ## unix cmd
