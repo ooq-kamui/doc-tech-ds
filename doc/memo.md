@@ -17,6 +17,10 @@ github actions
 
 ## git
 
+fork
+- install
+
+
 初級者が 誤解しがちなこと
 - branch 枝 ( 木の枝 ) > というよりは 撚り糸 のイメージ
 - 分岐点 > 分岐点 という言葉はかなり誤解を生みやすいと思う  
@@ -42,6 +46,7 @@ undo 的に write
 - commit
 - push
 
+
 git push
 - case commit conflict
   - err msg
@@ -54,15 +59,11 @@ git rebase しなくても
 
 faq
 - 3way merge
-  - parent が 2つ ある とはどういうことか
+  - parent が 2つ ある とはどういうことか?
 
 
 git restore は rm ( del ) でできるのか? ( 同等か? )
 - try ( confirm )
-
-
-fork
-- install
 
 
 ## unix cmd
