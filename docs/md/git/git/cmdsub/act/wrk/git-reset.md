@@ -2,100 +2,46 @@
 # git reset
 
 
-## 基本
+## basic
 
-直近の commit を破棄し
-
-HEAD の commit 位置 を 以前のものに戻す
-
-- worktree
-- staged
-
-が変更されていた場合, それぞれ どうするかを, 指定できる
-
-
-ただし,
-push していない commit に使用を留めるのが無難
-
-
-### notice
-
-指定する commit を `HEAD` にした場合,
-`HEAD` の位置は変えずに,
-
-`--hard`, `--mixed` の指定によって, worktree, staged の file を HEAD の内容に戻す,
-という使いかたもできる
-
-が,
-その用途では `git restore` を使う ほうが無難 ( と思われる )
+- git reset で reset するものは commit
+- HEAD の commit 位置 を 指定した ( 過去の ) commit 位置に 戻す
+  - このとき, 直近の commit は破棄される  
+    ( つまり reset )
+- worktree と staged が変更されていた場合,  
+  それぞれ どうするかを, 指定できる
+- push していない commit に使用を留めるのが無難
 
 
 ## option
 
 ```
---soft  : HEAD を 指定した commit に 戻す
-          worktree を変更していた場合
-            特に何もせず, 変更はそのまま残る
-          staged   を変更していた場合
-            特に何もせず, 変更はそのまま残る
+--soft      : worktree を変更していた場合
+                特に何もせず, 変更はそのまま残る
+              staged   を変更していた場合
+                特に何もせず, 変更はそのまま残る
 
---hard  : HEAD を 指定した commit に 戻す
-          worktree を変更していた場合
-            変更は破棄され, 指定した commit の内容 に 戻る
-          staged   を変更していた場合
-            変更は破棄され, 指定した commit の内容 に 戻る
+--mixed     : worktree を変更していた場合
+                特に何もせず, 変更はそのまま残る
+              staged   を変更していた場合
+                変更は破棄され, 指定した commit の内容 に 戻る
 
---mixed : HEAD を 指定した commit に 戻す
-          worktree を変更していた場合
-            特に何もせず, 変更はそのまま残る
-          staged   を変更していた場合
-            変更は破棄され, 指定した commit の内容 に 戻る
+--hard      : worktree を変更していた場合
+                変更は破棄され, 指定した commit の内容 に 戻る
+              staged   を変更していた場合
+                変更は破棄され, 指定した commit の内容 に 戻る
 
 option なし : --mixed
 
 ```
 
-
-## --soft
-
-- HEAD を 指定した commit に 戻す
-- worktree を変更していた場合
-  - 特に何もせず, 変更はそのまま残る
-- staged   を変更していた場合
-  - 特に何もせず, 変更はそのまま残る
-
-```
-git reset --soft commit01
-```
+- commit の undo の意味では
+  - `--mixed` にするのが妥当
+  - worktree も戻したければ,  
+    git reset 後, git restore で worktree を戻す ほうが 分かりやすい ( 概念として, たぶん )
 
 
-### --hard
-
-- HEAD を 指定した commit に 戻す
-- worktree を変更していた場合
-  - 変更は破棄され, 指定した commit の内容 に 戻る
-- staged   を変更していた場合
-  - 変更は破棄され, 指定した commit の内容 に 戻る
-
-```
-git reset --hard commit01
-```
-
-
-### --mixed
-
-- HEAD を 指定した commit に 戻す
-- worktree を変更していた場合
-  - 特に何もせず, 変更はそのまま残る
-- staged   を変更していた場合
-  - 変更は破棄され, 指定した commit の内容 に 戻る
-
-```
-git reset --mixed commit01
-```
-
-
-## 事例
+## case use
 
 ### local で, 直前の commit を 破棄
 
@@ -136,5 +82,17 @@ git reset --mixed HEAD
 ```
 git reset --hard origin/main
 ```
+
+
+## etc
+
+指定する commit を `HEAD` にした場合,
+`HEAD` の位置は変えずに,
+
+`--hard`, `--mixed` の指定によって, worktree, staged の file を HEAD の内容に戻す,
+という使いかたもできる
+
+が,
+その用途では `git restore` を使う ほうが無難 ( と思われる )
 
 
