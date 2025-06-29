@@ -2,19 +2,6 @@
 # nginx
 
 
-## install
-
-### centos
-
-```
-sudo yum install epel-release
-```
-
-```
-sudo yum install nginx
-```
-
-
 ## launch
 
 ```
@@ -47,6 +34,5 @@ sudo nginx -s reload
 https://kinsta.com/jp/knowledgebase/install-nginx/
 
 https://qiita.com/riita10069/items/5d36dfeb756e3b6c4978
-
 
 

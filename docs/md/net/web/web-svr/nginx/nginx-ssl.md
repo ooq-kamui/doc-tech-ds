@@ -10,9 +10,7 @@
 - csr
 - crt
 
-
 作成方法は ssl の ページを参照
-
 
 
 ## nginx の設定
@@ -64,6 +62,5 @@ https://cn.teldevice.co.jp/blog/p39750/
 https://www.bestssl.net/faq/install-nginx/
 
 https://qiita.com/clown0082/items/551d7c081ff6b41b1717
-
 
 
