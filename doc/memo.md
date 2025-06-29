@@ -17,8 +17,17 @@ github actions
 
 ## git
 
+git reset
+
+
+git rebase するなら, reset + stash + merge --ff のほうが無難では ?
+- というより, rebase はこれの短縮 command と考えるのが妥当
+
+
 fork
 - install
+  - mac
+    - buy
 
 
 初級者が 誤解しがちなこと
@@ -55,6 +64,7 @@ git push
 
 git rebase しなくても
 - local の場合は, reset して, stash するほうが 手軽なのでは ??
+  - というよりも, rebase は これの短縮 cmd です
 
 
 faq

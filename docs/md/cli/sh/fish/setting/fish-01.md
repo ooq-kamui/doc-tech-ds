@@ -2,13 +2,6 @@
 # fish
 
 
-## install
-
-```
-brew install fish
-```
-
-
 ## config.fish 再読込
 
 ```
@@ -94,6 +87,5 @@ history delete "xxx"
 ```
 count ( cat file_name )
 ```
-
 
 
