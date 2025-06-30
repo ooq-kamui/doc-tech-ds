@@ -2,32 +2,19 @@
 # doc-tech
 
 
-## github
-
-chk rewrite re
-
-github には pull req の merge で first forward はない
-- これを踏まえた 一般的な flow
-  - および pull req 時の merge type ごとの
-    - 考察
-
-github actions
-- learn
-
-
 ## git
+
+undo 的に write
+- add ( staged )
+- commit
+- push
+
 
 git reset
 
 
 git rebase するなら, reset + stash + merge --ff のほうが無難では ?
 - というより, rebase はこれの短縮 command と考えるのが妥当
-
-
-fork
-- install
-  - mac
-    - buy
 
 
 初級者が 誤解しがちなこと
@@ -49,11 +36,7 @@ fork
 - commit 時間 と commit history の 順が 一致しない ( 前後している ) ことは  
   ふつうにあり得る ということ
 
-
-undo 的に write
-- add ( staged )
-- commit
-- push
+- 上記を踏まえて, commit history tree image, write mod
 
 
 git push
@@ -74,6 +57,19 @@ faq
 
 git restore は rm ( del ) でできるのか? ( 同等か? )
 - try ( confirm )
+
+
+## github
+
+chk rewrite re
+
+github には pull req の merge で first forward はない
+- これを踏まえた 一般的な flow
+  - および pull req 時の merge type ごとの
+    - 考察
+
+github actions
+- learn
 
 
 ## unix cmd
