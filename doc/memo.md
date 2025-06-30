@@ -8,6 +8,14 @@ undo 的に write
 - add ( staged )
 - commit
 - push
+  - can ?
+
+- git-add-undo.md
+
+
+file の単位で 干渉( 上書き ) がなければ,  
+commit history で 前に 入る,  
+のを いま一度 検証, 確認
 
 
 git reset
@@ -61,12 +69,13 @@ git restore は rm ( del ) でできるのか? ( 同等か? )
 
 ## github
 
-chk rewrite re
+chk rewrite re all
 
 github には pull req の merge で first forward はない
 - これを踏まえた 一般的な flow
-  - および pull req 時の merge type ごとの
+  - および pull req での merge type ごとの
     - 考察
+
 
 github actions
 - learn
