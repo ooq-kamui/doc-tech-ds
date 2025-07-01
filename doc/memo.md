@@ -17,6 +17,7 @@ github には pull req の merge で first forward はない
 faq
 - 3way merge
   - parent が 2つ ある とはどういうことか?
+  - `HEAD^` も 再度 学習
 
 
 ## github

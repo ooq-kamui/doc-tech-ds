@@ -26,21 +26,76 @@
 - `git branch -r` で remote tracking branch の list を表示
 
 
+## origin とは
+
+remote name のこと  
+らしいが,  
+origin 以外に見たことがないので, いったん深く考えない  
+とにかく remote のこと
+
+
+## commit
+
+wip:
+
+
+## HEAD
+
+- `HEAD` はその branch の最新の ( 先端の ) commit のこと
+
+
+### `HEAD~`
+
+HEAD の 1つ前の commit
+
+だいたいの場合は `HEAD^` より こちらを使うのが無難
+
+
+### `HEAD^`
+
+HEAD の 1つ前の commit
+
+親 commit が 2つ以上ある場合に使用する
+
+`HEAD^^` と `HEAD~~` では 指しているものが異なる
+
+wip:
+
+
 ## merge
 
-### merge
+別の branch の commit を 自分の branch へ取り込む こと
 
-wip:
+```
+git merge <branch-name>
+```
+
+### 補足
+
+`git pull` は
+
+- `git fetch`
+- `git merge FETCH_HEAD`
+
+をやっている
 
 
-### rebase
+## rebase
 
-wip:
+first forward merge ができないときに,  
+自分の側の 未 push commit を いったん棚上げし ( stash 相当の状態 ),  
+merge して,  
+棚上げした commit を commit history の先端に付け替えること
+( push 時に err とならない状態にすること )
+
+
+慣れるまでは,  
+local の 未 push commit を reset し,  
+push 直前に 再 commit するほうが,  
+やっていることが分かりやすいので, それを推奨
 
 
 ## pull
-
-### pull
 
 - pull は 内部的には次をやっている
   - fetch
@@ -51,8 +106,9 @@ wip:
 
 ( 確証ないが 現段階の自分の理解 )
 
-- remote を local の内容で first forward で update すること
-
-
+- remote を local の内容で update すること
+- 基本的には, ( remote 側から見て ) first forward merge するのと同じ状況でなければ  
+  err になる
+- ただし, 強制 push することもできる
 
 
