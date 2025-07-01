@@ -16,6 +16,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 - remote に 未取り込み の commit がある のに push しようとした とき
+  - git prompt が `<>` のときなので, 実行前にきづける はず
 - このまま git pull すると, 挙動は config の  
   `pull.rebase`  
   `pull.ff`  
@@ -25,10 +26,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
   pull 時の merge が merge ではなく rebase になる
 - err が出た時点で fetch できているので  
 - `git rebase origin/<branch-name>` でも同じ ( たぶん )
-
-
-
-
 
 
 

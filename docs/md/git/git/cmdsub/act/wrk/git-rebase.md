@@ -15,7 +15,21 @@ https://qiita.com/C_HERO/items/06669621a1eb12d8799e
     のこと
 
 
-## 基本
+## notice
+
+git rebase するなら
+
+- `git reset --soft HEAD~`
+- `git stash`
+- `git merge --ff`
+
+のほうが無難です
+
+というより,  
+`git rebase` はこれを 1 command で実行するもの と考えるのが妥当 ( たぶん )
+
+
+## basic
 
 ```
 git rebase origin/<branch-name>
@@ -51,20 +65,24 @@ git rebase origin/<branch-name>
 
 ```
 befor
-                 sync
-                 |
-  remote : c1 - c2 - c5 - c6
-                 |
-  local  : c1 - c2 - c3 - c4
+        sync      remote
+        v         v
+  c1 - c2 - c5 - c6
+          \
+            c3 - c4
+                  ^
+                  local
 
 after
-                           sync
-                           |
-  remote : c1 - c2 - c5 - c6
-                           |
-  local  : c1 - c2 - c5 - c6 - c3' - c4'
-  
-                     c3   c4 はなくなる
+                  remote
+                  v
+  c1 - c2 - c5 - c6
+                    \
+                      c3' - c4'
+                             ^
+                             local
+
+            c3   c4 はなくなる
 ```
 
 ## option

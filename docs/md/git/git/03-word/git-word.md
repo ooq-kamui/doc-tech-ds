@@ -49,7 +49,9 @@ wip:
 
 ## push
 
-wip:
+( 確証ないが 現段階の自分の理解 )
+
+- remote を local の内容で first forward で update すること
 
 
 

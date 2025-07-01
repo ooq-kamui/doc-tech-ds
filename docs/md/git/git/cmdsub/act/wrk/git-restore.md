@@ -6,7 +6,7 @@
 
 - worktree または staged に行った修正を, 元の内容に 戻す
 - file を個別に指定できる
-- 何に戻すかを指定できる
+- 何を何に戻す か を指定できる
   - worktree を戻す場合
     - HEAD ( 最新の commit 済 ) に戻す
     - staged に戻す
