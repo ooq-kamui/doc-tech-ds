@@ -19,7 +19,7 @@ wip:
 
 ### profile
 
-import fr m1 export
+`import` fr m1 export
 
 
 ## brew
