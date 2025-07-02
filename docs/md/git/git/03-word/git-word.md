@@ -39,29 +39,6 @@ origin 以外に見たことがないので, いったん深く考えない
 wip:
 
 
-## HEAD
-
-- `HEAD` はその branch の最新の ( 先端の ) commit のこと
-
-
-### `HEAD~`
-
-HEAD の 1つ前の commit
-
-だいたいの場合は `HEAD^` より こちらを使うのが無難
-
-
-### `HEAD^`
-
-HEAD の 1つ前の commit
-
-親 commit が 2つ以上ある場合に使用する
-
-`HEAD^^` と `HEAD~~` では 指しているものが異なる
-
-wip:
-
-
 ## merge
 
 別の branch の commit を 自分の branch へ取り込む こと
