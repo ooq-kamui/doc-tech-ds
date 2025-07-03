@@ -2,15 +2,15 @@
 # doc-tech
 
 
+## sqlite
+
+sql fr file
+
+
 ## github
 
 github actions
 - learn
-
-
-## sqlite
-
-sql fr file
 
 
 ## unix cmd
