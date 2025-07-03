@@ -39,11 +39,11 @@ cp ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.colorrc ~/
 ```
 
 ```
-echo >> /home/alm/.bashrc
+echo >> ~/.bashrc
 ```
 
 ```
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/alm/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
 ```
 
 ```
