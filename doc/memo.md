@@ -2,11 +2,6 @@
 # doc-tech
 
 
-## sqlite
-
-sql fr file
-
-
 ## github
 
 github actions
