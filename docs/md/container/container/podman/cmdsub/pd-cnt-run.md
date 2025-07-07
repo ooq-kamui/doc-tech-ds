@@ -57,8 +57,7 @@ ref
 ex
 
 ```
-podman run -dt \
-  --name cnt-psql \
+podman run -dt --name cnt-psql \
   -p 5432:5432 \
   -e POSTGRES_USER=psql \
   -e POSTGRES_PASSWORD=psql \
@@ -84,8 +83,7 @@ cd webapps
 ```
 
 ```
-wget http://tomcat.apache.org/tomcat-8.5-doc/appdev/sample/sample.war
-# curl -OL http://tomcat.apache.org/tomcat-8.5-doc/appdev/sample/sample.war
+curl -OL http://tomcat.apache.org/tomcat-8.5-doc/appdev/sample/sample.war
 ```
 
 確認
@@ -94,6 +92,18 @@ http://localhost:8081/sample/
 
 
 ### connect psql
+
+driver install
+
+```
+cd /usr/local/tomcat/lib/
+```
+
+```
+curl -O https://jdbc.postgresql.org/download/postgresql-42.3.4.jar
+```
+
+vim
 
 ```
 apt update
@@ -104,11 +114,19 @@ apt install vim
 ```
 
 ```
-vim /usr/local/tomcat/conf
+vim /usr/local/tomcat/conf/context.xml
 ```
 
 ```
-wip
+  <!-- PostgreSQL -->
+  <Resource name="jdbc/PostgreSQL"
+    auth="Container"
+    type="javax.sql.DataSource"
+    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+    initialSize="2" maxActive="4" minIdle="1" maxIdle="2"
+    username="postgres" password="postgres"
+    driverClassName="org.postgresql.Driver" url="jdbc:postgresql://localhost:5432/tst"
+    validationQuery="SELECT 1" />
 ```
 
 
