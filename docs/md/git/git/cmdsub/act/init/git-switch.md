@@ -13,7 +13,7 @@ git checkout よりも使いやすい cmdsub として登場
 ## branch list
 
 ```
-git branch
+git branch --list
 ```
 
 
@@ -33,14 +33,17 @@ git branch -a
 ## branch を切り替える
 
 ```
-git switch branch_name
+git switch <branch-name>
 ```
+
+- switch したとき, worktree の file は 変わらない ( 引き継ぐ )
+- switch したとき, staged   の file は 変わらない ( 引き継ぐ )
 
 
 ## branch を新規作成して, それに切り替える
 
 ```
-git switch -c branch_name_new
+git switch -c <branch-name-new>
 ```
 
 

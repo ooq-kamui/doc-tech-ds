@@ -1,6 +1,7 @@
 
 # with
 
+
 ## python の with とは ?
 
 with を使うと, 後処理を自動的にやってくれる,
@@ -11,7 +12,7 @@ with を使うと, 後処理を自動的にやってくれる,
 
 ```
 with open('test.txt', 'r') as file:
-    print(file.read())
+  print(file.read())
 ```
 
 
