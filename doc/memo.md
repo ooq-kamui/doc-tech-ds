@@ -2,6 +2,13 @@
 # doc-tech
 
 
+## podman
+
+entrypoint
+- learn
+- cmd
+
+
 ## github
 
 github actions
