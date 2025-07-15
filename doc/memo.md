@@ -9,6 +9,14 @@ entrypoint
 - cmd
 
 
+## git
+
+checkout
+- git checkout branch-name -- file-path
+
+revert
+
+
 ## github
 
 github actions
