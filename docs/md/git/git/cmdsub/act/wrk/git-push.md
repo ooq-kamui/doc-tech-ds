@@ -4,22 +4,31 @@
 
 ## 基本
 
-local commit history を remote に反映する
-
-commit history が local と同じになる
+- local commit history を remote に反映する
+- commit history が local と同じになる
+  - remote が local を merge すると考えたときに,  
+    first-foward でない場合は,  
+    err で push できない
+- `--force-with-lease` で 強制 `push` することもできる
 
 ```
-git push origin main
+git push origin <branch-name>
 ```
 
-`origin` は `remote_ref` のこと
-
+`origin` は `remote-ref` のこと
 
 
 基本は remoto と local 同 branch で行う
 
 別 branch への push はやらないのが 無難,
 混乱のもと なので
+
+
+## 強制 `push`
+
+```
+git push --force-with-lease origin <branch-name>
+```
 
 
 ## 引数を省略した場合
@@ -84,6 +93,7 @@ ex
 ```
 git push
 ```
+
 
 
 ## 別の branch に push する 場合

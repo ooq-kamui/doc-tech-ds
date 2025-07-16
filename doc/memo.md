@@ -2,19 +2,22 @@
 # doc-tech
 
 
-## podman
-
-entrypoint
-- learn
-- cmd
-
-
 ## git
 
 checkout
 - git checkout branch-name -- file-path
 
-revert
+
+## mermaid
+
+- type etc
+
+
+## podman
+
+entrypoint
+- learn
+- cmd
 
 
 ## github

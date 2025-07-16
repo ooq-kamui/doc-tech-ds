@@ -1,7 +1,7 @@
 
 # nvm
 
-nodejs の version manager
+node-js の version manager
 
 
 ## install

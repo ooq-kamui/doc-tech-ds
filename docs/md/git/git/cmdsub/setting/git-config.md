@@ -86,6 +86,20 @@ git config --global core.editor "nvim -f"
 ```
 
 
+## upstream branch
+
+ex
+
+main branch の場合
+
+```
+git config branch.main.remote origin
+```
+
+```
+git config branch.main.merge refs/heads/main
+```
+
 
 ## 直接編集
 
