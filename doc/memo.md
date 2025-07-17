@@ -11,7 +11,7 @@ checkout
 
 ## mermaid
 
-- type etc
+case type
 
 
 ## podman
