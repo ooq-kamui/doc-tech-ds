@@ -5,7 +5,8 @@
 ## git
 
 checkout
-- git checkout branch-name -- file-path
+- git checkout <branch-name> -- file-path
+- git checkout <commit-id>   -- file-path
 
 
 ## mermaid
