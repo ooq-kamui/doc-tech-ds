@@ -59,12 +59,13 @@ git switch は worktree に変更があった場合に,
 ### 強制 実行
 
 ```
---force : --discard-changes の alias
+--discard-changes : staged, worktree の file が HEAD と異なる場合でも続行する
 ```
 
 ```
---discard-changes : staged, worktree の file が HEAD と異なる場合でも続行する
+--force : --discard-changes の alias
 ```
+
 
 
 

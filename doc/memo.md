@@ -9,6 +9,11 @@ checkout
 - git checkout <commit-id>   -- file-path
 
 
+revert
+- try
+  - conflict not
+
+
 ## mermaid
 
 case type
