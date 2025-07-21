@@ -2,6 +2,16 @@
 # doc-tech
 
 
+## godot
+
+write 1st
+
+
+## mermaid
+
+case type
+
+
 ## git
 
 checkout
@@ -12,11 +22,6 @@ checkout
 revert
 - try
   - conflict not
-
-
-## mermaid
-
-case type
 
 
 ## podman
