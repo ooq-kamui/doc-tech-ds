@@ -14,14 +14,13 @@ case type
 
 ## git
 
-checkout
-- git checkout <branch-name> -- file-path
-- git checkout <commit-id>   -- file-path
-
-
 revert
 - try
   - conflict not
+
+checkout
+- git checkout <branch-name> -- file-path
+- git checkout <commit-id>   -- file-path
 
 
 ## podman
