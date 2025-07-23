@@ -2,16 +2,6 @@
 # doc-tech
 
 
-## godot
-
-write 1st
-
-
-## mermaid
-
-case type
-
-
 ## git
 
 revert

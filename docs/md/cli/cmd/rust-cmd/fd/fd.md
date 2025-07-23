@@ -34,7 +34,7 @@ fd ptn dir
 
 -H  --hidden     隠しファイル ( . から始まるファイル名 ) を対象にする
 
--E               除外パターン
+-E               除外 pattern ( match しないものを match とする )
 
 -L  --follow     symbolic link を対象にする
 
