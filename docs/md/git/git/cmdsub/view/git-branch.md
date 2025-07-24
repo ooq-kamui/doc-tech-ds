@@ -4,7 +4,7 @@
 
 ## notice
 
-いまどきは branch の作成削除などの操作は github 上でやるのが  
+いまどきは branch の作成削除などは github 上でやるのが  
 一般的で無難だと思います
 
 ということで, 自分としては  
@@ -25,7 +25,7 @@ git branch -v
 ```
 
 
-## upstream branch の確認方法
+## upstream branch の確認
 
 `git config --local --list` で次の値
 
@@ -43,8 +43,16 @@ branch.<branch-name>.remote=origin
 branch.<branch-name>.merge=refs/heads/<branch-name>
 ```
 
+## upstream branch の設定
 
-下記は何を示しているか, は調査中
+ex
+
+```
+git branch --set-upstream-to=origin/main main
+```
+
+
+## 下記は何を示しているか, は調査中
 
 ```
 git branch -vv
@@ -84,6 +92,7 @@ git switch branch_name
 
 ---
 
+通常, github などの remote はあるはずなので,  
 branch の操作は github などからやるのが無難です
 
 
