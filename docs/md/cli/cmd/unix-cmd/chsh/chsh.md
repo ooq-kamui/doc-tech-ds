@@ -30,4 +30,3 @@ chsh -s /bin/bash
 ```
 
 
-
