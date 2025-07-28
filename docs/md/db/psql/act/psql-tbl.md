@@ -21,3 +21,11 @@ create table tst (
 ```
 
 
+### table desc
+
+```
+\d table-name
+```
+
+
+

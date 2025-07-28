@@ -30,3 +30,8 @@ chsh -s /bin/bash
 ```
 
 
+## fish が `/etc/shells` にない場合
+
+手動で vi で追加すればよい
+
+
