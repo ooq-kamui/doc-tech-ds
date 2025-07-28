@@ -2,16 +2,20 @@
 # psql  -  table
 
 
-## table
-
-### table list
+## table list
 
 ```
 \dt
 ```
 
+or
 
-### table cre
+```
+\d
+```
+
+
+## table cre
 
 ```
 create table tst (
@@ -26,6 +30,5 @@ create table tst (
 ```
 \d table-name
 ```
-
 
 
