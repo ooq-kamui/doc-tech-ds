@@ -26,7 +26,7 @@ npm install
 npm run dev
 ```
 
-`http://localhost:5173/` で確認
+see `http://localhost:5173/`
 
 
 ### prj dir を amplify 化する
@@ -84,6 +84,14 @@ git remote add <url>
 ```
 
 push する
+
+```
+git add .
+```
+
+```
+git commit -m "init"
+```
 
 ```
 git push origin main
