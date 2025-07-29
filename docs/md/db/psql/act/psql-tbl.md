@@ -18,7 +18,7 @@ or
 ## table cre
 
 ```
-create table tst (
+create table tbl01 (
   id   integer, 
   name varchar(10)
 );
@@ -30,5 +30,13 @@ create table tst (
 ```
 \d table-name
 ```
+
+
+## table del
+
+```
+drop table tbl01;
+```
+
 
 

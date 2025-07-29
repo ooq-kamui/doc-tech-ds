@@ -9,14 +9,14 @@ select * from tst;
 ```
 
 
-## insert
+## ins
 
 ```
-insert into tst (id, name) VALUES (1, 'tst001');
+insert into tbl01 (id, name) VALUES (1, 'name01');
 ```
 
 
-## update
+## upd
 
 
 ```

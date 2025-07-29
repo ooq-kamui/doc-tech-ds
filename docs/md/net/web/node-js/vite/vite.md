@@ -15,22 +15,22 @@ npm create vite
 
 
 ## library install
+
 ```
 cd app_dir
+```
 
+```
 npm instarll
 ```
 
 
 ## build dev, run
-```
-cd app_dir
 
+```
 npm run dev
-
-# http://localhost:xxxxx/
-# に access して確認
 ```
 
+- http://localhost:5173/ に access して確認
 
 
