@@ -2,17 +2,6 @@
 # doc-tech
 
 
-## git
-
-revert
-- try
-  - conflict not
-
-checkout
-- git checkout <branch-name> -- file-path
-- git checkout <commit-id>   -- file-path
-
-
 ## podman
 
 entrypoint

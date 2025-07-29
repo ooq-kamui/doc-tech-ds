@@ -8,9 +8,9 @@ worktree へ file を取り出す
 
 このとき, 実行前の worktree file は破棄される
 
-このとき, staged の file が 破棄されるか, 維持されるか は 引数の指定 による
-
-( staged から 取り出す, 以外は, staged は 破棄される, かも ? ( 考えてみれば 当然 .. ? ) )
+このとき, staged の file も 基本的には 破棄 される  
+ただし, staged から 取り出す場合は, staged は 破棄 されない  
+( 当然といえば当然だが )
 
 
 ## HEAD から取り出す
@@ -21,8 +21,8 @@ worktree へ file を取り出す
 git checkout HEAD -- file_path
 ```
 
-- worktree の 変更は破棄される
-- staged   の 変更も破棄される
+- worktree の 変更は 破棄 される
+- staged   の 変更も 破棄 される
 
 
 ### dir 指定 の場合
@@ -31,8 +31,8 @@ git checkout HEAD -- file_path
 git checkout HEAD -- dir_path
 ```
 
-- worktree の 変更は破棄される
-- staged   の 変更も破棄される
+- worktree の 変更は 破棄 される
+- staged   の 変更も 破棄 される
 
 ex
 
@@ -43,7 +43,6 @@ git checkout HEAD -- .
 ```
 
 
-
 ## staged から取り出す
 
 commit_id を指定しない
@@ -52,8 +51,8 @@ commit_id を指定しない
 git checkout -- file_path
 ```
 
-- worktree の file の変更は 破棄される
-- staged   の file は維持される  
+- worktree の file の 変更 は 破棄される
+- staged   の file は 維持 される  
   ( staged からの取り出しなので, 当然ではある )
 
 
@@ -66,10 +65,19 @@ cmt_id_01 の file_01 を worktree ( , staged ? ) へ取り出す
 git checkout cmt_id_01 -- file_01
 ```
 
-- worktree の file は破棄される
-- staged   の file は破棄される ? todo confirm
+- worktree の file は 破棄 される
+- staged   の file は 破棄 される ? : todo confirm
 - commit_id は 同 branch history になくても, 同 repository の commit_id であれば可
 
+
+## 指定 branch から取り出す
+
+```
+git checkout <branch-name> -- file-path
+```
+
+おそらく,  
+指定 branch の HEAD の commit を対象とする 動き : todo confirm
 
 
 ## 補足
