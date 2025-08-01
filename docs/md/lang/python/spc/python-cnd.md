@@ -1,10 +1,8 @@
 
-# python
+# cnd, exp  -  python
 
 
-## cnd  exp
-
-### and
+## and
 
 ```
 if a and b:
@@ -15,7 +13,7 @@ if a & b:
 ```
 
 
-### or
+## or
 
 ```
 if a or b:
@@ -26,7 +24,7 @@ if a | b:
 ```
 
 
-### not
+## not
 
 ```
 if not a:

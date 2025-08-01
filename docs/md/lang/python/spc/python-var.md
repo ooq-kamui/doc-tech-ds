@@ -62,9 +62,3 @@ if 'num' in locals():
 
 ```
 
-
-
-
-
-
-

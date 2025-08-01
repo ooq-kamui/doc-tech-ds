@@ -44,11 +44,16 @@ True
 False
 ```
 
-## `**` について
+## unpack
 
 ```
-wip:
+*   : key の unpack
+**  : val の unpack
 ```
+
+key の unpack なんてほとんど使わないのでは?
+
+
 
 
 
