@@ -54,7 +54,7 @@ git config user.name
 ## user.email を設定する
 
 ```
-git config user.email "ooq.tiki@gmail.jp"
+git config user.email "ooq.tiki@gmail.com"
 ```
 
 確認
