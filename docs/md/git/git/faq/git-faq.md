@@ -11,22 +11,33 @@ git config --global pull.ff only
 ```
 
 
-## q. branch の 親子 は人がそう考えているだけで, system 的には 並列 なのか ?
+## branch の 親子 は人がそう考えているだけで, system 的には 並列 なのか ?
 
 ### a.
 
 wip:
 
 
-## q. nano editor が 立ち上がってしまって, 混乱
+## nano editor が 立ち上がってしまって, 混乱
 
-### a. 最低限の操作方法を見るべし
+### 最低限の操作方法を見るべし
 
 https://www.nano-editor.org/
 
 wip:
 
 余力あるとき, ここにも書く
+
+
+## fish の cmdline で git status の `=` などが表示されるようにしたい
+
+- remote upstream branch を設定する
+  - ex `git branch --set-upstream-to=origin/main main`
+
+
+
+
+
 
 
 

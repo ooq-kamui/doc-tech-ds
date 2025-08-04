@@ -89,6 +89,8 @@ after
 
 ### `--continue`
 
+rebase 中 の状態になったとき,
+
 conflict 解消後に 続きの rebase 処理を行う
 
 ```
