@@ -9,9 +9,7 @@ brew install jq
 ```
 
 
-## 使いかた
-
-### 整形
+## 整形
 
 単に jq を通せば ok
 
@@ -20,9 +18,9 @@ cat a.json | jq
 ```
 
 
-### 抽出
+## 抽出
 
-#### basic
+### basic
 
 ```
 .     root
@@ -31,7 +29,43 @@ xxx   obj-key
 ```
 
 
-#### 表形式で出力
+### json を csv に変換
+
+- obj の 配列 の 1階層目の key を col として, csv にする
+
+```
+cat list.json | jq -r '.[] | [.key01, .key02] | @csv'
+```
+
+ex
+
+json の root に obj 配列 が ある場合
+
+```
+_ cat itm.json
+  [
+    {
+      "name": "name01",
+      "key01": "val-01-01",
+      "key02": "val-01-02"
+    },
+    {
+      "name": "name02",
+      "key01": "val-02-01",
+      "key02": "val-02-02"
+    },
+    {
+      "name": "name03",
+      "key01": "val-03-01",
+      "key02": "val-03-02"
+    }
+  ]
+_
+_
+_ cat itm.json | jq -r '.[] | [.name, .key01] | @csv'
+```
+
+obj 配列 が root でない場合
 
 ```
 _ cat itm.json
@@ -63,7 +97,7 @@ _ cat itm.json | jq -r '.items[] | [.name, .key01] | @csv'
 ```
 
 
-#### ある位置より親側の値を表形式で出力
+### ある位置より親側の値を表形式で出力
 
 ```
 wip:  できないかも ??

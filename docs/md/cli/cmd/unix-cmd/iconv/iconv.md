@@ -19,21 +19,27 @@ cat file_name.txt | iconv -f sjis -t utf8 > file_name.utf8.txt
 ```
 
 
-## mb_code
+## option
 
-### よく使うもの
+### 変換できない文字を削除して続行
+
+```
+iconv -c
+```
+
+
+### mb_code の list
+
+```
+iconv -l
+```
+
+よく使うもの
 
 ```
 utf8
 sjis
 euc-jp
 ```
-
-### 全種 見たいとき
-
-```
-iconv -l
-```
-
 
 
