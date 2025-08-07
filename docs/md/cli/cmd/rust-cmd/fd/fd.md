@@ -29,11 +29,12 @@ fd ptn dir
 
 -t               ファイルタイプ指定
 
--I  -no-ignore   次のfile に書かれている 除外設定を fd の実行に 適用しない
+    --ignore     次の file に書かれている 除外設定を fd の実行にも 適用する
                    .gitignore : git の ignore
                    .ignore    : rg  の ignore
                    .fdignore  : fd  の ignore
-                 default では 上記の file に書かれている除外設定が fd の実行にも適用される
+                 これは default
+-I  --no-ignore  上記 file に書かれている 除外設定を fd の実行には 適用しない
 
 -H  --hidden     隠しファイル ( . から始まるファイル名 ) を対象にする
 
