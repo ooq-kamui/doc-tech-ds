@@ -22,6 +22,22 @@ escape 文字は `\`
 ```
 
 
+## find ( srch idx )
+
+str の中から, ptn の 一致する s_idx, e_idx を返す
+
+```
+s_idx, e_idx = string.find('abcdefg', 'cd', srch_s_idx)
+```
+
+ex
+
+```
+s_idx, e_idx = string.find('abcdefg', 'cd')
+print(s_idx, e_idx) -- 3, 4
+```
+
+
 ## 文字列の分割
 
 ```
