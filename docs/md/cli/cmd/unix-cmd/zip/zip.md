@@ -5,15 +5,14 @@
 ## 圧縮
 
 ```
-zip -r zip_file_name dir_name
+zip -r <file-name.zip> <dir-name>
 ```
 
 
 ## 解凍
 
 ```
-unzip zip_file_name
+unzip file-name.zip
 ```
-
 
 
