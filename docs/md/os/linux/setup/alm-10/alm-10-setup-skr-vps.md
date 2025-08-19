@@ -12,8 +12,8 @@ sudo dnf install git
 ## dotfiles
 
 ```
-mkdir ~/wrk/prj-pri
-cd    !$
+mkdir -p ~/wrk/prj-pri
+cd !$
 ```
 
 ```
@@ -34,6 +34,13 @@ test -f ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.bashrc   && source ~/wrk/prj-p
 
 ```
 cp ~/wrk/prj-pri/dotfiles/sh/bash/bashrc/c9/.colorrc ~/
+```
+
+
+## tar
+
+```
+sudo dnf install tar
 ```
 
 
@@ -109,11 +116,25 @@ if status is-interactive
 end
 ```
 
+fnc
+
+```
+mv functions functions.bk
+```
+
+```
+ln -sin ~/wrk/prj-pri/dotfiles/sh/fish/fnc functions
+```
+
 
 ## neovim ( nvim )
 
 ```
 mkdir ~/.config/nvim
+```
+
+```
+cd ~/.config/nvim
 ```
 
 ```
@@ -157,8 +178,6 @@ vi
 ```
 cp ~/wrk/prj-pri/dotfiles/git/global/.gitconfig ~/.gitconfig
 ```
-
-user, email は del
 
 ```
 vi ~/.gitconfig
