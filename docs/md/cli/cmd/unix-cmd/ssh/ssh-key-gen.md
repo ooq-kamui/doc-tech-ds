@@ -1,10 +1,8 @@
 
-# ssh
+# ssh key gen
 
 
-## key gen
-
-### pwsh
+## pwsh
 
 ```
 cd $home\.ssh
@@ -30,12 +28,5 @@ alm_ed25519.pub
 
 `alm_ed25519.pub` を `~/.ssh` において  
 `authorized_keys` に リネーム
-
-
-## ssh 接続
-
-```
-ssh -i $home\.ssh\alm_ed25519 tiki@alm
-```
 
 
