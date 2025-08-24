@@ -2,7 +2,16 @@
 # ssh key gen
 
 
-## pwsh
+## key type
+
+wip:
+
+
+
+
+## ed25519
+
+key gen
 
 ```
 cd $home\.ssh
@@ -21,12 +30,11 @@ alm_ed25519
 alm_ed25519.pub
 ```
 
-
-## key pub set
+key pub set
 
 接続先 svr で
 
-`alm_ed25519.pub` を `~/.ssh` において  
+`alm_ed25519.pub` を `~/.ssh` に置く  
 `authorized_keys` に リネーム
 
 

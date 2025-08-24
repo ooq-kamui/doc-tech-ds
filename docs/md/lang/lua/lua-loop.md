@@ -5,7 +5,18 @@
 ## for 文
 
 ```
-for i = 1, 10 do
+for idx = 1, 10 do
+
+  print(idx)
+end
+```
+
+```
+local tbl = {1, 2}
+
+for idx, val in pairs(tbl) do
+
+  print(idx, val)
 end
 ```
 
@@ -19,6 +30,36 @@ while #a > 0 do
   table.remove(a) 
 end
 ```
+
+```
+local idx = 10
+
+while idx > 0 do
+
+  print(idx)
+
+  idx = idx - 1
+end
+```
+
+
+## repeat ( do while )
+
+```
+local idx = 1
+
+repeat
+
+  print(idx)
+
+  idx = idx + 1
+
+until idx > 10
+```
+
+- until の true / false が直感に反するので注意
+- while から repeat に作り変えた場合, true / false を逆にする必要がある  
+  ( not をつける )
 
 
 ## continue
@@ -102,15 +143,5 @@ a = {1,2,3}
 2
 1
 ```
-
-
-
-
-
-
-
-
-
-
 
 
