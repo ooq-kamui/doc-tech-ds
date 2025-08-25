@@ -8,6 +8,11 @@ vol up
 - doc dl
 
 
+## nvim
+
+silent
+
+
 ## podman
 
 entrypoint
@@ -24,12 +29,5 @@ github actions
 ## unix cmd
 
 unix usr add grp
-
-
-## vim
-
-autocmd
-- evnt lst
-  - ggl
 
 
