@@ -1,6 +1,7 @@
  
-# g からはじまる コマンド
+# normal key-bind
 
+## g からはじまる コマンド
 
 ```
 g C-A          MEM_PROFILEを定義してコンパイルしたときのみメモリプロファイルをダンプする
@@ -73,8 +74,5 @@ g<RightMouse>  <C-RightMouse>  と同じ
 g<Tab>         最後にアクセスしたタブページに移動
 g<Up>          gk と同じ
 ```
-
-
-
 
 

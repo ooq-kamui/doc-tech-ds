@@ -8,11 +8,6 @@ vol up
 - doc dl
 
 
-## nvim
-
-silent
-
-
 ## podman
 
 entrypoint

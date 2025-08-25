@@ -1,6 +1,5 @@
 
-# 逆引き - 基本機能 ( やりたいことから )
-
+# normal key-bind  -  逆引き
 
 ## cursor mv
 
@@ -522,6 +521,5 @@ window close other
 ```
 :only
 ```
-
 
 
