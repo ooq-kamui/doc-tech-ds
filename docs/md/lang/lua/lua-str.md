@@ -2,6 +2,13 @@
 # lua str
 
 
+## len
+
+```
+string.len(str)
+```
+
+
 ## 連結
 
 ```
