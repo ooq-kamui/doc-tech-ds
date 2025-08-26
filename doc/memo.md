@@ -2,12 +2,6 @@
 # doc-tech
 
 
-## ear-phone
-
-vol up
-- doc dl
-
-
 ## podman
 
 entrypoint

@@ -42,35 +42,34 @@ ex
 json の root に obj 配列 が ある場合
 
 ```
-_ cat itm.json
-  [
-    {
-      "name": "name01",
-      "key01": "val-01-01",
-      "key02": "val-01-02"
-    },
-    {
-      "name": "name02",
-      "key01": "val-02-01",
-      "key02": "val-02-02"
-    },
-    {
-      "name": "name03",
-      "key01": "val-03-01",
-      "key02": "val-03-02"
-    }
-  ]
-_
-_
-_ cat itm.json | jq -r '.[] | [.name, .key01] | @csv'
+[
+  {
+    "name": "name01",
+    "key01": "val-01-01",
+    "key02": "val-01-02"
+  },
+  {
+    "name": "name02",
+    "key01": "val-02-01",
+    "key02": "val-02-02"
+  },
+  {
+    "name": "name03",
+    "key01": "val-03-01",
+    "key02": "val-03-02"
+  }
+]
+```
+
+```
+cat itm.json | jq -r '.[] | [.name, .key01] | @csv'
 ```
 
 obj 配列 が root でない場合
 
 ```
-_ cat itm.json
 {
-  "items": [
+  "Items": [
     {
       "name": "name01",
       "key01": "val-01-01",
@@ -88,9 +87,13 @@ _ cat itm.json
     }
   ]
 }
-_
-_
-_ cat itm.json | jq -r '.items[] | [.name, .key01] | @csv'
+```
+
+```
+cat itm.json | jq -r '.Items[] | [.name, .key01] | @csv'
+```
+
+```
 "name01","val-01-01"
 "name02","val-02-01"
 "name03","val-03-01"
