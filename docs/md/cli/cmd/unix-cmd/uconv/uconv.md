@@ -34,8 +34,10 @@ cat memo-sjis.md | uconv -f SHIFT_JIS -t UTF-8     > memo-utf8.md
 ## code list
 
 ```
-wip:
+uconv --list
 ```
+
+上記で, list は出せますが, 多すぎて ふつうの人には 意味がわかりません..
 
 
 ## option
