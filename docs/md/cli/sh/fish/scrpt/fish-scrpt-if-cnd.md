@@ -5,13 +5,18 @@
 ## if
 
 ```
-if test "$str1" = "$str2"
+if      test "$str1" = "$str2"
 
   echo $str1
 
+else if test "$str1" = "$str2"
+
+  echo $str1
+
+else
+  echo $str1
 end
 ```
-
 
 
 ## test
@@ -109,6 +114,5 @@ if not EXPRESSION
 
 コマンド置換 として解釈されるのを防ぐために
 \( とエスケープが必要
-
 
 
