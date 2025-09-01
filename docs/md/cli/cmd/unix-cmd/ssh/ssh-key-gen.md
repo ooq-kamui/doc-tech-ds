@@ -46,6 +46,8 @@ total 28K
 
 file name を適当に rename して保管しておく
 
+`id_ed25519` を 他svr へ cp などする場合は, permission を上記とすること
+
 
 ### key pub set
 
