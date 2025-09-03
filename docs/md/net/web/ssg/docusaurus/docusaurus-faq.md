@@ -42,3 +42,30 @@ npm run build
 ```
 
 
+## ducusaurus upd err
+
+上とも近いが,
+npm run start, npm run buidl などで,
+err が出たとき
+
+ref
+
+https://docusaurus.io/docs/migration
+
+```
+npm run clear
+```
+
+```
+rm -rf node_modules yarn.lock package-lock.json
+```
+
+```
+npm install
+```
+
+
+
+
+
+

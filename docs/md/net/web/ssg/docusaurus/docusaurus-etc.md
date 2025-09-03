@@ -26,3 +26,16 @@ dir name, file name を `memo` にすると, 挙動が特殊なよう
 ひとまず, `memo` は使用しない ことにする
 
 
+## code block file name
+
+code block での file name の書きかた
+
+```json title="example.json"
+{
+  key01 : "val01",
+  key02 : "val02"
+}
+```
+
+
+
