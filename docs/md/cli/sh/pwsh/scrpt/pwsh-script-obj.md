@@ -53,6 +53,19 @@ $obj['key01']
 $obj.Add('key02', $val)
 ```
 
+下記でも ok
+
+```
+$obj.key03 = $val03
+```
+
+
+## set key val
+
+```
+$obj.key04 = $val04
+```
+
 
 ## obj に 特定の key があるか
 

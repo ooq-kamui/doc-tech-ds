@@ -66,7 +66,7 @@ git push -f origin main
 ```
 
 
-### add ( staged ) を 破棄
+### add ( staged ) を 破棄 ( cancel )
 
 ```
 git reset --mixed HEAD
