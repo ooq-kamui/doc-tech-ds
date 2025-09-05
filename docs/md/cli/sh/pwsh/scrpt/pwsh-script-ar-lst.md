@@ -23,6 +23,13 @@ or
 ```
 
 
+## len
+
+```
+$arlst.Count
+```
+
+
 ## add
 
 ```
@@ -30,17 +37,10 @@ or
 ```
 
 
-## `range`
+## concat ( 配列 連結 )
 
 ```
-[void] $arlst.AddRange( ("bbb","ccc") )
-```
-
-
-## len
-
-```
-$arlst.Count
+$lst01.AddRange($lst02)
 ```
 
 
