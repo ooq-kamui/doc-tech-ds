@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## weight
+
+spc
+- homebuds
+
+
 ## podman
 
 entrypoint
