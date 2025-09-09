@@ -172,34 +172,7 @@ mark へ jmp 検索
 ```
 
 
-## register
-
-レジスタを確認する
-
-```
-:registers
-```
-
-or
-
-```
-:reg
-```
-
-register a に登録する
-
-```
-"ayy
-```
-
-cmd mode で paste
-
-```
-c-r レジスタ番号0〜9
-```
-
-直近のレジスタ番号 は 0
-
+## 検索?
 
 ```
 yank した文字列を置換
