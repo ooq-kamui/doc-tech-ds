@@ -4,13 +4,7 @@
 
 ## difftastic
 
-install
-
-
-## pandoc
-
-basic
-- instl
+git setting
 
 
 ## podman
