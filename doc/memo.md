@@ -2,6 +2,17 @@
 # doc-tech
 
 
+## difftastic
+
+install
+
+
+## pandoc
+
+basic
+- instl
+
+
 ## podman
 
 entrypoint
