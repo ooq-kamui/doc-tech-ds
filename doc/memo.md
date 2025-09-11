@@ -2,7 +2,7 @@
 # doc-tech
 
 
-## difftastic
+## difft
 
 git setting
 
