@@ -21,7 +21,14 @@ notice : tab を分割することはできないかも ?
 ( たぶん )
 
 
-## join  連結
+## str の 単純な 連結
+
+```
+wip:
+```
+
+
+## join ( str lst の 連結 )
 
 ```
 string join , $lst

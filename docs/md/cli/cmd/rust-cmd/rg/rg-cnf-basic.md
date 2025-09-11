@@ -47,4 +47,3 @@ echo $RIPGREP_CONFIG_PATH
 ```
 
 
-

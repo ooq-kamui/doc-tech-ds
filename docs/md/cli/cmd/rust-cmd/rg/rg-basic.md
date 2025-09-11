@@ -7,16 +7,7 @@
 https://zenn.dev/megeton/articles/56b8a6a74e6394
 
 
-## install
-
-### mac / c9 / linux
-
-```
-brew install ripgrep
-```
-
-
-## 基本
+## basic
 
 ```
 rg ptn
@@ -37,6 +28,5 @@ rg "ptn"
 
 - pwsh だけでないかも ?
 - vim cmdline, fzf#vim#grep() での実行 かどうかにも よるかもしれない
-
 
 

@@ -40,4 +40,3 @@ default で 隠しファイル ( .xxx ) は search 対象外
 よって, `.gitignore` の内容も 検索されない
 
 
-

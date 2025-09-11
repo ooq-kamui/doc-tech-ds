@@ -32,10 +32,47 @@ rg -l
 ```
 
 
-## 行数表示しない
+## file name を 出力しない
+
+```
+rg --no-filename
+```
+
+```
+rg -I
+```
+
+
+## 各行に file name を出力
+
+```
+rg --with-filename
+```
+
+```
+rg -H
+```
+
+
+## 行数を出力 しない
+
+```
+rg --no-line-number
+```
 
 ```
 rg -N
+```
+
+
+## 行数を出力 する
+
+```
+rg --line-number
+```
+
+```
+rg -n
 ```
 
 
@@ -134,5 +171,9 @@ if executable('rg')
 endif
 ```
 
+
+## ref
+
+https://qiita.com/takiguchi-yu/items/1a3ecb3f103f5239fb04
 
 
