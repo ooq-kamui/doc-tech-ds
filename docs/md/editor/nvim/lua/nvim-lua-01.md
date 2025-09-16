@@ -76,10 +76,18 @@ ref
 https://zenn.dev/vim_jp/articles/20231113vim_ekiden
 
 
-## print / echo
+## print / echo / log
 
 ```
 print(val)
 ```
+
+のあと
+
+```
+:message
+```
+
+する必要がある
 
 
