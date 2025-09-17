@@ -56,6 +56,8 @@ print(type(a))
 
 ## exists
 
+### local var
+
 ```
 if 'num' in locals():
     print('exists')
