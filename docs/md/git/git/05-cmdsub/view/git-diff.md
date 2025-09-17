@@ -38,17 +38,17 @@ git diff
 ```
 
 
-### work tree と HEAD ( repo latest ) の diff
-
-```
-git diff HEAD
-```
-
-
 ### staged    と HEAD ( repo latest ) の diff
 
 ```
 git diff --staged
+```
+
+
+### work tree と HEAD ( repo latest ) の diff
+
+```
+git diff HEAD
 ```
 
 
@@ -58,7 +58,7 @@ git diff --staged
 git diff --cached
 ```
 
-wip: 1つ上のと違いは.. ?? ( 同じでは .. ?? )
+wip: `git diff HEAD` と違いは.. ?? ( 同じでは .. ?? )
 
 
 ### branch1 と branch2 の diff
