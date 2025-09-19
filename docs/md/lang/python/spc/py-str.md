@@ -28,4 +28,13 @@ path = r'C:\Users\tiki\wrk\tst.md'
 ```
 
 
+## trim
+
+```
+str.strip()
+```
+
+
+
+
 

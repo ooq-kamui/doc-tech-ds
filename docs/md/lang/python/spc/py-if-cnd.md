@@ -1,5 +1,5 @@
 
-# cnd, exp  -  python
+# if cnd, exp  -  python
 
 
 ## and
@@ -36,6 +36,17 @@ if not a:
 ```
 a = 'a1' if b else 'a2'
 ```
+
+
+## pass
+
+```
+if true:
+    pass
+
+```
+
+
 
 
 
