@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## nvim
+
+keymap, fnc call, in mode v
+- best plactice, current
+
+
 ## difft
 
 git setting
