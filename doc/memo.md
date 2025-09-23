@@ -7,6 +7,8 @@
 keymap, fnc call, in mode v
 - best plactice, current
 
+tree-sitter
+
 
 ## difft
 
