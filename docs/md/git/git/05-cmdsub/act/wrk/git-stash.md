@@ -13,7 +13,7 @@
 ```
 git stash list            # 確認
 
-git stash save 'comment'
+git stash push 'comment'
 
 git stash list            # 確認
 
@@ -48,13 +48,13 @@ git stash show <stash_no>
 ## 変更 を stash
 
 ```
-git stash save
+git stash push
 ```
 
 or
 
 ```
-git stash save 'comment'
+git stash push 'comment'
 ```
 
 
