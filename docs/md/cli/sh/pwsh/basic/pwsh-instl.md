@@ -12,8 +12,13 @@ sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.5
 ## mac
 
 ```
-wip:
+brew install --cask powershell
 ```
 
+launch
+
+```
+pwsh
+```
 
 
