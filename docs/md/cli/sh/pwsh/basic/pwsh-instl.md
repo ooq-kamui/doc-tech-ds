@@ -21,4 +21,27 @@ launch
 pwsh
 ```
 
+profile
+
+```
+~/.config/powershell/profile.ps1
+```
+
+
+## pwsh ver up
+
+### win
+
+```
+wip:
+```
+
+
+
+
+
+
+
+
+
 
