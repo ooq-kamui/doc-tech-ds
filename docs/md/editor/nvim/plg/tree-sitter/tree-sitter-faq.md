@@ -4,24 +4,30 @@
 
 ## gcc err
 
+次の err とき
+
 ```
 No C compiler found! "cc", "gcc", "clang", "cl", "zig" are not executable.
 ```
 
-のとき
-
 gcc を install する
 
-alma
+### alma
 
 ```
 sudo dnf install gcc
 ```
 
+### pwsh
+
+```
+scoop install gcc
+```
+
 
 ## cert err
 
-zscaler の制約などで
+zscaler の制約などで, 次の err のとき
 
 ```
 nvim-treesitter[lua]: Error during download, please verify your internet connection
@@ -32,8 +38,6 @@ curl failed to verify the legitimacy of the server and therefore could not
 establish a secure connection to it. To learn more about this situation and
 how to fix it, please visit the webpage mentioned above.
 ```
-
-のとき
 
 neovim に 次を設定  
 

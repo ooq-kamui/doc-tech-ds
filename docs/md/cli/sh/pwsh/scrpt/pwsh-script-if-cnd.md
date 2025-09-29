@@ -77,6 +77,12 @@ if (-not $val01){
 -cle   <=  以下        大文字小文字が区別される
 ```
 
+### str null or empty
+
+```
+[System.String]::IsNullOrEmpty($var)
+```
+
 
 ### var def
 
