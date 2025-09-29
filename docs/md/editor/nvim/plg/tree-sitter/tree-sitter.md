@@ -6,8 +6,15 @@
 
 - plg mng は何でもよい良い
 
+
+### vim-plug
+
 ```
-wip:
+call plug#begin()
+
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+call plug#end()
 ```
 
 
@@ -18,6 +25,12 @@ TSInstall <lang-name>
 ```
 
 
+## coler
 
+カーソル位置 の hl_group を調べる
+
+```
+:Inspect
+```
 
 
