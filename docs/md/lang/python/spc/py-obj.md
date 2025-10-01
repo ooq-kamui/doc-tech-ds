@@ -2,6 +2,19 @@
 # obj
 
 
+## def
+
+```
+obj = {
+  "key01": "val01",
+  "1"    : "1",
+  1      : 1,
+}
+```
+
+- key は 数字 でも ok です
+
+
 ## key があるか
 
 ```
@@ -60,6 +73,7 @@ False
 ```
 *   : key の unpack
 **  : val の unpack
+        key と val の unpack ?
 ```
 
 key の unpack なんてほとんど使わないのでは?
