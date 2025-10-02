@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## git
+
+git pll, err, faq, tidy
+- etc
+
+
 ## py
 
 var-set
