@@ -12,7 +12,15 @@ obj = {
 }
 ```
 
-- key は 数字 でも ok です
+
+## 代入
+
+```
+obj = {}
+obj['b'] = 2
+
+# obj.a = 1   # これは ng ( py では できない )
+```
 
 
 ## key があるか
@@ -76,9 +84,6 @@ False
         key と val の unpack ?
 ```
 
-key の unpack なんてほとんど使わないのでは?
-
-
-
+key の unpack なんてほとんど使わない ?
 
 

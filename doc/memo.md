@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## py
+
+var-set
+
+
 ## nvim
 
 keymap, fnc call, in mode v

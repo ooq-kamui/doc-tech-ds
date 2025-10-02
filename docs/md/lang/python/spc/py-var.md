@@ -7,7 +7,6 @@
 list ( ary ) は ref
 
 
-
 ## var scope
 
 ### local
@@ -41,7 +40,6 @@ print(a) # 1
 ### block scope
 
 python に block scope はありません
-
 
 
 ## type の確認
