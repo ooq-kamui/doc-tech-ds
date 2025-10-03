@@ -40,4 +40,17 @@ if a in ['a', 'b']:
 ```
 
 
+## 2次元 list の n 番目の要素を 1次元 list として取得
+
+```
+a = [
+  ['a1', 'b1'],
+  ['a2', 'b2'],
+  ['a3', 'b3'],
+]
+b = [sub_list[0] for sub_list in a]
+print(b)
+```
+
+
 
