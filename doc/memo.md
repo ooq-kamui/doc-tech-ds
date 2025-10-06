@@ -2,15 +2,16 @@
 # doc-tech
 
 
+## py
+
+var-set
+
+
 ## git
 
 git pll, err, faq, tidy
 - etc
-
-
-## py
-
-var-set
+- err case tidy
 
 
 ## nvim
