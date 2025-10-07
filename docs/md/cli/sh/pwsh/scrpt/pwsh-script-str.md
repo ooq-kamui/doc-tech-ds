@@ -16,6 +16,23 @@ $str = $str_list -join ','
 ```
 
 
+## 置換
+
+```
+"abcde".Replace('cd', 'yyy')
+```
+
+```
+"abcde" -replace 'cd', 'yyy'
+```
+
+### replace での escape について
+
+- `"abcde" -replace 'cd', 'yyy'` の場合は, 第1引数 のみ `\` は escape 文字として認識される
+
+- `"abcde".Replace('cd', 'yyy')` の場合は, ... wip:
+
+
 ## 文字列の数字 を 数値 に 変換
 
 ```
