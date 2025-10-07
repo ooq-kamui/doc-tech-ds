@@ -39,21 +39,25 @@ establish a secure connection to it. To learn more about this situation and
 how to fix it, please visit the webpage mentioned above.
 ```
 
+- dl を curl でなく, git で 行うようにする
+- git の dl の際, ssl 証明書の検証をしない設定で dl する
+
+
+### dl を curl でなく, git で 行うようにする
+
 neovim に 次を設定  
 
 ```
 require("nvim-treesitter.install").prefer_git = true
 ```
 
-dl を git で行うようになる
+### git の dl の際, ssl 証明書の検証をしない設定で dl する
 
-git の設定を次のように設定する
+git の設定を次のようにする
 
 ```
 git config --global http.sslVerify false
 ```
-
-ssl 証明書検証しない で dl するようになる
 
 この状態で, TSInstall を実行する
 
@@ -65,9 +69,5 @@ git config --global http.sslVerify false
 ```
 
 で設定を戻すこと
-
-
-
-
 
 
