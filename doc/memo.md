@@ -2,9 +2,9 @@
 # doc-tech
 
 
-## music iphone
+## nvim
 
-spc dl
+nui
 
 
 ## py
@@ -17,12 +17,6 @@ var-set
 git pll, err, faq, tidy
 - etc
 - err case tidy
-
-
-## nvim
-
-keymap, fnc call, in mode v
-- best plactice, current
 
 
 ## difft

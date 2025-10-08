@@ -7,6 +7,8 @@
 https://github.com/MunifTanjim/nui.nvim
 
 
+## basic
 
+wip:
 
 
