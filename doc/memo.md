@@ -2,14 +2,14 @@
 # doc-tech
 
 
-## nvim
-
-nui
-
-
 ## py
 
 var-set
+
+
+## nvim
+
+nui
 
 
 ## git
@@ -24,13 +24,6 @@ git pll, err, faq, tidy
 git setting
 
 
-## podman
-
-entrypoint
-- learn
-- cmd
-
-
 ## github
 
 github actions
@@ -40,5 +33,12 @@ github actions
 ## unix cmd
 
 unix usr add grp
+
+
+## podman
+
+entrypoint
+- learn
+- cmd
 
 
