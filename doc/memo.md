@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## git
+
+stash drop auto
+
+
 ## py
 
 var-set

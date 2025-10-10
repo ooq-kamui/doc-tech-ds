@@ -4,7 +4,9 @@
 
 ## 基本
 
-変更 ( worktree ) を 退避し, git pull 後, 退避した file を元に戻す
+変更 ( worktree ) を 退避し,  
+git pull 後,  
+退避した file を元に戻す  
 ことができる
 
 
@@ -28,24 +30,30 @@ git stash list            # 確認
 git status                # 確認
 ```
 
+pop 時に conflict があると, stash は 自動で drop されない  
+手動で conflict 解消後,
+
+```
+git stash drop
+```
+
+で 削除する
 
 
-### 確認
-
-### stash された stash list を表示する
+## stash された stash list を表示する
 
 ```
 git stash list
 ```
 
-### stash された file list を表示
+## stash された file list を表示
 
 ```
-git stash show <stash_no>
+git stash show <stash-no>
 ```
 
 
-## 変更 を stash
+## worktree を stash
 
 ```
 git stash push
@@ -66,7 +74,7 @@ git stash push 'comment'
 git stash pop
 ```
 
-### stash_no を指定して 復元
+### stash-no を指定して 復元
 
 ```
 git stash apply stash@{no}
@@ -84,7 +92,6 @@ git checkout stash@{no} file_path
 stash は破棄されない
 
 
-
 ## stash を破棄
 
 ### 直近に 保存された stash を破棄
@@ -93,7 +100,7 @@ stash は破棄されない
 git stash drop
 ```
 
-### stash no を指定して 破棄
+### stash-no を指定して 破棄
 
 ```
 git stash drop stash@{no}
@@ -102,8 +109,8 @@ git stash drop stash@{no}
 
 ## err sample
 
-手元 ( worktree ) の変更を commit せずに
-pull しようとすると
+worktree の変更を commit せずに
+pull しようとすると,  
 下記のエラーとなる
 
 ```
@@ -113,7 +120,6 @@ Please, commit your changes or stash them before you can merge.
 Aborting
 ```
 
-message にあるように, このときに stash を活用すると便利
-
+message にあるように, このときに stash を活用する
 
 
