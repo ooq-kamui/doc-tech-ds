@@ -2,19 +2,9 @@
 # doc-tech
 
 
-## git
-
-stash drop auto
-
-
 ## py
 
 var-set
-
-
-## nvim
-
-nui
 
 
 ## git
@@ -22,6 +12,13 @@ nui
 git pll, err, faq, tidy
 - etc
 - err case tidy
+
+all tidy
+
+
+## nvim
+
+nui
 
 
 ## difft
