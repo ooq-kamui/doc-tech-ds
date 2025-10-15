@@ -53,4 +53,12 @@ print(b)
 ```
 
 
+## list のすべての要素が empty ( None or '' )
+
+```
+wip:
+```
+
+
+
 
