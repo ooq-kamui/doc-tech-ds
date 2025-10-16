@@ -2,11 +2,9 @@
 # doc-tech
 
 
-## git
+## ssg
 
-dir all tidy
-
-git pll, err case, faq, tidy
+deploy
 
 
 ## nvim

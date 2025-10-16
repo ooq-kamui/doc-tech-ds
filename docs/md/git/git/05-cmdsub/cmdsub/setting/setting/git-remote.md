@@ -16,7 +16,7 @@ origin はいったん決め打ちのようなものとしておく
 token 付き
 
 ```
-git remote add origin https://access-token@github.com/ooq-kamui/doc-tech-ds
+git remote add origin https://<access-token>@github.com/ooq-kamui/doc-tech-ds
 ```
 
 
@@ -45,7 +45,7 @@ git remote show origin
 
 
 
-## remote branch に合わせて local branch del
+## remote branch に合わせて local の remote 追跡 branch del
 
 ### 対象 branch を表示
 
