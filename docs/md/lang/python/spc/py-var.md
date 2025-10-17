@@ -36,6 +36,12 @@ def func01():
 print(a) # 1
 ```
 
+```
+def func01():
+  global a = 1  # これは ng
+
+```
+
 
 ### block scope
 

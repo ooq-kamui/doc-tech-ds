@@ -28,6 +28,13 @@ path = r'C:\Users\tiki\wrk\tst.md'
 ```
 
 
+## rpl 置換
+
+```
+str.replace(srch, rpl)
+```
+
+
 ## trim
 
 ```
