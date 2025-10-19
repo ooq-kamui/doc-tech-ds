@@ -2,11 +2,6 @@
 # doc-tech
 
 
-## ssg
-
-deploy
-
-
 ## nvim
 
 nui
