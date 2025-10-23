@@ -68,3 +68,13 @@ if 'num' in locals():
 
 ```
 
+
+## var name
+
+`_` から始まる変数名も ok 
+
+```
+_key = 'name'
+```
+
+

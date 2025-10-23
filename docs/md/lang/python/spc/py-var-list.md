@@ -33,9 +33,9 @@ a.extends(b)
 ## 値があるか ( in array )
 
 ```
-a = 'a'
+x = 'a'
 
-if a in ['a', 'b']:
+if x in ['a', 'b']:
   print('true')
 ```
 
