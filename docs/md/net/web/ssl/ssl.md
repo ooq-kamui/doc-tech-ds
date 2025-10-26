@@ -17,7 +17,7 @@
 
 ## 作業 dir へ移動
 
-nginx の所定 dir で記載
+nginx の場合
 
 ```
 sudo mkdir /etc/nginx/ssl
@@ -56,7 +56,7 @@ sakura で必要なのは次
 
 - 国名(C) : `JP`
 - 都道府県名(S/ST) : `Tokyo`
-- 市町村名(L) : `Komae-shi`
+- 市町村名(L) : `komae-shi`
 - 組織名(O) : `ooq-kamui`
 - コモンネーム(CN), 実際に接続する URL : `ooq.jp`
 
