@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## lazygit
+
+key
+
+
 ## nvim
 
 nui

@@ -19,10 +19,36 @@ https://qiita.com/sonarAIT/items/0571c869e5f9ab3be817
 https://zenn.dev/yutakatay/articles/wezterm-intro
 
 
-## cnf
+## cnf file
+
+### win
 
 ```
-wip:
+$HOME/.config/wezterm/wezterm.lua
 ```
+
+### mac
+
+```
+~/.config/wezterm/wezterm.lua
+```
+
+
+## default sh
+
+### pwsh
+
+```
+default_prog = {'pwsh'}
+```
+
+### wsl
+
+```
+default_prog = {'wsl'}
+```
+
+
+
 
 
