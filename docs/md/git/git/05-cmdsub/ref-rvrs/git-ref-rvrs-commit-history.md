@@ -9,7 +9,7 @@ git show commit_id --name-only
 ```
 
 
-## ある file の ( から ) commit history を表示する
+## file から commit history を表示する
 
 ```
 git log file_path
