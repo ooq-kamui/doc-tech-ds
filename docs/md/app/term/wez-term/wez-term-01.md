@@ -49,6 +49,30 @@ default_prog = {'wsl'}
 ```
 
 
+## color
+
+### ansi-color-16
+
+```
+Black
+Maroon
+Green
+Olive
+Navy
+Purple
+Teal
+Silver
+Grey
+Red
+Lime
+Yellow
+Blue
+Fuchsia
+Aqua
+White
+```
+
+
 
 
 

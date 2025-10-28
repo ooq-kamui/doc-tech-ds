@@ -14,7 +14,9 @@ nui
 
 ## difft
 
-git setting
+wip
+- git setting ?
+- view nvim ?
 
 
 ## github
