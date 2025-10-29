@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## gdscrpt
+
+cre
+
+
 ## lazygit
 
 key
