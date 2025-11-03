@@ -8,6 +8,11 @@ cp, ln, opt
 - case, cnfirm
 
 
+## git
+
+log, line 1, date
+
+
 ## lazygit
 
 key
