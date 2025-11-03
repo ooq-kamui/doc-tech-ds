@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## unix
+
+cp, ln, opt
+- case, cnfirm
+
+
 ## lazygit
 
 key
