@@ -30,7 +30,8 @@ New-Item -ItemType SymbolicLink -Target C:\Users\xxx\wrk\prj-pri\dotfiles\app\te
 ```
 
 - `-Target` と `-Path` は 順番はどちらが先でもよい
-  - unix の ln と 合わせるなら, `-Target` を先にするほうが 無難 ( 混乱が少ない )
+  - unix の ln と 合わせるなら, `-Target` を先にするほうが 無難
+    - 混乱が少ない
 - `-Target` を 指定するときに tab で 自動補完するのが無難
   - 存在の確認
   - win の正確な表記に変換
