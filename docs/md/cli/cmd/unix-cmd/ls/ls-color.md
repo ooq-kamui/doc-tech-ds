@@ -73,4 +73,3 @@ https://qiita.com/PinkPhayate/items/a670e7e7935baea988f2
 https://www.gfd-dennou.org/arch/morikawa/memo/ls_colors.txt
 
 
-

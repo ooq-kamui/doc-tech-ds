@@ -65,6 +65,15 @@ wezterm show-keys --lua > keybinds.lua
 ```
 
 
+## log
+
+```
+wezterm.log_info()
+```
+
+- ctrl + shift + l で wezterm の log が 表示される
+
+
 ## ref
 
 https://wezterm.org/
