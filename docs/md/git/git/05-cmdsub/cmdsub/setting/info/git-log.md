@@ -39,7 +39,7 @@ git config --global log.date iso-local
 ```
 
 
-## file 指定
+## file から 指定
 
 commit id のみ 表示
 
