@@ -12,6 +12,8 @@ cp, ln, opt
 
 log, line 1, date
 
+cmdsub dir, tidy
+
 
 ## lazygit
 
