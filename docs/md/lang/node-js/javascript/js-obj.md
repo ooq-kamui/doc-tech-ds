@@ -25,4 +25,13 @@ if ('prp_name' in obj){
 ```
 
 
+## obj clone & 特定 key のみ値の変更 を, spread syntax & 代入 でやる
+
+```
+prv = {a: 1, b: 2, c: 3}
+
+obj = {...prv, b: 22}
+```
+
+
 
