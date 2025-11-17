@@ -10,6 +10,12 @@ cp, ln, opt
 
 ## git
 
+head の file を vim で見る
+- doc-tech write
+```
+git show HEAD:src/main.c | vim -
+```
+
 log, line 1, date
 
 cmdsub dir, tidy
