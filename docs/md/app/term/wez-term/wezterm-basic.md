@@ -32,6 +32,41 @@ default_prog = {'wsl'}
 ```
 
 
+## debug overlay
+
+- ctrl + shift + l で debug overlay mode になる
+- log を見れる
+- lua 実行できる
+
+
+## log
+
+lua 内に 下記 fnc で log 出力できる
+
+```
+wezterm.log_info()
+```
+
+- ctrl + shift + l で debug overlay mode にすると,  
+  そこまでに `wezterm.log_info()` した log を見れる
+
+
+## lua の実行
+
+- ctrl + shift + l で debug overlay mode にすると,  
+  最下部に プロンプト `>` が表示される  
+- ここで interactive で lua の実行ができる
+
+
+## 現在の color scheme を確認
+
+- ctrl + shift + l で debug overlay mode にする
+
+```
+window:get_config_overrides().color_scheme
+```
+
+
 ## color
 
 ### ansi-color-16
@@ -63,15 +98,6 @@ White
 ```
 wezterm show-keys --lua > keybinds.lua
 ```
-
-
-## log
-
-```
-wezterm.log_info()
-```
-
-- ctrl + shift + l で wezterm の log が 表示される
 
 
 ## ref
