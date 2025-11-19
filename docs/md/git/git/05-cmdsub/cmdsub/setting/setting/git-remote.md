@@ -27,7 +27,6 @@ git remote set-url origin https://github.com/ooq-kamui/cnf
 ```
 
 
-
 ## 確認 表示
 
 ### 基本
@@ -42,7 +41,6 @@ git remote -v
 ```
 git remote show origin
 ```
-
 
 
 ## remote branch に合わせて local の remote 追跡 branch del
