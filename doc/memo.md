@@ -2,10 +2,15 @@
 # doc-tech
 
 
+## ts
+
+generics
+
+
 ## unix
 
 cp, ln, opt
-- case, cnfirm
+- case, confirm
 
 
 ## git
