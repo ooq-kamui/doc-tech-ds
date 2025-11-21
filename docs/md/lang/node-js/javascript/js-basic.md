@@ -12,14 +12,5 @@ wip:
 ```
 
 
-## optional chaining
-
-```
-?.
-```
-
-のこと
-
-wip:
 
 

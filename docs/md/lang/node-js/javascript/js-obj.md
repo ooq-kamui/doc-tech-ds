@@ -34,4 +34,13 @@ obj = {...prv, b: 22}
 ```
 
 
+## optional chaining
+
+```
+const key01 = obj?.key01
+```
+
+- obj が undefined でも error にならずに key01 は undefined になる
+
+
 
