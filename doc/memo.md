@@ -2,9 +2,19 @@
 # doc-tech
 
 
-## git
+## difft
 
-log, line 1, date
+wip
+- git setting ?
+- view nvim ?
+
+
+## unix cmd
+
+cp, ln, opt
+- case, confirm
+
+unix usr add grp
 
 
 ## lazygit
@@ -17,24 +27,9 @@ key
 nui
 
 
-## difft
-
-wip
-- git setting ?
-- view nvim ?
-
-
 ## ts
 
 generics
-
-
-## unix cmd
-
-cp, ln, opt
-- case, confirm
-
-unix usr add grp
 
 
 ## github

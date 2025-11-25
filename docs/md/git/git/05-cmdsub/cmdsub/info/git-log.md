@@ -61,6 +61,35 @@ git log origin/main..main
 ```
 
 
+## tree 表示
+
+```
+git log --graph
+```
+
+
+## git log の format を変える
+
+```
+git log --pretty=format:<format-string>
+```
+
+### `format-string`
+
+```
+%ad  : date : 通常表示
+%ar  : date : ago 表示
+
+```
+
+ex
+
+```
+git log --pretty=format:"%x09%C(auto) %h %Cgreen %ar %Creset%x09by %C(cyan ul)%an%Creset  %x09%C(auto)%s %d"
+```
+
+
+
 ## 関連
 
 ### ある commit の file list
@@ -68,5 +97,6 @@ git log origin/main..main
 ```
 git show --name-only <commit-id>
 ```
+
 
 
