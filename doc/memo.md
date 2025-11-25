@@ -2,28 +2,9 @@
 # doc-tech
 
 
-## ts
-
-generics
-
-
-## unix
-
-cp, ln, opt
-- case, confirm
-
-
 ## git
 
-head の file を vim で見る
-- doc-tech write
-```
-git show HEAD:src/main.c | vim -
-```
-
 log, line 1, date
-
-cmdsub dir, tidy
 
 
 ## lazygit
@@ -43,15 +24,23 @@ wip
 - view nvim ?
 
 
-## github
+## ts
 
-github actions
-- learn
+generics
 
 
 ## unix cmd
 
+cp, ln, opt
+- case, confirm
+
 unix usr add grp
+
+
+## github
+
+github actions
+- learn
 
 
 ## podman
