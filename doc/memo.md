@@ -2,19 +2,19 @@
 # doc-tech
 
 
-## difft
-
-wip
-- git setting ?
-- view nvim ?
-
-
 ## unix cmd
 
 cp, ln, opt
 - case, confirm
 
 unix usr add grp
+
+
+## difft
+
+wip
+- git setting ?
+- view nvim ?
 
 
 ## lazygit
