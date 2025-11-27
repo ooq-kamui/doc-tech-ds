@@ -1,21 +1,18 @@
 
-# xml  tidy
+# tidy  -  xml
 
 
-## 
+## install
+
+```
+wip
+```
+
+
+## format
 
 ```
 tidy a.xml
 ```
-
-
-## xmllint
-
-```
-xmlling --format a.xml
-```
-
-
-
 
 
