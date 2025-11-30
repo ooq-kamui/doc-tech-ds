@@ -43,7 +43,7 @@ git remote show origin
 ```
 
 
-## remote branch に合わせて local の remote 追跡 branch del
+## remote に存在しなくなった branch の local の remote 追跡 branch を del
 
 ### 対象 branch を表示
 

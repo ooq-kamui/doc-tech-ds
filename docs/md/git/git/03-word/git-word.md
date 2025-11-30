@@ -26,7 +26,7 @@
 - `git branch -r` で remote tracking branch の list を表示
 
 
-## origin とは
+## origin
 
 remote name のこと  
 らしいが,  

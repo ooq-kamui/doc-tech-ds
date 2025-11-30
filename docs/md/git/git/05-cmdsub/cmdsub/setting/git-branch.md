@@ -25,7 +25,9 @@ git branch -v
 ```
 
 
-## upstream branch の確認
+## upstream branch
+
+### 確認
 
 `git config --local --list` で次の値
 
@@ -43,7 +45,7 @@ branch.<branch-name>.remote=origin
 branch.<branch-name>.merge=refs/heads/<branch-name>
 ```
 
-## upstream branch の設定
+### 設定
 
 ex
 

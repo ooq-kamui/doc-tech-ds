@@ -2,6 +2,14 @@
 # doc-tech
 
 
+## git
+
+```
+git branch --set-upstream-to=origin/main main
+```
+- arg : explain
+
+
 ## unix cmd
 
 cp, ln, opt
