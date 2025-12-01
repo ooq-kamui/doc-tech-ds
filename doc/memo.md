@@ -2,14 +2,6 @@
 # doc-tech
 
 
-## git
-
-```
-git branch --set-upstream-to=origin/main main
-```
-- arg : explain
-
-
 ## unix cmd
 
 cp, ln, opt
@@ -28,6 +20,7 @@ wip
 ## lazygit
 
 key
+- https://qiita.com/adabana-saki/items/5a995946797faf305f14
 
 
 ## nvim

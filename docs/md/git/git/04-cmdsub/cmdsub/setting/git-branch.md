@@ -32,25 +32,35 @@ git branch -v
 `git config --local --list` で次の値
 
 ```
-branch.<branch-name>.remote=xxxx
-branch.<branch-name>.merge=xxxx
+branch.<local-branch-name>.remote=origin
+branch.<local-branch-name>.merge=refs/heads/<remote-branch-name>
 ```
 
-通常は local branch と同じ branch
+- 通常は local branch と同じ branch
 
 ex
 
 ```
-branch.<branch-name>.remote=origin
-branch.<branch-name>.merge=refs/heads/<branch-name>
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
 ```
 
+
 ### 設定
+
+```
+git branch --set-upstream-to=origin/<remote-branch-name> <local-branch-name>
+```
 
 ex
 
 ```
 git branch --set-upstream-to=origin/main main
+```
+
+```
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
 ```
 
 
