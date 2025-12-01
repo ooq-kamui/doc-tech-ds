@@ -29,7 +29,7 @@ rg --glob="*.lua" ptn
 ## 単語検索
 
 ```
-rg -w ptn
+-w
 ```
 
 
@@ -43,21 +43,27 @@ rg -w ptn
 ## file name のみ 出力
 
 ```
-rg -l
+-l
+```
+
+
+## file name を表示しない
+
+```
+--no-filename
 ```
 
 
 ## 行数表示しない
 
 ```
-rg -N
+-N
 ```
 
 
 ## tag jmp 形式 で出力
 
-file path 表示を 先頭の 1行にまとめない  
-の意味
+- file path 表示を 先頭の 1行にまとめない  
 
 ```
 --no-heading
@@ -121,6 +127,5 @@ option による and 検索はできない
 --debug  どの設定ファイルで何が有効になったのか
 --trace  どこで何がマッチしたのか?
 ```
-
 
 
