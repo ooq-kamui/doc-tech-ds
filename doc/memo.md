@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## wez
+
+iem
+
+
 ## unix cmd
 
 cp, ln, opt
