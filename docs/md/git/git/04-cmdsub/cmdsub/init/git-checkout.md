@@ -59,10 +59,10 @@ git checkout -- file_path
 
 ## 指定 commit から取り出す
 
-cmt_id_01 の file_01 を worktree ( , staged ? ) へ取り出す
+`commit_id` の `file_name` を worktree および staged へ取り出す
 
 ```
-git checkout cmt_id_01 -- file_01
+git checkout <commit_id> -- <file_name>
 ```
 
 - worktree の file は 破棄 される
