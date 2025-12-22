@@ -41,10 +41,10 @@ git fetch origin
 ```
 
 
-## `repository : origin`, `branch : master` を取り込む
+## 特定 branch のみを fetch する
 
 ```
-git fetch origin master
+git fetch origin <branch-name>
 ```
 
 fetch を行っただけでは 他人の更新はプログラムへは取り込まれていない
