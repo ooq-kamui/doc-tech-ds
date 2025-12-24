@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## python
+
+uv
+
+
 ## wez
 
 iem
