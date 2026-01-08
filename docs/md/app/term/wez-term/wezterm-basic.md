@@ -100,6 +100,12 @@ wezterm show-keys --lua > keybinds.lua
 ```
 
 
+## iem
+
+- iem とは windows iem のことだけを指しているのではない
+  - mac でも 設定する
+
+
 ## ref
 
 https://wezterm.org/

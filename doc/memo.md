@@ -2,29 +2,16 @@
 # doc-tech
 
 
-## python
-
-uv
-
-
-## wez
-
-iem
-
-
-## unix cmd
-
-cp, ln, opt
-- case, confirm
-
-unix usr add grp
-
-
 ## difft
 
 wip
 - git setting ?
 - view nvim ?
+
+
+## python
+
+uv
 
 
 ## nvim
