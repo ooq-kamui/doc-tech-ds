@@ -1,5 +1,5 @@
 
-# wsl install distro
+# wsl distro
 
 
 ## install されている distro を表示
@@ -8,7 +8,7 @@
 wsl --list --verbose
 ```
 
-state も確認できます
+- state も確認できる
 
 ex
 

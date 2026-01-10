@@ -2,13 +2,6 @@
 # doc-tech
 
 
-## wsl
-
-safe mode
-import
-wsl + zscaler
-
-
 ## difft
 
 wip
