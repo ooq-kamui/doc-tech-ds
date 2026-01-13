@@ -222,3 +222,10 @@ brew install lua
 ```
 
 
+## pwgen
+
+```
+brew install pwgen
+```
+
+
