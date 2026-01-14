@@ -229,3 +229,11 @@ brew install pwgen
 ```
 
 
+## difft
+
+```
+brew install difftastic
+```
+
+
+
