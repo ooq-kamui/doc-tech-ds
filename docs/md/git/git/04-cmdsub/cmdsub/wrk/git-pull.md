@@ -62,6 +62,8 @@ ex
   rebase = false
 ```
 
+- rebase で conflict が起きたときの対処法は rebase を参照
+
 
 ## option
 

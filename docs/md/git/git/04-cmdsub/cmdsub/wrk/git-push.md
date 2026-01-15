@@ -26,9 +26,14 @@ git push origin <branch-name>
 
 ## 強制 `push`
 
+強制 push するにしても,  
+`local の remote 追跡 branch` と 実際の `remote branch` に差異がある場合には 処理を停止
+
 ```
 git push --force-with-lease origin <branch-name>
 ```
+
+- `git push --force` より, 上記が無難です
 
 
 ## 引数を省略した場合

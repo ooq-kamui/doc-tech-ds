@@ -17,16 +17,13 @@ https://qiita.com/C_HERO/items/06669621a1eb12d8799e
 
 ## notice
 
-git rebase するなら
+git rebase は
 
 - `git reset --soft HEAD~`
 - `git stash`
 - `git merge --ff`
 
-のほうが無難です
-
-というより,  
-`git rebase` はこれを 1 command で実行するもの と考えるのが妥当 ( たぶん )
+を 1 command で実行するもの と考えるのが妥当 ( たぶん )
 
 
 ## basic
