@@ -93,6 +93,10 @@ brew install fish
 ```
 
 ```
+fish
+```
+
+```
 vi ~/.config/fish/config.fish
 ```
 
@@ -134,6 +138,10 @@ mkdir ~/.config/nvim
 ```
 
 ```
+cd ~/.config/nvim
+```
+
+```
 ln -sin ~/wrk/prj-pri/dotfiles/nvim/scrpt/init.lua .
 ```
 
@@ -149,6 +157,8 @@ total 0
 lrwxrwxrwx 1 50 2026-01-09 11:15 init.lua -> /home/alm/wrk/prj-pri/dotfiles/nvim/scrpt/init.lua
 lrwxrwxrwx 1 45 2026-01-09 11:16 lua -> /home/alm/wrk/prj-pri/dotfiles/nvim/scrpt/lua/
 ```
+
+vimplug
 
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
