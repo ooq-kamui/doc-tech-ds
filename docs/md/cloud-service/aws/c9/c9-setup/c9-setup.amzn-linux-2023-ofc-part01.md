@@ -1,5 +1,5 @@
 
-# c9 setup
+# c9 ( amazon linux 2023 ) setup part-01
 
 
 amazon linux 2023

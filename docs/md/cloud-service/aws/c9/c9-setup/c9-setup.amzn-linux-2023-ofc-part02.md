@@ -1,12 +1,17 @@
 
-# alma linux 10 ( wsl ) part02
+# c9 ( amazon linux 2023 ) setup part-02
+
+
+## ec2-user の pw
+
+```
+sudo passwd ec2-user
+```
 
 
 ## git
 
-```
-sudo dnf install git
-```
+- git は 初期状態から 入っている
 
 
 ## dotfiles
@@ -23,8 +28,7 @@ cd ~/wrk/prj-pri
 git clone https://github.com/ooq-kamui/dotfiles
 ```
 
-
-## bash
+### bash
 
 ```
 vim ~/.bashrc
@@ -93,6 +97,10 @@ brew install fish
 ```
 
 ```
+fish
+```
+
+```
 vi ~/.config/fish/config.fish
 ```
 
@@ -119,7 +127,6 @@ rm -rf functions
 ln -sin ~/wrk/prj-pri/dotfiles/sh/fish/fnc functions
 ```
 
-
 fish launch
 
 
@@ -131,6 +138,11 @@ brew install neovim
 
 ```
 mkdir ~/.config/nvim
+```
+
+```
+cd ~/.config/nvim
+
 ```
 
 ```
@@ -171,15 +183,18 @@ vim launch re
 
 ## git
 
-```
-cp ~/wrk/prj-pri/dotfiles/git/global/.gitconfig ~/.gitconfig
-```
-
-- user, email は del
+### `~/.gitconfig` の編集
 
 ```
-vi ~/.gitconfig
+vi ~/wrk/prj-pri/dotfiles/git/global/.gitconfig ~/.gitconfig
 ```
+
+- dotfiles の `.gitconfig` の内容 を 既存の `~/.gitconfig` へ手動でコピー編集
+  - 既存の `~/.gitconfig` の
+    - [credential] をつぶさない
+    - [core] は上書き
+  - user, email は コピーしない
+  - その他は コピー
 
 
 ### at repository ( pri )
@@ -197,7 +212,7 @@ git remote set-url origin https://xxxxxxxxxxxxxxxx@github.com/ooq-kamui/xxx
 ```
 
 
-## trns
+## trans ( translate-shell )
 
 ```
 brew install translate-shell
@@ -206,9 +221,7 @@ brew install translate-shell
 
 ## node-js
 
-```
-brew install node
-```
+- node は 初期状態から 入っている
 
 
 ## lua
@@ -230,5 +243,9 @@ brew install pwgen
 ```
 brew install difftastic
 ```
+
+
+
+
 
 
