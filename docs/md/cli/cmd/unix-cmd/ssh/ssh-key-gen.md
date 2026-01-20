@@ -46,7 +46,7 @@ total 28K
 
 file name を適当に rename して保管しておく
 
-`id_ed25519` を 他svr へ cp などする場合は, permission を上記とすること
+`id_ed25519` を 他 svr へ cp などする場合は, permission を上記とすること
 
 
 ### key pub set
@@ -59,6 +59,21 @@ file name を適当に rename して保管しておく
 
 
 ssh login するときに `id_ed25519` を使用する
+
+
+## private key から public key を作成する
+
+- aws などで, private key のみ作成した場合  
+- private key から public key を抽出できます
+
+```
+ssh-keygen -y -f xxx.pem
+```
+
+
+
+
+
 
 
 ## ref

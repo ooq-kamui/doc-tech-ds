@@ -7,24 +7,6 @@
 amazon linux = red hat
 
 
-## su pw setting
-
-```
-sudo su -
-```
-
-```
-passwd
-```
-
-
-## ec2-user pw setting
-
-```
-sudo passwd ec2-user
-```
-
-
 ## disc size mod
 
 確認
@@ -37,7 +19,10 @@ df -h              # ディスク 確認
 lsblk              # ブロック 確認
 ```
 
-拡張
+
+## 拡張 ( old )
+
+- 現在は console からやれば ok
 
 ```
 sudo growpart /dev/xvda 1    # partition 拡張

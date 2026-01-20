@@ -2,6 +2,17 @@
 # c9 ( amazon linux 2023 ) setup part-02
 
 
+## su の pw
+
+```
+sudo su -
+```
+
+```
+passwd
+```
+
+
 ## ec2-user の pw
 
 ```
@@ -245,7 +256,11 @@ brew install difftastic
 ```
 
 
+## amplify
 
+```
+sudo npm install -g @aws-amplify/cli
+```
 
 
 
