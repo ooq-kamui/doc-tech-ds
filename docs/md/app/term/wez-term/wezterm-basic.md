@@ -31,6 +31,20 @@ default_prog = {'pwsh'}
 default_prog = {'wsl'}
 ```
 
+#### wsl で 複数の distro の場合
+
+```
+config.wsl_domains = {
+  {
+    name = 'wsl:alm-10-my-01',
+    distribution = 'alm-10-my-01', -- wsl -l -v で表示される distro name
+    default_cwd = '~',
+  },
+}
+
+config.default_domain = 'wsl:alm-10-my-01' -- 上記 wsl_domains の name
+```
+
 
 ## debug overlay
 
