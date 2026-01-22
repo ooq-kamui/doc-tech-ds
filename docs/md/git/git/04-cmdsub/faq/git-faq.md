@@ -15,7 +15,7 @@ git config --global pull.ff only
 
 ### a.
 
-wip:
+そうです
 
 
 ## nano editor が 立ち上がってしまって, 混乱

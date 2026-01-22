@@ -61,8 +61,9 @@ wsl --unregister <distro>
 - 改めて, まっさらな distro を install
   - これは再び, default の distro name で作成される
   - ディスク容量があるなら,  
-    この時点のまっさらな distro の tar を import して補完しておくとよい  
+    この時点のまっさらな distro の tar を import して保管しておくとよい  
     再度, まっさらな環境がほしくなったときの 手順が早まる
+    - はじめから, distro name を自分でつけれる
 - これで, 同じ distro が 2つ できたはず
 
 
