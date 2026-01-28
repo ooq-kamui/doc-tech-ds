@@ -92,13 +92,13 @@ git branch -a
 branch の切り替えは `checkout` または `switch`
 
 ```
-git checkout branch_name
+git checkout <branch-name>
 ```
 
 or
 
 ```
-git switch branch_name
+git switch <branch-name>
 ```
 
 
@@ -111,7 +111,7 @@ branch の操作は github などからやるのが無難です
 ## branch を作成
 
 ```
-git branch branch_name
+git branch <branch-name>
 ```
 
 
@@ -128,28 +128,43 @@ git branch -m master main
 ```
 
 
-## branch local を削除
+## local branch を削除
 
 ```
-git branch -d branch_name
+git branch -d <branch-name>
 ```
 
-- branch_name が push 済 の場合 local を削除する
+- `<branch-name>` が push 済 の場合 local を削除する
+
+
+## remote branch が削除されたのに合わせて, local branch も削除する
+
+remote で 削除された local の remote tracking branch を 削除
+
+```
+git fetch --prune
+```
+
+local branch は 個別に削除
+
+```
+git branch -d <branch-name>
+```
 
 
 ## branch 強制削除
 
-branch_name が push 済 でないが, 強制削除したいとき
+`<branch-name>` が push 済 でないが, 強制削除したいとき
 
 ```
-git branch -D branch_name
+git branch -D <branch-name>
 ```
 
 
 ## branch remote を削除
 
 ```
-git push origin --delete branch_name
+git push origin --delete <branch-name>
 ```
 
 

@@ -22,6 +22,19 @@ git log origin/branch01
 ```
 
 
+## 3 way merge であっても, main の log のみを表示
+
+```
+git log --first-parent
+```
+
+次のように 組み合わせるのが一般的
+
+```
+git log --graph --oneline --first-parent
+```
+
+
 ## 日付の表示形式を指定
 
 ```
@@ -63,6 +76,8 @@ git log origin/main..main
 
 ## tree 表示
 
+commit の 親子の line を 表示
+
 ```
 git log --graph
 ```
@@ -97,6 +112,5 @@ git log --pretty=format:"%x09%C(auto) %h %Cgreen %ar %Creset%x09by %C(cyan ul)%a
 ```
 git show --name-only <commit-id>
 ```
-
 
 
