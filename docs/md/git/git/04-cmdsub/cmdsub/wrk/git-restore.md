@@ -27,11 +27,13 @@
 
 ## target : worktree
 
+
 ### HEAD        の内容に戻す
 
 ```
 git restore --worktree --source HEAD    file_name
 ```
+
 
 ### 指定 commit の内容に戻す
 
