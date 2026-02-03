@@ -1,5 +1,5 @@
 
-# fnc
+# lua fnc
 
 
 ## arg

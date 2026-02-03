@@ -1,5 +1,5 @@
 
-# ptn
+# lua ptn
 
 
 ## ref
