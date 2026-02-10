@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## lua
+
+string
+- len : #str
+
+
 ## wsl
 
 basic, instl, tidy

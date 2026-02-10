@@ -179,6 +179,9 @@ plugin err 出るが とりあえず 無視
 vim launch re
 
 
+win32yank-x64.zip を dl して, 解凍し, `win32yank.exe` を path の通った場所 `~/bin/` に置く
+
+
 ## git
 
 ```
