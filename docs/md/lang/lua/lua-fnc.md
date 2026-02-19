@@ -122,6 +122,22 @@ result
 - 引数が 1つ で, 文字列 か table constructor の場合は, `(` `)` を省略できる
 
 
+## 自作の method を string などに 追加
+
+- string に追加すれば ok
+
+```
+function string.my_method(str, add_str)
+
+  str = str .. add_str
+  return str
+end
+
+local str = 'abcde'
+str = str:my_method('fgh')
+print(str)
+```
+
 
 
 
