@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## vim
+
+ptn tidy
+
+
 ## lua
 
 string
