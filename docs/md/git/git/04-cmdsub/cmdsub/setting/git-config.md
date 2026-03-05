@@ -64,6 +64,13 @@ git config user.email
 ```
 
 
+## remote の user pw を 毎回入力しなくてもいいようにする
+
+```
+git config --local credential.helper store
+```
+
+
 ## default branch master > main
 
 ```
