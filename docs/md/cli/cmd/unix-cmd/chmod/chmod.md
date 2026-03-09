@@ -4,11 +4,12 @@
 
 ## recursive
 
-wip:
+```
+chmod -R go+w dir_name
+```
 
-```
-chmod -R go+w dir_name ??? todo confirm
-```
+- `-r` とすると, read 権限が 消えるので注意
+
 
 
 

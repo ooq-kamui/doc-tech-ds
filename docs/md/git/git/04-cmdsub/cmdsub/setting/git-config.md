@@ -70,6 +70,8 @@ git config user.email
 git config --local credential.helper store
 ```
 
+- 上記を設定後, 2 回目以降は 入力が不要になる
+
 
 ## default branch master > main
 
