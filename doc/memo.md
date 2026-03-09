@@ -2,6 +2,13 @@
 # doc-tech
 
 
+## git
+
+commit --amend : cancel
+- `git reflog`
+- `git reset --soft HEAD@{1}`
+
+
 ## vim
 
 ptn tidy
