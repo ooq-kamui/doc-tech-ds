@@ -23,3 +23,16 @@ git show HEAD:<file-path> | nvim -
 ```
 
 
+## ある commit 時 の ある file の 全内容
+
+```
+git show <commit_id>:<file_path>
+```
+
+vim で 見たい場合
+
+```
+git show <commit_id>:<file_path> | vim -
+```
+
+

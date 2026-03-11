@@ -104,4 +104,18 @@ git difftool file_path
 ```
 
 
+## 通常の diff の替わりに git diff を使う
+
+```
+git diff --no-index dir1/sub dir2/sub -- "*.md"
+```
+
+- `"*.md"` が効かないので, 要調査
+
+
+
+
+
+
+
 

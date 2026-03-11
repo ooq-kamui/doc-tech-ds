@@ -4,6 +4,11 @@
 
 ## git
 
+```
+dit diff --no-index dir1 dir2 -- "*.md"
+```
+
+
 commit --amend : cancel
 - `git reflog`
 - `git reset --soft HEAD@{1}`
