@@ -4,9 +4,15 @@
 
 ## git
 
-```
-dit diff --no-index dir1 dir2 -- "*.md"
-```
+git blame
+
+
+git stash pop
+- case:
+  - worktree file
+  - staged   file
+
+- confirm run
 
 
 commit --amend : cancel
