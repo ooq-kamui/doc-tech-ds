@@ -32,8 +32,19 @@ wip:
 ## fish の cmdline で git status の `=` などが表示されるようにしたい
 
 - remote upstream branch を設定する
-  - ex `git branch --set-upstream-to=origin/main main`
 
+```
+git branch --set-upstream-to=origin/main main
+```
 
+or 次の 2 command でも 同じ
+
+```
+git config branch.main.remote origin
+```
+
+```
+git config branch.main.merge refs/heads/main
+```
 
 

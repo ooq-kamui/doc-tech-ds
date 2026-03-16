@@ -20,7 +20,7 @@
 
 ### remote tracking branch
 
-- remote branch と同じ内容のものとして, local 上にある branch
+- remote branch と同じ内容のものとして local 上にある branch
 - fetch して, 最新状態を取り込む
 - 通常 `origin/<branch-name>` で表現される
 - `git branch -r` で remote tracking branch の list を表示

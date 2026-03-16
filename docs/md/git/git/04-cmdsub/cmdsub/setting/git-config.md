@@ -102,6 +102,12 @@ ex
 main branch の場合
 
 ```
+git branch --set-upstream-to=origin/main main
+```
+
+or 次の 2 command でも 同じ
+
+```
 git config branch.main.remote origin
 ```
 
