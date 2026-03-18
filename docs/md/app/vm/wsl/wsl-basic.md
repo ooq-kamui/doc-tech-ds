@@ -76,3 +76,20 @@ safeMode = true
 ```
 
 
+## pwsh から wsl 内の command を実行する
+
+- pwsh で
+
+```
+wsl <linux command>
+```
+
+
+## wsl 上で, path を win の path に変換する
+
+```
+wsl.exe -w <path>
+```
+
+
+
