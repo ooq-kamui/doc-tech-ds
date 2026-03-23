@@ -5,7 +5,7 @@
 ## install
 
 ```
-wip
+npm install -g @google/gemini-cli
 ```
 
 
