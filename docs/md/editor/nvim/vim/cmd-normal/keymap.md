@@ -1,13 +1,9 @@
 
 # keymap
 
+
 ## silent
 
 wip:
-
-
-
-
-
 
 

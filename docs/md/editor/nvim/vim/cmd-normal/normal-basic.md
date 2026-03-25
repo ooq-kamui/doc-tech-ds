@@ -10,13 +10,15 @@ https://vim-jp.org/vimdoc-ja/vimindex.html
 ```
 
 
-自分が割り当てた key bind を確認する
+## 自分が割り当てた key bind を確認する
+
 ```
 :map
 ```
 
 
 ## mode normal key default
+
 ```
 _   N-1 行下の先頭の char へ移動
 -   N   行上の先頭の char へ移動
@@ -40,7 +42,7 @@ c   Nmove のテキストを削除し 挿入モードへ移行
 d   Nmove のテキストを削除
 D   行末まで削除, d$ と同
 e   単語の末尾に進む
-E   単語の末尾に進む
+E   単語の末尾に進む ( word = space not )
 f   1行の中で 前方へ 1文字検索
 F   1行の中で 後方へ 1文字検索
 g_  最後の非空白文字へ移動
@@ -76,7 +78,7 @@ U   1行中の最近の変更をすべて取り消す
 v   visual mode char
 V   visual mode line
 w   単語の先頭に進む
-W   単語の先頭に進む
+W   単語の先頭に進む ( word = space not )
 Y   1行 yank
 yy  1行 yank
 z   zコマンドを実行

@@ -2,16 +2,9 @@
 # doc-tech
 
 
-## engine
+## aseprite
 
-mv return
-
-
-## ai
-
-claude code
-
-kiro
+all
 
 
 ## git
