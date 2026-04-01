@@ -2,9 +2,16 @@
 # doc-tech
 
 
+## wezterm
+
+backslash
+
+
 ## aseprite
 
-all
+menu
+- all
+  - write
 
 
 ## git
