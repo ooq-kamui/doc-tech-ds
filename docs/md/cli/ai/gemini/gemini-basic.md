@@ -19,6 +19,7 @@ gemini login
 ## ssh 接続先で gemini auth
 
 - ブラウザなしモード ( NO_BROWSER ) を使用
+  - 必要ないかも
 - サーバー側で環境変数を設定して実行します
 
 ``` bash
