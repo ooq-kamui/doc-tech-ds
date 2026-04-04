@@ -114,10 +114,31 @@ wezterm show-keys --lua > keybinds.lua
 ```
 
 
+### key に なにも設定しない ( clear )
+
+```
+  keys = {
+    { key = '_', mods = 'CTRL', action = act.DisableDefaultAssignment }, -- act: wezterm.action
+  }
+```
+
+
 ## iem
 
 - iem とは windows iem のことだけを指しているのではない
   - mac でも 設定する
+
+
+## 
+
+- wez term api には用意されていないので, system command で取得する
+
+```
+local success, stdout, stderr = wezterm.run_child_process({ 'sysctl', '-n', 'machdep.cpu.brand_string' })
+if success then
+  stdout = stdout:gsub("^%s*(.-)%s*$", "%1") -- 改行を除去
+end
+```
 
 
 ## ref
