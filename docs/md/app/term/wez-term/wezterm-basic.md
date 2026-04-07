@@ -129,7 +129,7 @@ wezterm show-keys --lua > keybinds.lua
   - mac でも 設定する
 
 
-## 
+## cpu 情報の取得
 
 - wez term api には用意されていないので, system command で取得する
 
@@ -138,6 +138,13 @@ local success, stdout, stderr = wezterm.run_child_process({ 'sysctl', '-n', 'mac
 if success then
   stdout = stdout:gsub("^%s*(.-)%s*$", "%1") -- 改行を除去
 end
+```
+
+
+## mac, ctrl-q を 2回 押す必要がある
+
+```
+    { key = 'q', mods = 'CTRL', action = act.SendString '\x11' }, -- '\x99' : 16 hex
 ```
 
 
