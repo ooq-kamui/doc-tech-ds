@@ -15,5 +15,17 @@ curl -fsSL https://claude.ai/install.sh | bash
 claude
 ```
 
+## run continue
+
+```
+claude --continue
+```
+
+
+## run resume
+
+```
+claude --resume
+```
 
 

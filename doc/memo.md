@@ -2,14 +2,15 @@
 # doc-tech
 
 
+## claude
+
+claude code
+- install
+
+
 ## wezterm
 
 backslash
-
-
-## gitlab
-
-reg, doc write
 
 
 ## aseprite
