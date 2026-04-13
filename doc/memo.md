@@ -10,7 +10,7 @@ claude code
 
 ## wezterm
 
-backslash
+back-slash
 
 
 ## aseprite
