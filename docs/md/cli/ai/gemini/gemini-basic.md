@@ -38,4 +38,22 @@ rm -rf ~/.gemini/
 ```
 
 
+## google ai studio
+
+- web 上の tool
+- gemini に local pc 用の app はない
+
+
+## GEMINI.md
+
+- 定常的に 適用したい rule を書いておく file
+  - kiro の steering, claude code の CLAUDE.md のようなもの
+
+
+
+
+
+
+
+
 
