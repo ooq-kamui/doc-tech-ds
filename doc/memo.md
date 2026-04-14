@@ -2,17 +2,6 @@
 # doc-tech
 
 
-## claude
-
-claude code
-- install
-
-
-## wezterm
-
-back-slash
-
-
 ## aseprite
 
 menu
@@ -22,36 +11,29 @@ menu
 
 ## git
 
-git blame
-
-
-git stash pop
-- case:
-  - worktree file
-  - staged   file
-
-- confirm run
-
-
 commit --amend : cancel
 - `git reflog`
 - `git reset --soft HEAD@{1}`
 
 
+## git
+
+git worktree
+
+
+git blame
+
+
+git stash pop
+- run confirm
+  - case:
+    - worktree file
+    - staged   file
+
+
 ## vim
 
 ptn tidy
-
-
-## lua
-
-string
-- len : #str
-
-
-## wsl
-
-basic, instl, tidy
 
 
 ## difft

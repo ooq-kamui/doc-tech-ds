@@ -2,6 +2,10 @@
 
 local str = 'あいうえお'
 
+print(#str)
+print(string.len(str))
+
+
 local str_sub = string.sub(str, 1, 4)
 print(str_sub)
 

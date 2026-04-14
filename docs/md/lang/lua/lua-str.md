@@ -2,11 +2,19 @@
 # lua str
 
 
-## len
+## len ( 文字数 )
 
 ```
 string.len(str)
 ```
+
+or
+
+```
+#len
+```
+
+- mb は 3 byte ( utf-8 )
 
 
 ## 連結

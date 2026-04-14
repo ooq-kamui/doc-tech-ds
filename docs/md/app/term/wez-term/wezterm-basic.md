@@ -141,10 +141,19 @@ end
 ```
 
 
-## mac, ctrl-q を 2回 押す必要がある
+## mac faq
+
+### ctrl-q を 2回 押す必要がある
 
 ```
     { key = 'q', mods = 'CTRL', action = act.SendString '\x11' }, -- '\x99' : 16 hex
+```
+
+
+### `\` が `yen` になってしまう
+
+```
+    { key = '¥', action = act.SendString([[\]]) },
 ```
 
 
