@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## ai claude
+
+at iphone, cmd
+
+
 ## aseprite
 
 menu
