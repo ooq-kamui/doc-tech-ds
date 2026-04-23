@@ -2,6 +2,13 @@
 # doc-tech
 
 
+## ai gemini
+
+gemini.md
+- desc
+- try
+
+
 ## ai claude
 
 at iphone, cmd
