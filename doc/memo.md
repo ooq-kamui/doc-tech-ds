@@ -2,13 +2,6 @@
 # doc-tech
 
 
-## unix
-
-- chmod cp
-
-- tee -a
-
-
 ## ai gemini
 
 gemini.md
