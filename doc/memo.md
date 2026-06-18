@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## git
+
+commit, push fix, usr.name, email
+- with rebase
+
+
 ## ai gemini
 
 gemini.md
