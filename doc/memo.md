@@ -2,29 +2,17 @@
 # doc-tech
 
 
-## git
+## fdr-kde
 
-commit, push fix, usr.name, email
-- with rebase
-
-
-## ai gemini
-
-gemini.md
-- desc
-- try
+install
+- general
+- case zscaler
 
 
-## ai claude
-
-at iphone, cmd
-
-
-## aseprite
-
-menu
-- all
-  - write
+iem
+- ??
+- ??
+- key-bind setting
 
 
 ## git
@@ -32,6 +20,9 @@ menu
 commit --amend : cancel
 - `git reflog`
 - `git reset --soft HEAD@{1}`
+
+commit, push fix, usr.name, email
+- with rebase
 
 
 ## git
@@ -49,9 +40,11 @@ git stash pop
     - staged   file
 
 
-## vim
+## aseprite
 
-ptn tidy
+menu
+- all
+  - write
 
 
 ## difft
@@ -61,31 +54,9 @@ wip
 - view nvim ?
 
 
-## python
-
-uv
-
-
-## nvim
-
-nui
-
-
-## ts
-
-generics
-
-
 ## github
 
 github actions
 - learn
-
-
-## podman
-
-entrypoint
-- learn
-- cmd
 
 
