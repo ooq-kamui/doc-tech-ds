@@ -6,13 +6,16 @@
 
 install
 - general
-- case zscaler
+- case: zscaler
 
-
-iem
-- ??
-- ??
+iem ?
+- install, fcitx 5, mozc
 - key-bind setting
+
+word, tidy
+- wayland
+- fcitx 5
+- mozc
 
 
 ## git
