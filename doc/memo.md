@@ -4,9 +4,6 @@
 
 ## git
 
-git blame
-
-
 git stash pop
 - run confirm
   - case:
