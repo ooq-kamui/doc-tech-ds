@@ -17,6 +17,13 @@ git reset --soft HEAD~
 ```
 
 
+## amend の代わりに reset する
+
+```
+git reflog
+
+git reset --soft HEAD@{1}
+```
 
 
 

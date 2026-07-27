@@ -2,36 +2,7 @@
 # doc-tech
 
 
-## fdr-kde
-
-install
-- general
-- case: zscaler
-
-iem ?
-- install, fcitx 5, mozc
-- key-bind setting
-
-word, tidy
-- wayland
-- fcitx 5
-- mozc
-
-
 ## git
-
-commit --amend : cancel
-- `git reflog`
-- `git reset --soft HEAD@{1}`
-
-commit, push fix, usr.name, email
-- with rebase
-
-
-## git
-
-git worktree
-
 
 git blame
 
@@ -41,6 +12,9 @@ git stash pop
   - case:
     - worktree file
     - staged   file
+
+
+git worktree
 
 
 ## aseprite
