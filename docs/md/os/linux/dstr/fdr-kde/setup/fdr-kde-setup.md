@@ -43,6 +43,14 @@ sudo dnf install neovim
 
 ## fcitx 5, mozc ( iem )
 
+
+```
+sudo dnf install fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk
+```
+
+
+---
+
 以下, Fedora KDE (Wayland) をインストールした直後の状態から, Fcitx 5 + Mozc で日本語入力を有効にするまでの手順です.
 
 ---
