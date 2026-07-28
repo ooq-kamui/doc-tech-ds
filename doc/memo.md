@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## fdr
+
+iem install
+- tidy
+
+
 ## git
 
 git stash pop

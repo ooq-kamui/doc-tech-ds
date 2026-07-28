@@ -19,7 +19,7 @@ git add file_path
 かつ, staged の file はそのまま
 
 ```
-git restore --source HEAD --worktree file_path
+git restore --worktree file_path --source HEAD
 ```
 
 

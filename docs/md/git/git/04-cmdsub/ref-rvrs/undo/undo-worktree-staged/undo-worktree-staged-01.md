@@ -15,13 +15,11 @@ git diff --staged --name-only
 ```
 
 
-
 ## push してない commit があるか
 
 ```
 git log origin/main..main
 ```
-
 
 
 ## staged ( add ) を取り消す
