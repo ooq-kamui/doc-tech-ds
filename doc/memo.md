@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## unx
+
+ln
+- dir /
+
+
 ## fdr
 
 iem install

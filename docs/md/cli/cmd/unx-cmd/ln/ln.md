@@ -8,4 +8,12 @@
 ln -sin target_path link_name
 ```
 
+### case: dir
+
+```
+wip
+```
+
+
+
 

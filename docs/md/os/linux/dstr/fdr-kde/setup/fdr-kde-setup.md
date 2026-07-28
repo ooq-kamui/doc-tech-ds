@@ -45,7 +45,7 @@ sudo dnf install neovim
 
 
 ```
-sudo dnf install fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk
+sudo dnf install fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk kcm-fcitx5 fcitx5-autostart
 ```
 
 
