@@ -10,9 +10,6 @@ git stash pop
     - worktree file
     - staged   file
 
-
-## git
-
 git worktree
 
 
