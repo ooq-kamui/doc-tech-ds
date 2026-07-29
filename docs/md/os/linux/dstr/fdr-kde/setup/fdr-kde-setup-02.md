@@ -1,15 +1,11 @@
 
-## setup etc
+## ssh
 
+- ssh 接続を受け付けるようにする
 
-### kde wallet
-
-- pass off
-  - at setting
-
-
-
-
+```
+wip
+```
 
 
 

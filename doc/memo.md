@@ -2,18 +2,6 @@
 # doc-tech
 
 
-## unx
-
-ln
-- dir /
-
-
-## fdr
-
-iem install
-- tidy
-
-
 ## git
 
 git stash pop
@@ -22,6 +10,8 @@ git stash pop
     - worktree file
     - staged   file
 
+
+## git
 
 git worktree
 
