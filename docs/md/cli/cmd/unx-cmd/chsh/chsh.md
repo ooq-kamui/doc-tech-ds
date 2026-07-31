@@ -34,4 +34,8 @@ chsh -s /bin/bash
 
 手動で vi で追加すればよい
 
+```
+sudo vi /etc/shells
+```
+
 

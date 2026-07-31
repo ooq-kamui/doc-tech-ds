@@ -2,6 +2,15 @@
 # fish
 
 
+## basic
+
+- そもそもの話として, fish は  
+  terminal での inteructive shell, または  
+  script として利用し,  
+  login shell として設定しない ようにする  
+  ( chsh -s で設定しない )
+
+
 ## config.fish 再読込
 
 ```

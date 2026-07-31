@@ -9,7 +9,15 @@ hp のトップページに書いてある install cmd を実行する
 https://brew.sh/ja/
 
 
-上記の cmd 実行後, メッセージの最後に表示される cmd 実行する
+### path setting
+
+- bash
+  - 上記の cmd 実行後, メッセージの最後に表示される cmd 実行する
+- fish
+  - config.fish に次を 記述
+    ```
+    eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+    ```
 
 
 ## brew 自体の update
