@@ -35,5 +35,6 @@ New-Item -ItemType SymbolicLink -Target C:\Users\xxx\wrk\prj-pri\dotfiles\app\te
 - `-Target` を 指定するときに tab で 自動補完するのが無難
   - 存在の確認
   - win の正確な表記に変換
-
+- dir の symbolic-link を作成する場合,  
+  - `-Target` の末尾には `\` をつけないほうが無難
 
