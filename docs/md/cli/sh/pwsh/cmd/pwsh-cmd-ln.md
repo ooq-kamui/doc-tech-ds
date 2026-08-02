@@ -7,12 +7,12 @@
 https://learn.microsoft.com/ja-jp/powershell/module/microsoft.powershell.management/new-item?view=powershell-7.4
 
 
-## `$target` へのシンボリックリンクを `$path` として作る
+## `$real_path` へのシンボリックリンクを `$link_name` として作る
 
 login as admin
 
 ```
-New-Item -ItemType SymbolicLink -Target $target -Path $path
+New-Item -ItemType SymbolicLink -Target $real_path -Path $link_name
 ```
 
 ex

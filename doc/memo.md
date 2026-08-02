@@ -2,6 +2,14 @@
 # doc-tech
 
 
+## keyd
+
+install
+setting
+key-bind
+- basic
+
+
 ## git
 
 git stash pop
