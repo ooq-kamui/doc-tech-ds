@@ -1,31 +1,38 @@
 
-## 設定
+## setting dir
 
-設定ファイルは `/etc/keyd/default.conf` に書きます
+```
+/etc/keyd/
+```
+
+
+## config file
 
 ```bash
 sudo vim /etc/keyd/default.conf
 ```
 
-### 設定例 1: CapsLock を Ctrl / Esc にする ( 定番 )
+
+### ex.1 : CapsLock を Ctrl / Esc にする ( 定番 )
 
 押しっぱなし -> Ctrl, 単押し -> Esc
 
 ```ini
 [ids]
-
 *
 
-[main]
 
+[main]
 # CapsLock を 押しっぱなし=Ctrl, 単押し=Esc にする
 capslock = overload(control, esc)
+
 
 # 元の Esc を CapsLock にする ( 不要なら削除 )
 esc = capslock
 ```
 
-### 設定例 2: 左 Ctrl と CapsLock を入れ替える ( シンプル )
+
+### ex.2 : 左 Ctrl と CapsLock を入れ替える ( シンプル )
 
 ```ini
 [ids]
@@ -38,19 +45,17 @@ capslock = leftcontrol
 leftcontrol = capslock
 ```
 
-### 設定例 3: レイヤーを使ってシンボル入力を便利にする
+
+### ex.3 : レイヤーを使ってシンボル入力を便利にする
 
 ```ini
 [ids]
-
 *
 
 [main]
-
 capslock = overload(symbols, esc)
 
 [symbols]
-
 d = ~
 f = /
 j = (
@@ -59,6 +64,7 @@ l = _
 s = -
 ```
 
+
 ## 設定の反映
 
 設定ファイルを保存したら, 以下で再読み込みします ( 再起動不要 )
@@ -66,6 +72,7 @@ s = -
 ```bash
 sudo keyd reload
 ```
+
 
 ## 動作確認
 
@@ -77,7 +84,9 @@ sudo keyd reload
 sudo keyd monitor
 ```
 
-キーを押すと, keyd がリマップした後の出力が表示されます 元の入力イベントを見たい場合は, 先に `sudo systemctl stop keyd` してから実行してください
+キーを押すと, keyd がリマップした後の出力が表示されます  
+元の入力イベントを見たい場合は, 先に `sudo systemctl stop keyd` してから実行してください
+
 
 ### ログの確認
 
@@ -86,6 +95,7 @@ sudo keyd monitor
 ```bash
 sudo journalctl -eu keyd
 ```
+
 
 ## 緊急時の復旧 ( 重要 )
 
@@ -97,6 +107,7 @@ Backspace + Escape + Enter ( 3 キー同時押し )
 
 これで keyd が終了し, 元のキーマップに戻ります
 
+
 ## アプリごとのリマップ ( 応用, 実験的機能 )
 
 KDE Wayland でアプリごとに異なるリマップをしたい場合
@@ -104,7 +115,9 @@ KDE Wayland でアプリごとに異なるリマップをしたい場合
 ```bash
 # keyd グループに自分を追加
 sudo usermod -aG keyd $(whoami)
+
 # ログアウト・ログインで反映
+
 
 # 設定ファイルを作成
 mkdir -p ~/.config/keyd
@@ -119,7 +132,9 @@ alt.t = C-t
 alt.w = C-w
 ```
 
-ただしこの機能は実験的で, KDE Wayland での動作は `dbus-python` に依存します 必要に応じて `sudo dnf install python3-dbus` を入れてください
+ただしこの機能は実験的で, KDE Wayland での動作は `dbus-python` に依存します  
+必要に応じて `sudo dnf install python3-dbus` を入れてください
+
 
 ## まとめ
 
@@ -131,7 +146,5 @@ sudo systemctl enable --now keyd
 sudo vim /etc/keyd/default.conf   # 設定を書く
 sudo keyd reload                  # 反映
 ```
-
-何か特定のリマップをしたい ( 例: 特定のキーをこう割り当てたい ) があれば, それに合わせた設定を書きます 具体的な配置を教えてもらえれば, 設定例を作ります
 
 
