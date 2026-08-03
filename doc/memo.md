@@ -4,10 +4,8 @@
 
 ## keyd
 
-install
 setting
-key-bind
-- basic
+- tidy
 
 
 ## git
