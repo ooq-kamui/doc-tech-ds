@@ -11,18 +11,26 @@ https://github.com/rvaiya/keyd
 
 ## keyd とは
 
-keyd は Linux の **kernel レベル ( evdev ) で動くキーリマップデーモン**です X11 / Wayland / TTY を問わず, システム全体で動作します KDE Wayland でも問題なく使えます ( [rvaiya/keyd - GitHub](https://github.com/rvaiya/keyd) )
+- keyd は linux の kernel レベル ( evdev ) で動くキーリマップデーモン
+- x11 / wayland / tty を問わず, システム全体で動作する
+- kde wayland でも使える
+
+[rvaiya/keyd - GitHub](https://github.com/rvaiya/keyd )
 
 
 ## install
 
-Fedora 向けには COPR パッケージが提供されています
+Fedora 向けには copr パッケージが提供されています
+
+### copr repository を有効化
 
 ```bash
-# COPR リポジトリを有効化
 sudo dnf copr enable alternateved/keyd
+```
 
-# install
+### install
+
+```
 sudo dnf install keyd
 ```
 
