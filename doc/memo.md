@@ -4,12 +4,6 @@
 
 ## git
 
-git stash pop
-- run confirm
-  - case:
-    - worktree file
-    - staged   file
-
 git worktree
 
 

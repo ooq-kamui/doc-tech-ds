@@ -4,7 +4,7 @@
 
 ## 基本
 
-変更 ( worktree ) を 退避し,  
+変更 ( worktree & staged ) を 退避し,  
 git pull 後,  
 退避した file を元に戻す  
 ことができる
@@ -53,7 +53,7 @@ git stash show <stash-no>
 ```
 
 
-## worktree を stash
+## worktree & staged を stash
 
 ```
 git stash push
@@ -73,6 +73,16 @@ git stash push 'comment'
 ```
 git stash pop
 ```
+
+- staged されていた file も worktree に戻る
+
+
+### staged の状態を維持したまま復元したい場合
+
+```
+git stash pop --index
+```
+
 
 ### stash-no を指定して 復元
 
@@ -107,11 +117,10 @@ git stash drop stash@{no}
 ```
 
 
-## err sample
 
-worktree の変更を commit せずに
-pull しようとすると,  
-下記のエラーとなる
+## case study
+
+- worktree の変更を commit せずに pull しようとすると,  下記のエラーとなる
 
 ```
 error: Your local changes to the following files would be overwritten by merge:
@@ -121,5 +130,6 @@ Aborting
 ```
 
 message にあるように, このときに stash を活用する
+と, err を解消できる
 
 
