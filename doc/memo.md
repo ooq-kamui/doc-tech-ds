@@ -2,12 +2,6 @@
 # doc-tech
 
 
-## keyd
-
-setting
-- tidy
-
-
 ## git
 
 git stash pop
