@@ -14,19 +14,6 @@ output   setting
 ```
 
 
-### k7 max
-
-```
-mu-henkan : LT(4, KC_MHEN)
-
-```
-
-
-### k3 max
-
-wip
-
-
 ## layer
 
 - MO (Momentary): 押している間だけ指定レイヤーに切り替える

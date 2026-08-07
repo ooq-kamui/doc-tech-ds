@@ -5,12 +5,12 @@
 RGB Toggle バックライトの on / off
 Mode-      発光エフェクト prv
 Mode+      発光エフェクト nxt
-Hue-       色相(Hue) dn
-Hue+       色相(Hue) up
-Sat-       彩度(Saturation) dn (色が薄く/白っぽくなる)
-Sat+       彩度(Saturation) up (色が濃く/鮮やかになる)
 Br-        Brightness を dn
 Br+        Brightness を up
+Hue-       Hue(色相) dn
+Hue+       Hue(色相) up
+Sat-       Saturation(彩度) dn (色が 薄く/白っぽく なる)
+Sat+       Saturation(彩度) up (色が 濃く/鮮やかに なる)
 ES-        Effect Speed を dn
 ES+        Effect Speed を up
 ```
