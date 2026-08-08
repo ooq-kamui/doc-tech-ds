@@ -2,6 +2,18 @@
 # doc-tech
 
 
+## hard ware
+
+size
+
+
+
+## keychron
+
+any, fnc
+- research
+
+
 ## git
 
 git worktree

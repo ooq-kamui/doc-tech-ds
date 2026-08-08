@@ -2,7 +2,7 @@
 ## custom
 
 
-### any
+### any ( fnc )
 
 ```
 wip

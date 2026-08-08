@@ -21,7 +21,7 @@ google の account で 連携した認証を行い,
 
 ## linter
 
-文法チェック ?
+文法 chk
 
 
 

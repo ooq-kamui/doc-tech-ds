@@ -1,6 +1,16 @@
 
 ## lightning
 
+
+### white
+
+```
+wip
+```
+
+
+### rgb
+
 ```
 RGB Toggle バックライトの on / off
 Mode-      発光エフェクト prv
