@@ -2,12 +2,6 @@
 # doc-tech
 
 
-## hard ware
-
-size
-
-
-
 ## keychron
 
 any, fnc

@@ -1,23 +1,32 @@
 
 # keyd  -  key-name
 
+なお, 自分のキーボードのキー名がわからない場合は:
+
+```bash
+sudo keyd monitor
+```
+
+を実行してキーを押すと, keyd が認識しているキー名がリアルタイムで表示されます.
+
+また `keyd list-keys` で有効なキー名の一覧も確認できます.
 
 ## 特殊キー
 
 | keyd での名前 | キー        |
 |---------------|-------------|
-| `enter`       | Enter       |
-| `space`       | Space       |
-| `tab`         | Tab         |
-| `backspace`   | Backspace   |
-| `delete`      | Delete      |
-| `insert`      | Insert      |
-| `esc`         | Escape      |
-| `capslock`    | CapsLock    |
-| `numlock`     | NumLock     |
-| `scrolllock`  | ScrollLock  |
-| `pause`       | Pause       |
-| `sysrq`       | PrintScreen |
+| `enter`       | enter       |
+| `space`       | space       |
+| `tab`         | tab         |
+| `backspace`   | backspace   |
+| `delete`      | delete      |
+| `insert`      | insert      |
+| `esc`         | escape      |
+| `capslock`    | capslock    |
+| `numlock`     | numLock     |
+| `scrolllock`  | scrollLock  |
+| `pause`       | pause       |
+| `sysrq`       | print-screen |
 
 
 ## 修飾キー
@@ -133,16 +142,6 @@ capslock = esc
 enter = backspace
 leftalt = leftcontrol
 ```
-
-なお, 自分のキーボードのキー名がわからない場合は:
-
-```bash
-sudo keyd monitor
-```
-
-を実行してキーを押すと, keyd が認識しているキー名がリアルタイムで表示されます.
-
-また `keyd list-keys` で有効なキー名の一覧も確認できます.
 
 出典:
 - [keyd key names gist (rvaiya)](https://gist.github.com/rvaiya/be31f42049a4b5ad46666a8e120d9843 )

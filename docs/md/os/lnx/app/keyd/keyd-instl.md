@@ -1,6 +1,5 @@
 
-
-# keyd
+# keyd  -  install
 
 https://github.com/rvaiya/keyd
 
@@ -8,15 +7,6 @@ https://github.com/rvaiya/keyd
 
 - https://qiita.com/showchan33/items/56baa1c7a145f14ebf82
 - https://zenn.dev/sanmal/articles/fad4d635c2a323
-
-
-## keyd とは
-
-- keyd は linux の kernel レベル ( evdev ) で動くキーリマップデーモン
-- x11 / wayland / tty を問わず, システム全体で動作する
-- kde wayland でも使える
-
-[rvaiya/keyd - GitHub](https://github.com/rvaiya/keyd )
 
 
 ## install
@@ -42,6 +32,20 @@ sudo dnf install keyd
 sudo systemctl enable --now keyd
 ```
 
-これで keyd が常駐し, 再起動後も自動で起動します
+- 上記で, 再起動後も自動で起動します
+
+
+## 起動しているかの確認
+
+```
+systemctl status keyd
+```
+
+
+## 自動起動が有効になっているか確認
+
+```
+systemctl is-enabled keyd
+```
 
 

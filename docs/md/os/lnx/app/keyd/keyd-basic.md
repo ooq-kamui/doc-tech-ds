@@ -1,100 +1,47 @@
 
-## setting dir
+# keyd  -  basic
 
-```
-/etc/keyd/
-```
+
+## keyd とは
+
+- keyd は linux の kernel レベル ( evdev ) で動くキーリマップデーモン
+- x11 / wayland / tty を問わず, システム全体で動作する
+- kde wayland でも使える
+
+https://github.com/rvaiya/keyd
 
 
 ## config file
 
-```bash
+```
 sudo vim /etc/keyd/default.conf
-```
-
-
-### ex.1 : CapsLock を Ctrl / Esc にする ( 定番 )
-
-押しっぱなし -> Ctrl, 単押し -> Esc
-
-```ini
-[ids]
-*
-
-
-[main]
-# CapsLock を 押しっぱなし=Ctrl, 単押し=Esc にする
-capslock = overload(control, esc)
-
-
-# 元の Esc を CapsLock にする ( 不要なら削除 )
-esc = capslock
-```
-
-
-### ex.2 : 左 Ctrl と CapsLock を入れ替える ( シンプル )
-
-```ini
-[ids]
-
-*
-
-[main]
-
-capslock = leftcontrol
-leftcontrol = capslock
-```
-
-
-### ex.3 : レイヤーを使ってシンボル入力を便利にする
-
-```ini
-[ids]
-*
-
-[main]
-capslock = overload(symbols, esc)
-
-[symbols]
-d = ~
-f = /
-j = (
-k = )
-l = _
-s = -
 ```
 
 
 ## 設定の反映
 
-設定ファイルを保存したら, 以下で再読み込みします ( 再起動不要 )
-
-```bash
+```
 sudo keyd reload
 ```
 
 
-## 動作確認
+## key name view
 
-### キー名を調べる
-
-リマップしたいキーの名前を確認するには
-
-```bash
+```
 sudo keyd monitor
 ```
 
-キーを押すと, keyd がリマップした後の出力が表示されます  
-元の入力イベントを見たい場合は, 先に `sudo systemctl stop keyd` してから実行してください
+- キーを押すと, keyd がリマップした後の出力が表示される
+- 元の入力イベントを見たい場合は, 先に `sudo systemctl stop keyd` してから実行
 
 
 ### ログの確認
 
-設定ファイルにエラーがある場合はログに出ます
-
 ```bash
 sudo journalctl -eu keyd
 ```
+
+- 設定ファイルにエラーがある場合はログに出る
 
 
 ## 緊急時の復旧 ( 重要 )
@@ -146,5 +93,6 @@ sudo systemctl enable --now keyd
 sudo vim /etc/keyd/default.conf   # 設定を書く
 sudo keyd reload                  # 反映
 ```
+
 
 
