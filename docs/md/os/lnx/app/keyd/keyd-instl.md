@@ -11,7 +11,8 @@ https://github.com/rvaiya/keyd
 
 ## install
 
-Fedora 向けには copr パッケージが提供されています
+fedora 向けには copr パッケージが提供されています
+
 
 ### copr repository を有効化
 
@@ -28,21 +29,21 @@ sudo dnf install keyd
 
 ## 起動
 
-```bash
+```
 sudo systemctl enable --now keyd
 ```
 
 - 上記で, 再起動後も自動で起動します
 
 
-## 起動しているかの確認
+## 起動の確認
 
 ```
 systemctl status keyd
 ```
 
 
-## 自動起動が有効になっているか確認
+## 自動起動が有効の確認
 
 ```
 systemctl is-enabled keyd
