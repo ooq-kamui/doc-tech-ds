@@ -2,10 +2,43 @@
 # doc-tech
 
 
+## claude
+
+claude code
+- install
+  ```
+  curl -fsSL https://claude.ai/install.sh | bash
+  ```
+
+
 ## keychron
 
-any, fnc
-- research
+any, fnc-lst
+
+
+## keyd
+
+exist-file, tidy
+
+copilot button
+
+numpad
+emacs
+
+desktop mv
+
+by app
+- deny
+
+
+## zenn
+
+zenn article
+- keychron, layout: orz-arrange
+  - write
+  - up
+
+up method basic
 
 
 ## git

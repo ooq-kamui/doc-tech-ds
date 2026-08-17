@@ -7,38 +7,15 @@
 https://formulae.brew.sh/formula/zoxide
 
 
+## remove ( del )
 
-## install
-
-### mac / linux
-
-```
-brew install zoxide
-```
-
-#### fish
-
-config.fish
+- 既存の jump 先 dir を 消す
 
 ```
-zoxide init fish | source
+zoxide remove <path>
 ```
 
-
-### win
-
-winget
-
-or
-
-scoop
-
-
-#### pwsh
-
-```
-wip:
-```
+- ある dir 配下を一括で消す option はない
 
 
 ## faq
