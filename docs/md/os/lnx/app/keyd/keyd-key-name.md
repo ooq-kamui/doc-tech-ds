@@ -1,150 +1,155 @@
 
 # keyd  -  key-name
 
-なお, 自分のキーボードのキー名がわからない場合は:
 
-```bash
+## key name confirm
+
+```
 sudo keyd monitor
 ```
 
-を実行してキーを押すと, keyd が認識しているキー名がリアルタイムで表示されます.
 
-また `keyd list-keys` で有効なキー名の一覧も確認できます.
+## key name list
 
-## 特殊キー
-
-| keyd での名前 | キー        |
-|---------------|-------------|
-| `enter`       | enter       |
-| `space`       | space       |
-| `tab`         | tab         |
-| `backspace`   | backspace   |
-| `delete`      | delete      |
-| `insert`      | insert      |
-| `esc`         | escape      |
-| `capslock`    | capslock    |
-| `numlock`     | numLock     |
-| `scrolllock`  | scrollLock  |
-| `pause`       | pause       |
-| `sysrq`       | print-screen |
-
-
-## 修飾キー
-
-| keyd での名前                  | key              |
-|--------------------------------|------------------|
-| `leftshift`   / `rightshift`   | Shift            |
-| `leftcontrol` / `rightcontrol` | Ctrl             |
-| `leftalt`     / `rightalt`     | Alt              |
-| `leftmeta`    / `rightmeta`    | Super (Win キー) |
-| `compose`                      | Compose          |
-
-
-## 矢印キー
-
-| keyd での名前 | key  |
-|---------------|------|
-| `up`          | ↑    |
-| `down`        | ↓    |
-| `left`        | ←    |
-| `right`       | →    |
-
-
-## ナビゲーション
-
-| keyd での名前 | key      |
-|---------------|----------|
-| `home`        | Home     |
-| `end`         | End      |
-| `pageup`      | PageUp   |
-| `pagedown`    | PageDown |
-
-
-## ファンクションキー
-
-| keyd での名前 | key      |
-|---------------|----------|
-| `f1`          | f1       |
-|  :            | :        |
-| `f9`          | f9       |
-| `f10`         | f10      |
-|  :            | :        |
-| `f23`         | f23      |
-
-
-## 記号 / 句読点
-
-| keyd での名前 | キー               |
-|---------------|--------------------|
-| `-`           | - (ハイフン)       |
-| `=`           | =                  |
-| `[`           | [                  |
-| `]`           | ]                  |
-| `;`           | ;                  |
-| `'`           | ' (アポストロフィ) |
-| `` ` ``       | ` (バッククォート) |
-| `\`           | \                  |
-| `,`           | ,                  |
-| `.`           | .                  |
-| `/`           | /                  |
-
-
-## 数字
-
-| keyd での名前 | key      |
-|---------------|----------|
-| `0`           | 0        |
-|  :            | :        |
-| `9`           | 9        |
-
-
-## アルファベット
-
-| keyd での名前 | key      |
-|---------------|----------|
-| `a`           | a        |
-|  :            | :        |
-| `z`           | z        |
-
-
-## テンキー (Numpad)
-
-| keyd での名前 | キー           |
-|---------------|----------------|
-| `kp0` ~ `kp9` | テンキー 0-9   |
-| `kpenter`     | テンキー Enter |
-| `kpplus`      | テンキー +     |
-| `kpminus`     | テンキー -     |
-| `kpasterisk`  | テンキー *     |
-| `kpslash`     | テンキー /     |
-| `kpdot`       | テンキー .     |
-| `kpequal`     | テンキー =     |
-| `kpcomma`     | テンキー ,     |
-
-
-## メディア / システム
-
-| keyd での名前                                        | キー     |
-|------------------------------------------------------|----------|
-| `volumeup` / `volumedown` / `mute`                   | 音量     |
-| `playpause` / `nextsong` / `previoussong` / `stopcd` | 再生制御 |
-| `brightnessup` / `brightnessdown`                    | 画面輝度 |
-| `sleep` / `wakeup` / `power`                         | 電源系   |
-
----
-
-
-## 使用例
-
-```ini
-[main]
-capslock = esc
-enter = backspace
-leftalt = leftcontrol
+```
+keyd list-keys
 ```
 
-出典:
-- [keyd key names gist (rvaiya)](https://gist.github.com/rvaiya/be31f42049a4b5ad46666a8e120d9843 )
-- [keyd(1) man page](https://man.archlinux.org/man/keyd.1.en )
+
+## key name
+
+### special
+
+| key name     | desc         |
+|--------------|--------------|
+| `enter`      | enter        |
+| `space`      | space        |
+| `tab`        | tab          |
+| `backspace`  | backspace    |
+| `delete`     | delete       |
+| `insert`     | insert       |
+| `esc`        | escape       |
+| `capslock`   | capslock     |
+| `numlock`    | numLock      |
+| `scrolllock` | scrollLock   |
+| `pause`      | pause        |
+| `sysrq`      | print-screen |
+
+
+### modifier
+
+| key name       | desc          |
+|----------------|---------------|
+| `leftshift`    | shift         |
+| `rightshift`   | shift         |
+| `leftcontrol`  | ctrl          |
+| `rightcontrol` | ctrl          |
+| `leftalt`      | alt           |
+| `rightalt`     | alt           |
+| `leftmeta`     | super ( win ) |
+| `rightmeta`    | super ( win ) |
+| `compose`      | compose       |
+
+
+### arrow
+
+| keyname | desc  |
+|---------|-------|
+| `up`    | up    |
+| `down`  | down  |
+| `left`  | left  |
+| `right` | right |
+
+
+### navigation
+
+| key name   | desc      |
+|------------|-----------|
+| `home`     | home      |
+| `end`      | end       |
+| `pageup`   | page up   |
+| `pagedown` | page down |
+
+
+### fXX
+
+| key name | desc |
+|----------|------|
+| `f1`     | f1   |
+|  :       | :    |
+| `f9`     | f9   |
+| `f10`    | f10  |
+|  :       | :    |
+| `f23`    | f23  |
+
+
+### symbol
+
+| key name | desc |
+|----------|------|
+| `-`      | -    |
+| `=`      | =    |
+| `[`      | [    |
+| `]`      | ]    |
+| `;`      | ;    |
+| `'`      | '    |
+| `` ` ``  | `    |
+| `\`      | \    |
+| `,`      | ,    |
+| `.`      | .    |
+| `/`      | /    |
+
+
+### number
+
+| key name | desc |
+|----------|------|
+| `0`      | 0    |
+|  :       | :    |
+| `9`      | 9    |
+
+
+### alphabet
+
+| key name | desc |
+|----------|------|
+| `a`      | a    |
+|  :       | :    |
+| `z`      | z    |
+
+
+### numpad
+
+| key name     | desc  |
+|--------------|-------|
+| `kp0`        | 0     |
+| :            | :     |
+| `kp9`        | 9     |
+| `kpenter`    | enter |
+| `kpplus`     | +     |
+| `kpminus`    | -     |
+| `kpasterisk` | *     |
+| `kpslash`    | /     |
+| `kpdot`      | .     |
+| `kpequal`    | =     |
+| `kpcomma`    | ,     |
+
+
+### media / system
+
+| key name         | desc       |
+|------------------|------------|
+| `volumeup`       | volume     |
+| `volumedown`     | volume     |
+| `mute`           | volume     |
+| `playpause`      | play       |
+| `nextsong`       | play       |
+| `previoussong`   | play       |
+| `stopcd`         | play       |
+| `brightnessup`   | brightness |
+| `brightnessdown` | brightness |
+| `sleep`          | system     |
+| `wakeup`         | system     |
+| `power`          | system     |
 
 

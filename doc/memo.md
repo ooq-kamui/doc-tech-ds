@@ -2,27 +2,19 @@
 # doc-tech
 
 
-## claude
-
-claude code
-- install
-  ```
-  curl -fsSL https://claude.ai/install.sh | bash
-  ```
-
-
-## keychron
-
-any, fnc-lst
-
-
 ## keyd
 
 exist-file, tidy
+- basic
+- instl
+- key-name
+- smpl-01
+- smpl-02
 
 copilot button
 
 numpad
+
 emacs
 
 desktop mv

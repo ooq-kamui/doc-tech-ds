@@ -16,7 +16,7 @@ fedora 向けには copr パッケージが提供されています
 
 ### copr repository を有効化
 
-```bash
+```
 sudo dnf copr enable alternateved/keyd
 ```
 

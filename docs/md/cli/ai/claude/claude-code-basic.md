@@ -1,5 +1,5 @@
 
-# claude
+# claude code
 
 
 ## install

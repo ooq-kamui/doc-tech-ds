@@ -14,7 +14,8 @@ tap で Escape, 長押しで Control になるいわゆる "Dual-role CapsLock"
 
 [main]
 capslock = overload(control, esc)
-esc = capslock          # 元の Esc を CapsLock にスワップ (任意)
+# esc を capslock に swap
+esc = capslock
 ```
 
 Vim ユーザーにも Emacs ユーザーにも恩恵がある, keyd README にも Quickstart として載っている鉄板設定です
