@@ -11,15 +11,16 @@ alt : MT(MOD_LALT, KC_APP)
 ```
 
 
-### win - power toys
+### win - with power toys
 
 ```
 f15 : screen shot     : win + shift + s
-f16 : win close       : alt + f4
+f16 : ---             : ---
 f17 : win next        : alt + tab
 f18 : win min         : win + dn
 f19 : clip board list : win + v
-f20 : dmy             : -
+--- : win close       : alt + f4
+--- : dmy             : -
 ```
 
 notice:

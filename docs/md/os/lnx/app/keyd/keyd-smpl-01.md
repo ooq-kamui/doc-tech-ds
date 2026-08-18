@@ -1,5 +1,5 @@
 
-# example
+# sample 01
 
 
 ## ex.1 : capslock を ctrl / Esc にする
