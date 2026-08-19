@@ -7,9 +7,16 @@
 https://formulae.brew.sh/formula/zoxide
 
 
+## list
+
+```
+zoxide query --list
+```
+
+
 ## remove ( del )
 
-- dir history から 消す
+- dir history から dir を 消す
 
 ```
 zoxide remove <path>
