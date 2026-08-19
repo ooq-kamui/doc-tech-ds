@@ -1,5 +1,5 @@
 
-# bash script scrpt
+# bash script
 
 
 ## arg

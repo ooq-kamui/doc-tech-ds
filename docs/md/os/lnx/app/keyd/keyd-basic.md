@@ -87,3 +87,10 @@ alt.w = C-w
 必要に応じて `sudo dnf install python3-dbus` を入れてください
 
 
+## layer
+
+wip
+
+- layer name には `-` は使わないのが無難
+
+

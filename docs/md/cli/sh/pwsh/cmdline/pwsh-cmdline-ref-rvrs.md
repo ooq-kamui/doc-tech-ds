@@ -23,6 +23,3 @@ Get-Content -Path <file_path> -Wait -Tail <line_num> -Encoding UTF8
   - wsl 上の file であれば, wsl ( linux ) から `tail -f` できるはずなので, そうすれば ok のはず
 
 
-
-
-

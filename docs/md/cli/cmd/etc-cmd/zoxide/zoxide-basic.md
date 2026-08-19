@@ -9,13 +9,13 @@ https://formulae.brew.sh/formula/zoxide
 
 ## remove ( del )
 
-- 既存の jump 先 dir を 消す
+- dir history から 消す
 
 ```
 zoxide remove <path>
 ```
 
-- ある dir 配下を一括で消す option はない
+- ある dir 配下を一括で消すような option はない
 
 
 ## faq
