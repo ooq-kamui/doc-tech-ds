@@ -2,17 +2,9 @@
 # doc-tech
 
 
-## key-map, key-bind
-
-summary
-- mac
-- lnx
-- win
-
-
 ## keyd
 
-exist-file, tidy
+exist-doc-file, tidy
 - basic
 - instl
 - key-name
@@ -23,17 +15,12 @@ copilot button
 
 numpad
 
-emacs
+like emacs at app
 
 desktop mv
 
 by app
 - deny
-
-
-## bash
-
-`.bashrc / .bash_profile`
 
 
 ## zenn

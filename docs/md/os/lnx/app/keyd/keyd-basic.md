@@ -59,6 +59,24 @@ backspace + escape + enter
 - keyd が終了し, 元のキーマップに戻ります
 
 
+## layer
+
+wip
+
+- layer name には `-` は使わないのが無難
+
+
+## ids
+
+- id の調べかた
+  - `sudo keyd monitor` で,
+    1 col 目に 表示される `xxx:xxx` の形式の文字列が id
+
+
+
+
+---
+
 ## アプリごとのリマップ ( 応用, 実験的機能 )
 
 kde wayland でアプリごとに異なるリマップをしたい場合
@@ -85,12 +103,5 @@ alt.w = C-w
 
 ただしこの機能は実験的で, kde wayland での動作は `dbus-python` に依存します  
 必要に応じて `sudo dnf install python3-dbus` を入れてください
-
-
-## layer
-
-wip
-
-- layer name には `-` は使わないのが無難
 
 
