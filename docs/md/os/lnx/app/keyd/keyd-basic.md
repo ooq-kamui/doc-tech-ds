@@ -69,19 +69,18 @@ wip
 ## ids
 
 - id の調べかた
-  - `sudo keyd monitor` で,
-    1 col 目に 表示される `xxx:xxx` の形式の文字列が id
+  - `sudo keyd monitor` で 表示される `xxx:xxx:xxxxxx` の形式の文字列 が id
+    - ex
+      ```
+      keyd virtual keyboard   0fac:0ade:bea394c0      y up
+      ```
 
-
-
-
----
 
 ## アプリごとのリマップ ( 応用, 実験的機能 )
 
 kde wayland でアプリごとに異なるリマップをしたい場合
 
-```bash
+```
 # keyd グループに自分を追加
 sudo usermod -aG keyd $(whoami)
 
@@ -93,7 +92,7 @@ mkdir -p ~/.config/keyd
 vim ~/.config/keyd/app.conf
 ```
 
-```ini
+```
 # ~/.config/keyd/app.conf の例
 [firefox]
 alt.l = C-l
