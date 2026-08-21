@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## bash
+
+fnc fr fish, method
+
+
 ## keyd
 
 exist-doc-file, tidy
