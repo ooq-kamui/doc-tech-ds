@@ -27,9 +27,3 @@ hint: Disable this message with "git config set advice.mergeConflict false"
 ```
 
 
-
-
-
-
-
-
