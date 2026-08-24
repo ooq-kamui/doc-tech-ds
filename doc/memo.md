@@ -2,11 +2,6 @@
 # doc-tech
 
 
-## bash
-
-fnc fr fish, method
-
-
 ## keyd
 
 exist-doc-file, tidy
@@ -36,6 +31,12 @@ zenn article
   - up
 
 up method basic
+
+
+## bash
+
+fish fnc fr bash, method
+- tidy
 
 
 ## git
