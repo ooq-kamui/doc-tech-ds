@@ -4,8 +4,16 @@
 
 ## install
 
+### brew
+
 ```
 brew install difftastic
+```
+
+### dnf
+
+```
+sudo dnf install difftastic
 ```
 
 
@@ -14,7 +22,5 @@ brew install difftastic
 ```
 wip:
 ```
-
-
 
 
