@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## bash
+
+fish fnc fr bash, method
+- tidy
+
+
 ## keyd
 
 exist-doc-file, tidy
@@ -23,6 +29,13 @@ by app
 - deny
 
 
+## lnx package mng
+
+overview
+
+dnf
+
+
 ## zenn
 
 zenn article
@@ -31,12 +44,6 @@ zenn article
   - up
 
 up method basic
-
-
-## bash
-
-fish fnc fr bash, method
-- tidy
 
 
 ## git

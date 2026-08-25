@@ -1,5 +1,15 @@
 
-# wez term
+# wez-term
+
+
+## install
+
+### fdr
+
+```
+sudo dnf copr enable wezfurlong/wezterm-nightly
+sudo dnf install wezterm
+```
 
 
 ## cnf file

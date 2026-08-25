@@ -41,7 +41,8 @@ login shell は `.bashrc` を読まないので,
 
 ```
 # ~/.bash_profile
-if [ -f ~/.bashrc ]; then
+if [ -f ~/.bashrc ]
+then
     source ~/.bashrc
 fi
 ```

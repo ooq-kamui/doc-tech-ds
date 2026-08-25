@@ -1,6 +1,8 @@
 
 # nvim env
 
+wip, write-re
+
 
 ## env var
 
