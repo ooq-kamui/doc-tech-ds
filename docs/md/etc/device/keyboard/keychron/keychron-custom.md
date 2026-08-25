@@ -7,12 +7,13 @@
 #### fnc
 
 ```
-MT()   Mod-Tap         ホールドで修飾, タップで通常キー
-LT()   Layer-Tap       ホールドでレイヤー切替, タップで通常キー
-MO()   Momentary       押している間だけレイヤー切替
-TG()   Toggle          レイヤーのトグル
-OSM()  One Shot Mod    次の1キーだけ 修飾 key を適用
-OSL()  One Shot Layer  次の1キーだけ Layer を適用
+MO()   Momentary                            , hold: layer
+LT()   Layer-Tap       tap: nml-key         , hold: layer
+OSL()  One Shot Layer  tap: one time layer  , hold: layer
+TG()   Toggle          tap: layer tgl
+
+MT()   Mod-Tap         tap: nml-key         , hold: mod-key
+OSM()  One Shot Mod    tap: one time mod-key, hold: mod-key
 ```
 
 

@@ -2,10 +2,11 @@
 # doc-tech
 
 
-## bash
+## lnx package mng
 
-fish fnc fr bash, method
-- tidy
+overview
+
+dnf
 
 
 ## keyd
@@ -29,11 +30,16 @@ by app
 - deny
 
 
-## lnx package mng
+## bash
 
-overview
+fish fnc fr bash, method
+- write tidy
 
-dnf
+
+## oss
+
+tutorial
+- learn,
 
 
 ## zenn
