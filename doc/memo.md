@@ -39,7 +39,7 @@ fish fnc fr bash, method
 ## oss
 
 tutorial
-- learn,
+- learn
 
 
 ## zenn
@@ -51,6 +51,8 @@ zenn article
 
 up method basic
 
+
+---
 
 ## git
 
