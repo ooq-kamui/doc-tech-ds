@@ -16,7 +16,7 @@ copilot button
 
 numpad
 
-like emacs at app
+cursor like emacs at app
 
 desktop mv
 
