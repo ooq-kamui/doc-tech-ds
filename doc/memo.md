@@ -2,13 +2,6 @@
 # doc-tech
 
 
-## lnx package mng
-
-overview
-
-dnf
-
-
 ## keyd
 
 exist-doc-file, tidy
@@ -17,6 +10,7 @@ exist-doc-file, tidy
 - key-name
 - smpl-01
 - smpl-02
+
 
 copilot button
 
@@ -27,29 +21,19 @@ like emacs at app
 desktop mv
 
 by app
-- deny
+- unsupported
 
 
-## bash
+## zenn
 
-fish fnc fr bash, method
-- write tidy
+article up method
+- basic
 
 
 ## oss
 
 tutorial
 - learn
-
-
-## zenn
-
-zenn article
-- keychron, layout: orz-arrange
-  - write
-  - up
-
-up method basic
 
 
 ---

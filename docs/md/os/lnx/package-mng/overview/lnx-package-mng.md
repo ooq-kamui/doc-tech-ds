@@ -7,24 +7,24 @@
 https://qiita.com/h_tyokinuhata/items/9e1978e1ea6dd410b5f1
 
 
-## redhat / centos / almalinux
+## fedora / alma-linux / redhat
 
-新しい順
-
-- dnf
+- dnf : いまはこれ
 - yum
 - rpm
 
 
 ## debian / ubuntu
 
+- apt     : いまはこちら
 - apt-get
-- apt
 
 
 ## mac
 
 - brew
-  - いまどきは linux でもだいたいいけます
+  - いまどきは linux でもだいたいいけます,  
+    が, とはいえ,  
+    `dnf, apt` に特に抵抗がなければ, `dnf, apt` で install するほうが無難です
 
 
