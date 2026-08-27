@@ -1,12 +1,12 @@
 
 # sample 02
 
-keyd で定番とされる設定パターンをまとめます
+- keyd で定番のパターン
 
 
-## 1. CapsLock を Ctrl / Esc に (最も人気)
+## 1. capsLock を ctrl / esc に ( 最も人気 )
 
-tap で Escape, 長押しで Control になるいわゆる "Dual-role CapsLock"
+tap で esc, 長押しで ctrl になるいわゆる "Dual-role CapsLock"
 
 ```
 [ids]
@@ -18,12 +18,11 @@ capslock = overload(control, esc)
 esc = capslock
 ```
 
-Vim ユーザーにも Emacs ユーザーにも恩恵がある, keyd README にも Quickstart として載っている鉄板設定です
 
+## 2. space を修飾キーに ( space cadet / space-layer )
 
-## 2. Space を修飾キーに (Space Cadet / Space-layer)
-
-tap で Space, 長押しでカスタムレイヤーに入る
+- tap で space, hold で layer 
+- home position から arrow key を使えるように
 
 ```
 [main]
@@ -38,12 +37,11 @@ u = pageup
 d = pagedown
 ```
 
-ホームポジションから矢印キーを使えるようになる
 
+## 3. home row mods
 
-## 3. Home Row Mods
-
-ホームロー (a, s, d, f / j, k, l, ;) を tap/hold で修飾キーにする
+home position の key ( a, s, d, f / j, k, l, ; ) を,  
+tap/hold で 修飾キーにする
 
 ```
 [main]
@@ -62,9 +60,10 @@ QMK 界隈で流行している設定を keyd で再現したもの
 誤爆が気になる場合は `overloadt()` (timeout 付き) や `overloadt2()` で閾値を調整できる
 
 
-## 4. oneshot modifier (ワンショット)
+## 4. oneshot modifier
 
-1 回だけ次のキーに修飾を掛ける. Sticky Keys に近い概念
+- 1 回だけ次のキーに修飾をかける
+- sticky keys に近い概念
 
 ```
 [main]
@@ -72,12 +71,10 @@ leftshift = oneshot(shift)
 leftcontrol = oneshot(control)
 ```
 
-連続入力のとき指を押さえ続けなくてよくなる
 
+## 5. macOS 風 short-cut ( super を ctrl 代わりに )
 
-## 5. macOS 風ショートカット (Super を Ctrl 代わりに)
-
-Linux に移行した macOS ユーザーがよくやるパターン
+linux に移行した macOS ユーザーがよくやるパターン
 
 ```
 [main]
@@ -97,7 +94,7 @@ f = C-f
 ```
 
 
-## 6. 右 Alt (AltGr) でレイヤーを作り記号を打ちやすくする
+## 6. 右 alt ( AltGr ) でレイヤーを作り記号を打ちやすくする
 
 ```
 [main]
@@ -112,6 +109,7 @@ m = {
 , = }
 ```
 
-プログラマー向け. 数字列まで指を伸ばさずに括弧を打てる
+- 数字列まで指を伸ばさずに括弧を打てる
+- プログラマー向け
 
 

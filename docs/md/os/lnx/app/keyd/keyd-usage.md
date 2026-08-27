@@ -30,39 +30,38 @@ sudo keyd reload
 sudo keyd monitor
 ```
 
-- キーを押すと, keyd がリマップした後の出力が表示される
-- 元の入力 key を見たい場合は, keyd を止めてから 実行する
+- key を押すと, keyd が remap したあとの出力が表示される
+- もとの入力 key を見たい場合は, keyd を止めてから 実行する
   ```
   sudo systemctl stop keyd
   ```
 
 
-### ログの確認
+### log の確認
 
 ```
 sudo journalctl -eu keyd
 ```
 
-- 設定ファイルにエラーがある場合はログに出る
+- 設定 file に err がある場合は log に出る
 
 
 ## 緊急時の復旧 ( 重要 )
 
-設定を間違えてキーボードが使えなくなった場合,
-以下の特殊キーシーケンスで keyd を強制終了できます
+設定を間違えてキーボードが使えなくなった場合,  
+以下の特殊キーシーケンス で keyd を強制終了できます
 
 ```
 backspace + escape + enter
 # 3 キー同時押し
 ```
 
-- keyd が終了し, 元のキーマップに戻ります
+- keyd が終了し, もとの keymap に戻ります
 
 
 ## layer
 
-wip
-
+- keychron launcher などにもある, layer の機能があります
 - layer name には `-` は使わないのが無難
 
 
@@ -76,7 +75,11 @@ wip
       ```
 
 
-## アプリごとのリマップ ( 応用, 実験的機能 )
+## app ごとの remap
+
+- これは 応用, 実験的機能 です
+- kde wayland での動作は `dbus-python` に依存します  
+  必要に応じて `sudo dnf install python3-dbus` を入れてください
 
 kde wayland でアプリごとに異なるリマップをしたい場合
 
@@ -99,8 +102,5 @@ alt.l = C-l
 alt.t = C-t
 alt.w = C-w
 ```
-
-ただしこの機能は実験的で, kde wayland での動作は `dbus-python` に依存します  
-必要に応じて `sudo dnf install python3-dbus` を入れてください
 
 

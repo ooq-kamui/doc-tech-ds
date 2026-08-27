@@ -2,9 +2,9 @@
 # sample 01
 
 
-## ex.1 : capslock を ctrl / Esc にする
+## ex.1 : capslock を ctrl / esc にする
 
-```ini
+```
 [ids]
 *
 
@@ -12,14 +12,14 @@
 # capslock を 押しっぱなし=ctrl, 単押し=esc にする
 capslock = overload(control, esc)
 
-# 元の esc を capslock にする ( 不要なら削除 )
+# もとの esc を capslock にする ( 不要なら削除 )
 esc = capslock
 ```
 
 
 ## ex.2 : 左 ctrl と capslock を入れ替える
 
-```ini
+```
 [ids]
 *
 
@@ -32,7 +32,7 @@ leftcontrol = capslock
 
 ## ex.3 : レイヤーを使ってシンボル入力を便利にする
 
-```ini
+```
 [ids]
 *
 

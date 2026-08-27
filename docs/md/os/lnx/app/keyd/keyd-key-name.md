@@ -153,3 +153,10 @@ keyd list-keys
 | `power`          | system     |
 
 
+### etc
+
+| key name                 | desc             |
+|--------------------------|------------------|
+| `leftshift+leftmeta+f23` | copilot ( dell ) |
+
+

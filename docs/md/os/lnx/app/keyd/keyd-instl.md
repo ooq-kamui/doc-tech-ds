@@ -33,7 +33,7 @@ sudo dnf install keyd
 sudo systemctl enable --now keyd
 ```
 
-- 上記で, 再起動後も自動で起動します
+- 上記で, 再起動後も 自動で起動します
 
 
 ## 起動の確認
