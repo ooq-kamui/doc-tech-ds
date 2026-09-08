@@ -8,12 +8,6 @@ article up method
 - basic
 
 
-## oss
-
-tutorial
-- learn
-
-
 ---
 
 ## git
