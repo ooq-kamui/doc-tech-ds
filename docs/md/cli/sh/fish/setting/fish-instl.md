@@ -4,13 +4,27 @@
 
 ## install
 
-linux
+### linux
+
+#### fedora
 
 ```
-dnf install fish
+sudo dnf install fish
 ```
 
-mac
+
+#### alma
+
+```
+sudo dnf install epel-release
+```
+
+```
+sudo dnf install fish
+```
+
+
+### mac
 
 ```
 brew install fish
