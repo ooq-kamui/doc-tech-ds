@@ -2,6 +2,11 @@
 # doc-tech
 
 
+## zsh
+
+like fish
+
+
 ## zenn
 
 article up method
