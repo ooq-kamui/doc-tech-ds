@@ -8,6 +8,12 @@
 wsl --list --verbose
 ```
 
+or
+
+```
+wsl -l -v
+```
+
 - state も確認できる
 
 ex
@@ -67,18 +73,12 @@ wsl --unregister <distro>
 - これで, 同じ distro が 2つ できたはず
 
 
-## wsl に login したとき, su になる
+## distro を 落とす
 
-- これを回避する方法
-- この現象は import した distro で起きる
-- distro 環境の中の 下記の file を編集
-- wsl 再起動
+- wsl.conf を再読み込みさせたいときは, これで, 一度 落とす
 
-```conf title='/etc/wsl.conf'
-[user]
-default=<user-name>
 ```
-
-
+wsl --terminate <distro-name>
+```
 
 

@@ -20,3 +20,10 @@ wsl --update --web-download
 ```
 
 
+## wsl 自体を shutdown
+
+```
+wsl --shutdown
+```
+
+
