@@ -57,3 +57,17 @@ sysctl -n machdep.cpu.brand_string
 ```
 
 
+## app を install 後, 起動時に err
+
+```
+"xxx.app" is damaged and can't be opened.
+you should move it to the trush.
+```
+
+のとき
+
+```
+xattr -cr /Applications/xxx.app
+```
+
+
