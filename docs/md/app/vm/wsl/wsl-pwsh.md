@@ -17,4 +17,10 @@ wsl <linux command>
 wsl -d <distro-name>
 ```
 
+or
+
+```
+wsl --distribution <distro-name>
+```
+
 

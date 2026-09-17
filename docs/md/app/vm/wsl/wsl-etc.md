@@ -4,7 +4,7 @@
 
 ## path に win ( /mnt/c/... ) の path を追加しない
 
-`.wslconfig` に次を設定
+`/etc/wsl.config` に次を設定
 
 ```
 [interop]
