@@ -2,22 +2,30 @@
 # zsh like fish
 
 
-## zsh-syntax-highlighting
-
-### install
-
-wip
-
-wip
-
-
 ## zsh-autosuggestions
 
 ### install
 
-wip
+```
+git clone https://github.com ~/.zsh/zsh-autosuggestions
+```
 
-wip
+```
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
+
+## zsh-syntax-highlighting
+
+### install
+
+```
+git clone https://github.com ~/.zsh/zsh-syntax-highlighting
+```
+
+```
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
 
 
 ## compinit + zstyle menu select ( autocomplete )
