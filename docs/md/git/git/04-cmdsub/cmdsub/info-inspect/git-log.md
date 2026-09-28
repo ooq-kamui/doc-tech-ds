@@ -35,6 +35,20 @@ git log --graph --oneline --first-parent
 ```
 
 
+## 1行 で表示
+
+```
+git log --oneline
+```
+
+
+## 1行 で 日時 も表示
+
+```
+git log --graph --date=format:'%Y-%m-%d %H:%M' --pretty=format:'%C(auto)%h %C(green)%ad%C(reset) %s %C(auto)%d'
+```
+
+
 ## 日付の表示形式を指定
 
 ```
@@ -57,13 +71,13 @@ git config --global log.date iso-local
 commit id のみ 表示
 
 ```
-git log xxx/xxx/xxx.txt
+git log <file-path>
 ```
 
 diff も表示
 
 ```
-git log -p xxx/xxx/xxx.txt
+git log -p <file-path>
 ```
 
 
