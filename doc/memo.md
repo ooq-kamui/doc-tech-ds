@@ -2,9 +2,11 @@
 # doc-tech
 
 
-## zsh
+## difft
 
-like fish
+git setting
+
+view nvim ?
 
 
 ## zenn
@@ -12,8 +14,6 @@ like fish
 article up method
 - basic
 
-
----
 
 ## git
 
@@ -25,13 +25,6 @@ git worktree
 menu
 - all
   - write
-
-
-## difft
-
-wip
-- git setting ?
-- view nvim ?
 
 
 ## github
