@@ -5,8 +5,18 @@
 ## symbolic link cre / mod
 
 ```
-ln -sin target_path link_name
+ln -sin <target-path> <link-name>
 ```
+
+
+### option
+
+```
+i  上書き確認あり
+f  上書き確認なし
+   i と f を両方書いたときは後ろにあるほうが優先される
+```
+
 
 ### case dir
 
