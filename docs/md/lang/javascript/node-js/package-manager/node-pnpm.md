@@ -4,8 +4,10 @@
 
 ## install
 
+### mac
+
 ```
-wip
+brew install pnpm
 ```
 
 

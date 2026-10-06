@@ -2,6 +2,12 @@
 # doc-tech
 
 
+## zsh
+
+key-bind
+- wdget list, tidy
+
+
 ## difft
 
 git setting
