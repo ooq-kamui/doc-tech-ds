@@ -2,6 +2,13 @@
 # doc-tech
 
 
+## openssl
+
+csr, tidy
+- web service
+- unx-cmd openssl
+
+
 ## zsh
 
 key-bind

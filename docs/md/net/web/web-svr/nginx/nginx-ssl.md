@@ -17,21 +17,24 @@
 
 ### main domain の場合
 
-上記の file を所定の dir に置く
+上記のうち, 下記の file を 所定の dir に置く
 
-ここでは 下記の dir とする
+- key
+- crt
+
+csr は local pc に 保管しておくこと
+
+設置 dir を下記 とする
 
 ```
 /etc/nginx/ssl/
 ```
 
-conf file
+conf file を編集
 
 ```
 /etc/nginx/nginx.conf
 ```
-
-内容を編集
 
 ```
 server {
@@ -54,13 +57,10 @@ sudo systemctl restart nginx
 ```
 
 
-
 ## ref
 
-https://cn.teldevice.co.jp/blog/p39750/
-
-https://www.bestssl.net/faq/install-nginx/
-
-https://qiita.com/clown0082/items/551d7c081ff6b41b1717
+- https://cn.teldevice.co.jp/blog/p39750/
+- https://www.bestssl.net/faq/install-nginx/
+- https://qiita.com/clown0082/items/551d7c081ff6b41b1717
 
 

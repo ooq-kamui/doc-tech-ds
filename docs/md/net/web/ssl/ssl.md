@@ -48,7 +48,7 @@ sudo openssl genrsa -out server.key 2048
 - `Organizational Unit Name (eg, section) []` :
 - `Common Name (eg, your name or your server's hostname) []` : `ooq.jp`
 - `Email Address []` :
-- `A challenge password []` : `xxx`
+- `A challenge password []` :
 - `An optional company name []` :
 
 
@@ -60,7 +60,9 @@ sakura で必要なのは次
 - 組織名(O) : `ooq-kamui`
 - コモンネーム(CN), 実際に接続する URL : `ooq.jp`
 
-https://help.sakura.ad.jp/ssl/2327/?_gl=1*14itm43*_gcl_au*MTE0MDkzODAwOS4xNzI3MDQ0NTgz#heading-1
+```
+ref : https://help.sakura.ad.jp/ssl/2327/?_gl=1*14itm43*_gcl_au*MTE0MDkzODAwOS4xNzI3MDQ0NTgz#heading-1
+```
 
 command
 
